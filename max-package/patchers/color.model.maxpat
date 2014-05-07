@@ -34,7 +34,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 323.0, 302.0, 25.0, 25.0 ]
+					"patching_rect" : [ 292.0, 280.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -46,7 +46,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 323.0, 235.0, 25.0, 25.0 ]
+					"patching_rect" : [ 292.0, 213.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -55,12 +55,13 @@
 					"fontname" : "Helvetica Neue Light Italic",
 					"fontsize" : 12.0,
 					"id" : "obj-1",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 323.0, 266.0, 48.0, 20.0 ],
-					"text" : "j.model"
+					"patching_rect" : [ 292.0, 244.0, 168.0, 34.0 ],
+					"text" : "j.model @tag GLtexture @description \"color generator\""
 				}
 
 			}

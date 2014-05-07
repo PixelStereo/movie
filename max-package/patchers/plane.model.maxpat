@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 544.0, 674.0, 1063.0, 247.0 ],
+		"rect" : [ 544.0, 674.0, 1041.0, 185.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -34,7 +34,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 974.0, 104.0, 25.0, 25.0 ]
+					"patching_rect" : [ 803.0, 152.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -46,7 +46,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 974.0, 28.0, 25.0, 25.0 ]
+					"patching_rect" : [ 803.0, 67.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -59,8 +59,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 974.0, 67.0, 48.0, 20.0 ],
-					"text" : "j.model"
+					"patching_rect" : [ 803.0, 106.0, 149.0, 20.0 ],
+					"text" : "j.model @description plane"
 				}
 
 			}

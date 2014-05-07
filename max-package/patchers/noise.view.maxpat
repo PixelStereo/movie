@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 1106.0, 506.0, 640.0, 480.0 ],
+		"rect" : [ 1106.0, 506.0, 428.0, 301.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -37,7 +37,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 306.0, 247.0, 74.0, 20.0 ],
+					"patching_rect" : [ 238.0, 170.5, 74.0, 20.0 ],
 					"text" : "prepend set"
 				}
 
@@ -51,7 +51,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 306.0, 275.0, 150.0, 20.0 ],
+					"patching_rect" : [ 238.0, 198.5, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 0.5, 150.0, 20.0 ],
 					"text" : "/noModelAddress"
@@ -67,7 +67,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 306.0, 190.0, 60.0, 20.0 ],
+					"patching_rect" : [ 238.0, 113.5, 60.0, 20.0 ],
 					"text" : "loadbang"
 				}
 
@@ -81,7 +81,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 306.0, 220.0, 138.0, 20.0 ],
+					"patching_rect" : [ 238.0, 143.5, 138.0, 20.0 ],
 					"text" : "j.receive model:address"
 				}
 
@@ -115,7 +115,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 157.0, 40.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 47.5, 84.0, 100.0, 20.0 ],
+					"presentation_rect" : [ 4.0, 48.0, 100.0, 20.0 ],
 					"text" : "interp off",
 					"texton" : "interp on"
 				}

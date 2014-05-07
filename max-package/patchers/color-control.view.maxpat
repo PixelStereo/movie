@@ -32,12 +32,40 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"id" : "obj-14",
+					"id" : "obj-22",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 257.0, 132.0, 73.0, 18.0 ],
+					"text" : "clear"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-19",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 151.0, 132.0, 94.0, 20.0 ],
+					"text" : "r #2/texturelist"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-12",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 141.5, 275.0, 94.0, 20.0 ],
+					"patching_rect" : [ 215.0, 194.0, 94.0, 20.0 ],
 					"text" : "j.remote texture"
 				}
 
@@ -46,16 +74,32 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"id" : "obj-15",
-					"items" : [ "black", ",", "noise.1", ",", "color.1" ],
+					"id" : "obj-13",
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 77.5, 239.0, 147.0, 20.0 ],
+					"patching_rect" : [ 151.0, 158.0, 147.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 132.0, 0.5, 93.0, 20.0 ]
+					"presentation_rect" : [ 140.0, 1.5, 101.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"floatoutput" : 1,
+					"id" : "obj-7",
+					"maxclass" : "slider",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 109.0, 69.0, 20.0, 140.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 4.0, 52.0, 221.0, 23.0 ],
+					"size" : 2.0
 				}
 
 			}
@@ -125,7 +169,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 176.0, 146.0, 25.0, 25.0 ]
+					"patching_rect" : [ 221.0, 61.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -155,7 +199,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 27.0, 106.5, 50.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 126.0, 20.5, 50.0, 20.0 ]
+					"presentation_rect" : [ 126.0, 23.5, 50.0, 20.0 ]
 				}
 
 			}
@@ -187,7 +231,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 27.0, 21.5, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 19.0, 20.5, 100.0, 20.0 ],
+					"presentation_rect" : [ 19.0, 23.5, 100.0, 20.0 ],
 					"text" : "Off",
 					"texton" : "On"
 				}
@@ -202,7 +246,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 176.0, 180.0, 41.0, 20.0 ],
+					"patching_rect" : [ 221.0, 95.0, 41.0, 20.0 ],
 					"text" : "j.view"
 				}
 
@@ -237,10 +281,19 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-14", 0 ],
+					"destination" : [ "obj-12", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-15", 1 ]
+					"source" : [ "obj-13", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-19", 0 ]
 				}
 
 			}
@@ -251,6 +304,24 @@
 					"hidden" : 0,
 					"midpoints" : [ 36.5, 168.0, 15.5, 168.0, 15.5, 96.5, 36.5, 96.5 ],
 					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-22", 0 ]
 				}
 
 			}
@@ -288,6 +359,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-7", 0 ]
 				}
 
 			}

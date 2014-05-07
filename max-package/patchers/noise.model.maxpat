@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 271.0, 561.0, 731.0, 248.0 ],
+		"rect" : [ 869.0, 580.0, 731.0, 248.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -76,7 +76,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 613.0, 160.0, 25.0, 25.0 ]
+					"patching_rect" : [ 576.0, 209.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -88,7 +88,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 613.0, 93.0, 25.0, 25.0 ]
+					"patching_rect" : [ 576.0, 96.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -97,12 +97,13 @@
 					"fontname" : "Helvetica Neue Light Italic",
 					"fontsize" : 12.0,
 					"id" : "obj-1",
+					"linecount" : 4,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 613.0, 124.0, 48.0, 20.0 ],
-					"text" : "j.model"
+					"patching_rect" : [ 576.0, 127.0, 113.0, 62.0 ],
+					"text" : "j.model @description \"noise generator\" @tag GLtexture"
 				}
 
 			}
@@ -130,8 +131,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 29.0, 45.0, 61.0, 20.0 ],
-					"text" : "r bigbang"
+					"patching_rect" : [ 29.0, 72.0, 115.0, 20.0 ],
+					"text" : "r #2/step"
 				}
 
 			}
