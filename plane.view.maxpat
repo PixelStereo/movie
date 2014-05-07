@@ -49,9 +49,10 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 151.333328, 75.0, 169.0, 18.0 ],
+					"patching_rect" : [ 192.0, 69.5, 169.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 191.0, 10.0, 169.0, 18.0 ]
+					"presentation_rect" : [ 191.0, 10.0, 169.0, 18.0 ],
+					"text" : "/noModelAddress"
 				}
 
 			}
@@ -91,7 +92,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 17.5, 81.0, 131.0, 20.0 ],
+					"patching_rect" : [ 17.5, 192.0, 131.0, 20.0 ],
 					"text" : "j.remote interp"
 				}
 
@@ -107,7 +108,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 17.5, 54.0, 100.0, 20.0 ],
+					"patching_rect" : [ 17.5, 165.0, 100.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 17.5, 54.0, 100.0, 20.0 ],
 					"text" : "interp off",
@@ -220,7 +221,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 172.0, 49.5, 20.0, 20.0 ],
+					"patching_rect" : [ 172.0, 171.0, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 172.0, 49.5, 20.0, 20.0 ]
 				}
@@ -249,7 +250,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 68.0, 113.0, 94.0, 20.0 ],
+					"patching_rect" : [ 68.0, 66.0, 94.0, 20.0 ],
 					"text" : "j.remote texture"
 				}
 
@@ -386,7 +387,7 @@
 					"destination" : [ "obj-39", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 27.0, 102.0, 3.0, 102.0, 3.0, 51.0, 27.0, 51.0 ],
+					"midpoints" : [ 27.0, 213.0, 3.0, 213.0, 3.0, 162.0, 27.0, 162.0 ],
 					"source" : [ "obj-38", 0 ]
 				}
 

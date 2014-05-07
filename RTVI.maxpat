@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 609.0, 52.0, 1137.0, 544.0 ],
+		"rect" : [ 525.0, 45.0, 1137.0, 544.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -28,48 +28,6 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-53",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 737.0, 451.873962, 123.0, 18.0 ],
-					"text" : "model:address /RTVI"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-47",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 737.0, 489.873962, 41.0, 20.0 ],
-					"text" : "j.view"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-46",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 611.0, 473.0, 74.0, 20.0 ],
-					"text" : "j.model toto"
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"color" : [ 0.0, 0.572549, 0.0, 1.0 ],
 					"fontname" : "Arial",
@@ -505,7 +463,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 352.0, 338.373962, 139.0, 20.0 ],
+					"patching_rect" : [ 352.0, 348.873962, 139.0, 20.0 ],
 					"text" : "plane.model plane.1 rtvi"
 				}
 
@@ -1480,14 +1438,14 @@
 									"fontsize" : 12.0,
 									"framecolor" : [ 0.619608, 0.0, 0.360784, 0.701961 ],
 									"id" : "obj-3",
-									"items" : [ "RTVI/noise.1", ",", "RTVI/plane.1" ],
+									"items" : [ "noise.1", ",", "plane.1" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 28.0, 151.0, 168.0, 20.0 ],
-									"prefix" : "new:/",
+									"prefix" : "work:/",
 									"presentation" : 1,
 									"presentation_rect" : [ 25.0, 18.0, 168.0, 20.0 ]
 								}
@@ -1934,7 +1892,7 @@
 					"name" : "noise.view.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 727.0, 25.873962, 327.0, 123.0 ]
+					"patching_rect" : [ 722.0, 38.247925, 327.0, 123.0 ]
 				}
 
 			}
@@ -1947,7 +1905,7 @@
 					"name" : "plane.view.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 737.0, 285.873962, 327.0, 123.0 ]
+					"patching_rect" : [ 737.0, 297.373962, 327.0, 123.0 ]
 				}
 
 			}
@@ -2000,7 +1958,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 193.0, 444.0, 641.0, 390.0 ],
+						"rect" : [ 193.0, 444.0, 534.0, 299.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2162,7 +2120,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 85.0, 304.5, 83.0, 22.0 ],
+									"patching_rect" : [ 53.0, 218.5, 83.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
@@ -2190,7 +2148,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "" ],
-									"patching_rect" : [ 85.0, 336.5, 352.0, 18.0 ],
+									"patching_rect" : [ 53.0, 250.5, 352.0, 18.0 ],
 									"text" : "jit.window rtvi @size 384 216 @pos 5 256 @fsmenubar 0"
 								}
 
@@ -2204,7 +2162,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 145.0, 100.0, 142.0, 27.0 ],
+									"patching_rect" : [ 113.0, 14.0, 142.0, 27.0 ],
 									"text" : "Open GL engine"
 								}
 
@@ -2218,7 +2176,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 50.0, 173.0, 70.0, 18.0 ],
+									"patching_rect" : [ 18.0, 87.0, 70.0, 18.0 ],
 									"text" : "qmetro 16"
 								}
 
@@ -2232,7 +2190,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "erase", "bang", "bang" ],
-									"patching_rect" : [ 50.0, 198.0, 75.0, 18.0 ],
+									"patching_rect" : [ 18.0, 112.0, 75.0, 18.0 ],
 									"text" : "t erase b b"
 								}
 
@@ -2247,7 +2205,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "" ],
-									"patching_rect" : [ 50.0, 255.0, 370.0, 18.0 ],
+									"patching_rect" : [ 18.0, 169.0, 370.0, 18.0 ],
 									"text" : "jit.gl.render rtvi @erase_color 0 0 0 1 @camera 0 0 2.4 @drawto rtvi"
 								}
 
@@ -2261,7 +2219,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 106.0, 225.0, 63.0, 20.0 ],
+									"patching_rect" : [ 74.0, 139.0, 63.0, 20.0 ],
 									"text" : "s bigbang"
 								}
 
@@ -2276,7 +2234,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 448.0, 202.626022, 80.0, 32.0 ]
+									"patching_rect" : [ 416.0, 116.626022, 80.0, 32.0 ]
 								}
 
 							}
@@ -2289,7 +2247,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 184.0, 167.626022, 229.0, 18.0 ],
+									"patching_rect" : [ 152.0, 81.626022, 229.0, 18.0 ],
 									"text" : "jit.gl.asyncread @dest_dim 1920 1080"
 								}
 
@@ -2304,7 +2262,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 184.0, 216.626022, 225.0, 18.0 ],
+									"patching_rect" : [ 152.0, 130.626022, 225.0, 18.0 ],
 									"text" : "jit.gl.syphonserver rtvi @servername rtvi"
 								}
 
@@ -2319,7 +2277,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 184.0, 136.626022, 189.0, 18.0 ]
+									"patching_rect" : [ 152.0, 50.626022, 189.0, 18.0 ]
 								}
 
 							}
@@ -2331,7 +2289,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 50.0, 40.0, 25.0, 25.0 ]
+									"patching_rect" : [ 18.0, 14.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -2342,7 +2300,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 50.0, 333.0, 25.0, 25.0 ]
+									"patching_rect" : [ 18.0, 247.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -3921,8 +3879,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 244.0, 483.0, 139.0, 20.0 ],
-					"text" : "j.send /RTVI/color/alpha"
+					"patching_rect" : [ 244.0, 483.0, 152.0, 20.0 ],
+					"text" : "j.send /plane.1/color/alpha"
 				}
 
 			}
@@ -3933,10 +3891,10 @@
 					"id" : "obj-5",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 38.166656, 338.373962, 49.0, 20.0 ],
-					"text" : "j.model"
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 38.166656, 338.373962, 86.0, 20.0 ],
+					"text" : "j.send plane.1"
 				}
 
 			}
@@ -4170,15 +4128,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-47", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-53", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-17", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -4189,28 +4138,28 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "noise.model.maxpat",
-				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI",
+				"bootpath" : "/Users/reno/Documents/GITs/RTVI",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "plane.view.maxpat",
-				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI",
+				"bootpath" : "/Users/reno/Documents/GITs/RTVI",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "noise.view.maxpat",
-				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI",
+				"bootpath" : "/Users/reno/Documents/GITs/RTVI",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "plane.model.maxpat",
-				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI",
+				"bootpath" : "/Users/reno/Documents/GITs/RTVI",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
