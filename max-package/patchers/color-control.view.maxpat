@@ -83,7 +83,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 151.0, 158.0, 147.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 140.0, 1.5, 101.0, 20.0 ]
+					"presentation_rect" : [ 90.0, 0.5, 101.0, 20.0 ]
 				}
 
 			}
@@ -231,7 +231,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 27.0, 21.5, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 19.0, 23.5, 100.0, 20.0 ],
+					"presentation_rect" : [ 191.0, 0.5, 46.0, 20.0 ],
 					"text" : "Off",
 					"texton" : "On"
 				}

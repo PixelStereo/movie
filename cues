@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<jamoma version="0.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jamoma.org/ file:jamoma.xsd">
+ <cue name="noise bande jaune">
+  <flag name="description">bande jaune et fumée bleu</flag>
+  <!---->
+  <script address="blur.1">
+   <command address="amount">0</command>
+   <command address="sw">0</command>
+   <command address="texture">black</command>
+  </script>
+  <!---->
+  <script address="cc.1">
+   <command address="hue">0</command>
+   <command address="sw">0</command>
+   <command address="texture">black</command>
+  </script>
+  <!---->
+  <script address="color.1">
+   <script address="color">
+    <command address="alpha">1</command>
+    <command address="blue">1</command>
+    <command address="green">1</command>
+    <command address="red">1</command>
+   </script>
+  </script>
+  <!---->
+  <script address="cue.1">
+   <command address="cuelist">&quot;noise bande jaune&quot;</command>
+  </script>
+  <!---->
+  <script address="hap.1">
+   <command address="autostart">1</command>
+   <command address="file">&quot;new:/Users/reno/Movies/fumée slowmo.mov&quot;</command>
+   <command address="flip">1</command>
+   <script address="loop">
+    <command address="mode">1</command>
+    <command address="out">23040</command>
+   </script>
+   <command address="loopreport">1</command>
+   <command address="play">1</command>
+   <command address="rate">1</command>
+   <command address="sw">0</command>
+   <command address="vol">0</command>
+  </script>
+  <!---->
+  <script address="noise.1">
+   <script address="dim">
+    <command address="x">1280</command>
+    <command address="y">720</command>
+   </script>
+   <command address="interp">1</command>
+   <command address="sw">1</command>
+  </script>
+  <!---->
+  <script address="plane.1">
+   <script address="color">
+    <command address="alpha">1.000000</command>
+    <command address="blue">0.888889</command>
+    <command address="green">0.577778</command>
+    <command address="red">0.266667</command>
+    <command address="saturation">1</command>
+   </script>
+   <command address="interp">1</command>
+   <command address="layer">1</command>
+   <script address="pos">
+    <command address="x">-1.110000</command>
+    <command address="y">0</command>
+    <command address="z">0</command>
+   </script>
+   <script address="scale">
+    <command address="x">2.300000</command>
+    <command address="y">1</command>
+    <command address="z">1</command>
+   </script>
+   <command address="sw">1</command>
+   <command address="texture">hap.1</command>
+  </script>
+  <!---->
+  <script address="plane.10">
+   <script address="color">
+    <command address="alpha">1</command>
+    <command address="blue">1</command>
+    <command address="green">1</command>
+    <command address="red">1</command>
+    <command address="saturation">1</command>
+   </script>
+   <command address="interp">1</command>
+   <command address="layer">10</command>
+   <script address="pos">
+    <command address="x">0</command>
+    <command address="y">0</command>
+    <command address="z">0</command>
+   </script>
+   <script address="scale">
+    <command address="x">1</command>
+    <command address="y">1</command>
+    <command address="z">1</command>
+   </script>
+   <command address="sw">0</command>
+   <command address="texture">black</command>
+  </script>
+  <!---->
+  <script address="plane.2">
+   <script address="color">
+    <command address="alpha">1.000000</command>
+    <command address="blue">0.000000</command>
+    <command address="green">1.000000</command>
+    <command address="red">1.000000</command>
+    <command address="saturation">1</command>
+   </script>
+   <command address="interp">1</command>
+   <command address="layer">2</command>
+   <script address="pos">
+    <command address="x">0.942000</command>
+    <command address="y">0</command>
+    <command address="z">0</command>
+   </script>
+   <script address="scale">
+    <command address="x">0.160000</command>
+    <command address="y">1.580000</command>
+    <command address="z">1</command>
+   </script>
+   <command address="sw">1</command>
+   <command address="texture">noise.1</command>
+  </script>
+  <!---->
+  <script address="plane.3">
+   <script address="color">
+    <command address="alpha">1</command>
+    <command address="blue">1</command>
+    <command address="green">1</command>
+    <command address="red">1</command>
+    <command address="saturation">1</command>
+   </script>
+   <command address="interp">1</command>
+   <command address="layer">3</command>
+   <script address="pos">
+    <command address="x">0</command>
+    <command address="y">0</command>
+    <command address="z">0</command>
+   </script>
+   <script address="scale">
+    <command address="x">1</command>
+    <command address="y">1</command>
+    <command address="z">1</command>
+   </script>
+   <command address="sw">0</command>
+   <command address="texture">black</command>
+  </script>
+  <!---->
+  <script address="plane.4">
+   <script address="color">
+    <command address="alpha">1</command>
+    <command address="blue">1</command>
+    <command address="green">1</command>
+    <command address="red">1</command>
+    <command address="saturation">1</command>
+   </script>
+   <command address="interp">1</command>
+   <command address="layer">4</command>
+   <script address="pos">
+    <command address="x">0</command>
+    <command address="y">0</command>
+    <command address="z">0</command>
+   </script>
+   <script address="scale">
+    <command address="x">1</command>
+    <command address="y">1</command>
+    <command address="z">1</command>
+   </script>
+   <command address="sw">0</command>
+   <command address="texture">black</command>
+  </script>
+  <!---->
+  <script address="plane.5">
+   <script address="color">
+    <command address="alpha">1</command>
+    <command address="blue">1</command>
+    <command address="green">1</command>
+    <command address="red">1</command>
+    <command address="saturation">1</command>
+   </script>
+   <command address="interp">1</command>
+   <command address="layer">5</command>
+   <script address="pos">
+    <command address="x">0</command>
+    <command address="y">0</command>
+    <command address="z">0</command>
+   </script>
+   <script address="scale">
+    <command address="x">1</command>
+    <command address="y">1</command>
+    <command address="z">1</command>
+   </script>
+   <command address="sw">0</command>
+   <command address="texture">black</command>
+  </script>
+  <!---->
+  <script address="plane.6">
+   <script address="color">
+    <command address="alpha">1</command>
+    <command address="blue">1</command>
+    <command address="green">1</command>
+    <command address="red">1</command>
+    <command address="saturation">1</command>
+   </script>
+   <command address="interp">1</command>
+   <command address="layer">6</command>
+   <script address="pos">
+    <command address="x">0</command>
+    <command address="y">0</command>
+    <command address="z">0</command>
+   </script>
+   <script address="scale">
+    <command address="x">1</command>
+    <command address="y">1</command>
+    <command address="z">1</command>
+   </script>
+   <command address="sw">0</command>
+   <command address="texture">black</command>
+  </script>
+  <!---->
+  <script address="plane.7">
+   <script address="color">
+    <command address="alpha">1</command>
+    <command address="blue">1</command>
+    <command address="green">1</command>
+    <command address="red">1</command>
+    <command address="saturation">1</command>
+   </script>
+   <command address="interp">1</command>
+   <command address="layer">7</command>
+   <script address="pos">
+    <command address="x">0</command>
+    <command address="y">0</command>
+    <command address="z">0</command>
+   </script>
+   <script address="scale">
+    <command address="x">1</command>
+    <command address="y">1</command>
+    <command address="z">1</command>
+   </script>
+   <command address="sw">0</command>
+   <command address="texture">black</command>
+  </script>
+  <!---->
+  <script address="plane.8">
+   <script address="color">
+    <command address="alpha">1</command>
+    <command address="blue">1</command>
+    <command address="green">1</command>
+    <command address="red">1</command>
+    <command address="saturation">1</command>
+   </script>
+   <command address="interp">1</command>
+   <command address="layer">8</command>
+   <script address="pos">
+    <command address="x">0</command>
+    <command address="y">0</command>
+    <command address="z">0</command>
+   </script>
+   <script address="scale">
+    <command address="x">1</command>
+    <command address="y">1</command>
+    <command address="z">1</command>
+   </script>
+   <command address="sw">0</command>
+   <command address="texture">black</command>
+  </script>
+  <!---->
+  <script address="plane.9">
+   <script address="color">
+    <command address="alpha">1</command>
+    <command address="blue">1</command>
+    <command address="green">1</command>
+    <command address="red">1</command>
+    <command address="saturation">1</command>
+   </script>
+   <command address="interp">1</command>
+   <command address="layer">9</command>
+   <script address="pos">
+    <command address="x">0</command>
+    <command address="y">0</command>
+    <command address="z">0</command>
+   </script>
+   <script address="scale">
+    <command address="x">1</command>
+    <command address="y">1</command>
+    <command address="z">1</command>
+   </script>
+   <command address="sw">0</command>
+   <command address="texture">black</command>
+  </script>
+  <!---->
+  <script address="render.1">
+   <script address="color">
+    <command address="alpha">1</command>
+    <command address="blue">0</command>
+    <command address="green">0</command>
+    <command address="red">0</command>
+    <command address="saturation">1</command>
+   </script>
+   <command address="sw">1</command>
+  </script>
+ </cue>
+ <cue name="deuz">
+  <flag name="description">none</flag>
+  <!---->
+  <script address="plane.1">
+   <script address="color">
+    <command address="alpha">1.000000</command>
+    <command address="blue">0.888889</command>
+    <command address="green">0.577778</command>
+    <command address="red">0.266667</command>
+    <command address="saturation">1</command>
+   </script>
+   <command address="interp">1</command>
+   <command address="layer">1</command>
+   <script address="pos">
+    <command address="x">-1.110000</command>
+    <command address="y">0</command>
+    <command address="z">0</command>
+   </script>
+   <script address="scale">
+    <command address="x">2.300000</command>
+    <command address="y">1</command>
+    <command address="z">1</command>
+   </script>
+   <command address="sw">1</command>
+   <command address="texture">hap.1</command>
+  </script>
+ </cue>
+</jamoma>
