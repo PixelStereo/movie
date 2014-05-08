@@ -37,7 +37,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 951.0, 108.0, 41.0, 20.0 ],
+					"patching_rect" : [ 1010.0, 305.0, 41.0, 20.0 ],
 					"text" : "j.view"
 				}
 

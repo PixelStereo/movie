@@ -45,20 +45,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-5",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 589.0, 204.0, 50.0, 18.0 ],
-					"text" : "plane.1"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"color" : [ 0.0, 0.572549, 0.0, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
@@ -804,7 +790,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 219.0, 100.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 189.0, 2.0, 50.0, 20.0 ],
+					"presentation_rect" : [ 202.0, 2.0, 50.0, 20.0 ],
 					"text" : "Off",
 					"texton" : "On"
 				}
@@ -830,11 +816,11 @@
 					"fontsize" : 12.0,
 					"id" : "obj-19",
 					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 4.0, 4.0, 94.0, 20.0 ],
-					"text" : "r #2/texturelist"
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 4.0, 4.0, 133.0, 20.0 ],
+					"text" : "j.receive /rtvi/texturelist"
 				}
 
 			}
@@ -864,7 +850,7 @@
 					"patching_rect" : [ 4.0, 268.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 104.0, 80.0, 150.0, 20.0 ],
-					"text" : "plane.1"
+					"text" : "/noModelAddress"
 				}
 
 			}
@@ -989,7 +975,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 4.0, 30.0, 147.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 88.0, 2.0, 101.0, 20.0 ]
+					"presentation_rect" : [ 101.0, 2.0, 101.0, 20.0 ]
 				}
 
 			}
@@ -1292,15 +1278,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-5", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-44", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1343,6 +1320,23 @@
 					"source" : [ "obj-8", 0 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "j.remote.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.view.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.receive.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.namespace.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}
