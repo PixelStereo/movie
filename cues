@@ -69,7 +69,7 @@
    <command address="sw">1</command>
   </script>
   <!---->
-  <script address="plane.1">
+  <script address="layer.1">
    <script address="color">
     <command address="alpha">0.000000</command>
     <command address="blue">1.000000</command>
@@ -93,7 +93,7 @@
    <command address="texture">hap.1</command>
   </script>
   <!---->
-  <script address="plane.10">
+  <script address="layer.10">
    <script address="color">
     <command address="alpha">1</command>
     <command address="blue">1</command>
@@ -117,7 +117,7 @@
    <command address="texture">black</command>
   </script>
   <!---->
-  <script address="plane.2">
+  <script address="layer.2">
    <script address="color">
     <command address="alpha">1.000000</command>
     <command address="blue">0.000000</command>
@@ -141,7 +141,7 @@
    <command address="texture">noise.1</command>
   </script>
   <!---->
-  <script address="plane.3">
+  <script address="layer.3">
    <script address="color">
     <command address="alpha">1</command>
     <command address="blue">1</command>
@@ -165,7 +165,7 @@
    <command address="texture">black</command>
   </script>
   <!---->
-  <script address="plane.4">
+  <script address="layer.4">
    <script address="color">
     <command address="alpha">1</command>
     <command address="blue">1</command>
@@ -189,7 +189,7 @@
    <command address="texture">black</command>
   </script>
   <!---->
-  <script address="plane.5">
+  <script address="layer.5">
    <script address="color">
     <command address="alpha">1</command>
     <command address="blue">1</command>
@@ -213,7 +213,7 @@
    <command address="texture">black</command>
   </script>
   <!---->
-  <script address="plane.6">
+  <script address="layer.6">
    <script address="color">
     <command address="alpha">1</command>
     <command address="blue">1</command>
@@ -237,7 +237,7 @@
    <command address="texture">black</command>
   </script>
   <!---->
-  <script address="plane.7">
+  <script address="layer.7">
    <script address="color">
     <command address="alpha">1</command>
     <command address="blue">1</command>
@@ -261,7 +261,7 @@
    <command address="texture">black</command>
   </script>
   <!---->
-  <script address="plane.8">
+  <script address="layer.8">
    <script address="color">
     <command address="alpha">1</command>
     <command address="blue">1</command>
@@ -285,7 +285,7 @@
    <command address="texture">black</command>
   </script>
   <!---->
-  <script address="plane.9">
+  <script address="layer.9">
    <script address="color">
     <command address="alpha">1</command>
     <command address="blue">1</command>
@@ -323,7 +323,7 @@
  <cue name="deuz">
   <flag name="description">none</flag>
   <!---->
-  <script address="plane.1">
+  <script address="layer.1">
    <script address="color">
     <command address="alpha" ramp="3000">1.000000</command>
    </script>
@@ -332,7 +332,7 @@
  <cue name="tres">
   <flag name="description">none</flag>
   <!---->
-  <script address="plane.1">
+  <script address="layer.1">
    <script address="color">
     <command address="blue" ramp="5000">0.711111</command>
     <command address="green" ramp="5000">0.000000</command>
@@ -411,7 +411,7 @@
    <command address="sw">1</command>
   </script>
   <!---->
-  <script address="plane.1">
+  <script address="layer.1">
    <script address="color">
     <command address="alpha" ramp="10000">1.000000</command>
     <command address="blue" ramp="10000">1.000000</command>
@@ -435,7 +435,7 @@
    <command address="texture">hap.1</command>
   </script>
   <!---->
-  <script address="plane.10">
+  <script address="layer.10">
    <script address="color">
     <command address="alpha" ramp="10000">1</command>
     <command address="blue" ramp="10000">1</command>
@@ -459,7 +459,7 @@
    <command address="texture">black</command>
   </script>
   <!---->
-  <script address="plane.2">
+  <script address="layer.2">
    <script address="color">
     <command address="alpha" ramp="10000">1.000000</command>
     <command address="blue" ramp="10000">0.000000</command>
@@ -483,7 +483,7 @@
    <command address="texture">noise.1</command>
   </script>
   <!---->
-  <script address="plane.3">
+  <script address="layer.3">
    <script address="color">
     <command address="alpha" ramp="10000">1</command>
     <command address="blue" ramp="10000">1</command>
@@ -507,7 +507,7 @@
    <command address="texture">black</command>
   </script>
   <!---->
-  <script address="plane.4">
+  <script address="layer.4">
    <script address="color">
     <command address="alpha" ramp="10000">1</command>
     <command address="blue" ramp="10000">1</command>
@@ -531,7 +531,7 @@
    <command address="texture">black</command>
   </script>
   <!---->
-  <script address="plane.5">
+  <script address="layer.5">
    <script address="color">
     <command address="alpha" ramp="10000">1</command>
     <command address="blue" ramp="10000">1</command>
@@ -555,7 +555,7 @@
    <command address="texture">black</command>
   </script>
   <!---->
-  <script address="plane.6">
+  <script address="layer.6">
    <script address="color">
     <command address="alpha" ramp="10000">1</command>
     <command address="blue" ramp="10000">1</command>
@@ -579,7 +579,7 @@
    <command address="texture">black</command>
   </script>
   <!---->
-  <script address="plane.7">
+  <script address="layer.7">
    <script address="color">
     <command address="alpha" ramp="10000">1</command>
     <command address="blue" ramp="10000">1</command>
@@ -603,7 +603,7 @@
    <command address="texture">black</command>
   </script>
   <!---->
-  <script address="plane.8">
+  <script address="layer.8">
    <script address="color">
     <command address="alpha" ramp="10000">1</command>
     <command address="blue" ramp="10000">1</command>
@@ -627,7 +627,7 @@
    <command address="texture">black</command>
   </script>
   <!---->
-  <script address="plane.9">
+  <script address="layer.9">
    <script address="color">
     <command address="alpha" ramp="10000">1</command>
     <command address="blue" ramp="10000">1</command>
