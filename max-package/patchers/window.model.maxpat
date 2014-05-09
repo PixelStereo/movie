@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 7,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
@@ -79,11 +79,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 1320.0, 377.0, 126.0, 180.0 ],
+						"rect" : [ 443.0, 108.0, 126.0, 180.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -236,7 +236,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
 					"patching_rect" : [ 15.0, 52.0, 352.0, 18.0 ],
-					"text" : "jit.window rtvi @size 384 216 @pos 5 256 @fsmenubar 0"
+					"text" : "jit.window #2 @size 384 216 @pos 5 256 @fsmenubar 0"
 				}
 
 			}
