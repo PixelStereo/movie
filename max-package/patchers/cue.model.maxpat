@@ -109,7 +109,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 9.5, 418.0, 199.0, 18.0 ],
-					"text" : "namespace/select myselection"
+					"text" : "namespace mySelection"
 				}
 
 			}
@@ -193,19 +193,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 93.5, 204.5, 48.0, 18.0 ],
 					"text" : "names"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-27",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 589.0, 374.0, 120.0, 20.0 ],
-					"text" : "print #1/dumpout"
 				}
 
 			}
@@ -1442,15 +1429,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-20", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-27", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-21", 2 ]
 				}
 
 			}
