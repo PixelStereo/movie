@@ -5,7 +5,7 @@
 			"major" : 6,
 			"minor" : 1,
 			"revision" : 7,
-			"architecture" : "x64"
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 402.0, 45.0, 416.0, 523.0 ],
@@ -101,7 +101,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 7,
-							"architecture" : "x64"
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 1072.0, 468.0, 689.0, 428.0 ],
@@ -418,7 +418,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 7,
-							"architecture" : "x64"
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 1103.0, 393.0, 424.0, 356.0 ],
@@ -455,7 +455,7 @@
 											"major" : 6,
 											"minor" : 1,
 											"revision" : 7,
-											"architecture" : "x64"
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 25.0, 69.0, 1146.0, 741.0 ],
@@ -764,7 +764,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 335.333313, 231.63681, 56.0, 20.0 ],
-									"presentation_rect" : [ 334.333313, 217.76181, 0.0, 0.0 ],
 									"text" : "deferlow"
 								}
 
@@ -779,7 +778,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 335.333313, 203.01181, 56.0, 20.0 ],
-									"presentation_rect" : [ 334.333313, 200.76181, 0.0, 0.0 ],
 									"text" : "deferlow"
 								}
 
@@ -809,19 +807,6 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 213.0, 4.135742, 105.0, 27.0 ],
 									"text" : "Initialisation"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"bgcolor" : [ 0.666667, 0.666667, 0.666667, 0.0 ],
-									"border" : 1,
-									"id" : "obj-22",
-									"maxclass" : "panel",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 11.0, 4.135742, 303.0, 63.5 ],
-									"rounded" : 0
 								}
 
 							}
@@ -983,7 +968,7 @@
 											"major" : 6,
 											"minor" : 1,
 											"revision" : 7,
-											"architecture" : "x64"
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 25.0, 69.0, 514.0, 500.0 ],
@@ -1101,7 +1086,7 @@
 											"major" : 6,
 											"minor" : 1,
 											"revision" : 7,
-											"architecture" : "x64"
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 25.0, 69.0, 570.0, 463.0 ],
@@ -1737,7 +1722,7 @@
 											"major" : 6,
 											"minor" : 1,
 											"revision" : 7,
-											"architecture" : "x64"
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 25.0, 69.0, 483.0, 329.0 ],
@@ -2176,7 +2161,7 @@
 											"major" : 6,
 											"minor" : 1,
 											"revision" : 7,
-											"architecture" : "x64"
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 34.0, 245.0, 865.0, 537.0 ],
@@ -2213,7 +2198,7 @@
 															"major" : 6,
 															"minor" : 1,
 															"revision" : 7,
-															"architecture" : "x64"
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 1512.0, 676.0, 316.0, 255.0 ],
@@ -2553,7 +2538,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 556.0, 377.897552, 198.0, 20.0 ],
-													"text" : "poly~ plane.model 10 args plane rtvi"
+													"text" : "poly~ plane.model 10 args layer rtvi"
 												}
 
 											}
@@ -2636,7 +2621,7 @@
 															"major" : 6,
 															"minor" : 1,
 															"revision" : 7,
-															"architecture" : "x64"
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 1009.0, 629.0, 432.0, 210.0 ],
@@ -3105,6 +3090,19 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 11.0, 189.76181, 303.0, 63.5 ],
+									"rounded" : 0
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bgcolor" : [ 0.666667, 0.666667, 0.666667, 0.0 ],
+									"border" : 1,
+									"id" : "obj-22",
+									"maxclass" : "panel",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 11.0, 4.135742, 303.0, 63.5 ],
 									"rounded" : 0
 								}
 
@@ -3579,6 +3577,10 @@
 			}
 , 			{
 				"name" : "j.return.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jit.gl.hap.mxo",
 				"type" : "iLaX"
 			}
 , 			{
