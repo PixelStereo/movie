@@ -5,7 +5,7 @@
 			"major" : 6,
 			"minor" : 1,
 			"revision" : 7,
-			"architecture" : "x86"
+			"architecture" : "x64"
 		}
 ,
 		"rect" : [ -1296.0, 126.0, 1114.0, 659.0 ],
@@ -103,24 +103,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.619608, 0.0, 0.360784, 0.701961 ],
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-14",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 263.25, 344.0, 99.0, 18.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 106.5, 445.950134, 99.0, 18.0 ],
-					"text" : "selection/refresh",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 18.0,
 					"id" : "obj-41",
@@ -202,20 +184,6 @@
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 913.5, 316.400085, 32.5, 20.0 ],
 					"text" : "%"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-98",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 218.75, 277.0, 116.0, 18.0 ],
-					"text" : "\"noise bande jaune\""
 				}
 
 			}
@@ -306,25 +274,6 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 7.5, 107.599991, 99.0, 20.0 ],
 					"text" : "current event"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 3,
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"frgb" : 0.0,
-					"id" : "obj-123",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 74.25, 492.0, 162.0, 29.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 34.0, 433.0, 297.0, 18.0 ],
-					"text" : "cmd/Fn + clic to select/unselect addresses from this display",
-					"textcolor" : [ 0.0, 0.0, 0.0, 0.6 ]
 				}
 
 			}
@@ -458,7 +407,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 7,
-							"architecture" : "x86"
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 165.0, 246.0, 190.0, 155.0 ],
@@ -781,7 +730,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 7,
-							"architecture" : "x86"
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 956.0, 369.0, 190.0, 155.0 ],
@@ -1713,7 +1662,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 7,
-							"architecture" : "x86"
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 143.0, 251.0 ],
@@ -2195,7 +2144,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 5.25, 319.0, 601.0, 332.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.5, 198.0, 386.256897, 287.0 ]
+					"presentation_rect" : [ 2.5, 198.0, 386.256897, 245.0 ]
 				}
 
 			}
@@ -2352,24 +2301,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-81", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-14", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-84", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-14", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-1", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -2398,15 +2329,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-15", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-98", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-15", 1 ]
@@ -3125,6 +3047,41 @@
 					"source" : [ "obj-97", 0 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "j.datetime.maxpat",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/Jamoma-a32/Jamoma/patchers/components/datetime",
+				"patcherrelativepath" : "../../../Jamoma-a32/Jamoma/patchers/components/datetime",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "thru.maxpat",
+				"bootpath" : "/Applications/Max 6.1/patches/m4l-patches/Pluggo for Live resources/patches",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/patches/m4l-patches/Pluggo for Live resources/patches",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j.send.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.view.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.receive.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.remote.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.namespace.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}

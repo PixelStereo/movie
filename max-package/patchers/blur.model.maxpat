@@ -5,7 +5,7 @@
 			"major" : 6,
 			"minor" : 1,
 			"revision" : 7,
-			"architecture" : "x86"
+			"architecture" : "x64"
 		}
 ,
 		"rect" : [ 101.0, 451.0, 505.0, 247.0 ],
@@ -38,8 +38,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
 					"patching_rect" : [ 14.0, 192.0, 284.0, 20.0 ],
-					"presentation_rect" : [ 18.0, 282.0, 0.0, 0.0 ],
-					"text" : "jit.gl.texture #2 @name #1"
+					"text" : "jit.gl.texture #2 @name #1 @defaultimage black"
 				}
 
 			}
@@ -53,7 +52,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_gl_texture" ],
 					"patching_rect" : [ 14.0, 167.0, 185.0, 19.0 ],
-					"presentation_rect" : [ 14.0, 251.0, 0.0, 0.0 ],
 					"text" : "jit.gl.slab.gauss6x #2"
 				}
 
