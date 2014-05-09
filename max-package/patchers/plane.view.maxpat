@@ -496,7 +496,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 475.0, 68.5, 182.0, 31.0 ],
-					"text" : "filter/set myAddressFilter object Container name plane, /"
+					"text" : "filter/set myAddressFilter object Container name layer, /"
 				}
 
 			}
