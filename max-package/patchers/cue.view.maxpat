@@ -5,7 +5,7 @@
 			"major" : 6,
 			"minor" : 1,
 			"revision" : 7,
-			"architecture" : "x64"
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ -1296.0, 126.0, 1114.0, 659.0 ],
@@ -38,7 +38,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 863.0, 416.0, 125.0, 20.0 ],
+					"patching_rect" : [ 874.0, 406.0, 125.0, 20.0 ],
 					"text" : "j.receive current/ramp"
 				}
 
@@ -51,9 +51,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "float" ],
+					"outlettype" : [ "", "int" ],
 					"patching_rect" : [ 829.0, 471.5, 33.0, 20.0 ],
-					"text" : "t l 0."
+					"text" : "t l 0"
 				}
 
 			}
@@ -66,8 +66,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 829.0, 445.0, 53.0, 20.0 ],
-					"text" : "pak 1. 0"
+					"patching_rect" : [ 829.0, 445.0, 64.0, 20.0 ],
+					"text" : "pak 100 0"
 				}
 
 			}
@@ -81,13 +81,12 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 829.0, 500.5, 46.0, 20.0 ],
-					"text" : "line 0."
+					"text" : "line"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"floatoutput" : 1,
 					"id" : "obj-46",
 					"maxclass" : "slider",
 					"numinlets" : 1,
@@ -97,7 +96,7 @@
 					"patching_rect" : [ 829.0, 529.5, 161.5, 36.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 8.0, 178.699982, 370.5, 13.0 ],
-					"size" : 1.0
+					"size" : 100.0
 				}
 
 			}
@@ -407,7 +406,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 7,
-							"architecture" : "x64"
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 165.0, 246.0, 190.0, 155.0 ],
@@ -730,7 +729,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 7,
-							"architecture" : "x64"
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 956.0, 369.0, 190.0, 155.0 ],
@@ -1662,7 +1661,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 7,
-							"architecture" : "x64"
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 143.0, 251.0 ],

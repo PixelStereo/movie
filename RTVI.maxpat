@@ -458,7 +458,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 25.0, 69.0, 1146.0, 741.0 ],
+										"rect" : [ 748.0, 60.0, 1146.0, 741.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 1,
 										"default_fontsize" : 12.0,
@@ -560,7 +560,7 @@
 													"id" : "obj-7",
 													"maxclass" : "bpatcher",
 													"name" : "hap.view.maxpat",
-													"numinlets" : 0,
+													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 736.833313, 162.5, 426.0, 151.5 ],
 													"presentation" : 1,
@@ -635,7 +635,7 @@
 , 											{
 												"box" : 												{
 													"annotation" : "none",
-													"args" : [ "plane.1" ],
+													"args" : [ "layer.1" ],
 													"border" : 1,
 													"id" : "obj-15",
 													"maxclass" : "bpatcher",
@@ -2185,6 +2185,49 @@
 										"tags" : "",
 										"boxes" : [ 											{
 												"box" : 												{
+													"fontname" : "Helvetica Neue Light Italic",
+													"fontsize" : 12.0,
+													"id" : "obj-21",
+													"maxclass" : "number",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "int", "bang" ],
+													"parameter_enable" : 0,
+													"patching_rect" : [ 747.0, 46.872421, 50.0, 20.0 ]
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Helvetica Neue Light Italic",
+													"fontsize" : 12.0,
+													"id" : "obj-12",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 747.0, 72.0, 53.0, 18.0 ],
+													"text" : "open $1"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"color" : [ 0.572549, 0.0, 0.0, 0.5 ],
+													"fontname" : "Helvetica Neue Light Italic",
+													"fontsize" : 12.0,
+													"id" : "obj-7",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 556.0, 73.897552, 181.0, 20.0 ],
+													"text" : "poly~ hap.model 5 args hap rtvi"
+												}
+
+											}
+, 											{
+												"box" : 												{
 													"color" : [ 0.0, 0.572549, 0.0, 1.0 ],
 													"fontname" : "Arial",
 													"fontsize" : 14.0,
@@ -2555,22 +2598,6 @@
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 556.0, 225.972412, 118.0, 20.0 ],
 													"text" : "blur.model blur.1 rtvi"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"annotation" : "A simple video player using codec HAP",
-													"color" : [ 0.572549, 0.0, 0.0, 0.5 ],
-													"fontname" : "Helvetica Light",
-													"fontsize" : 12.0,
-													"id" : "obj-84",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 556.0, 74.729752, 127.0, 18.0 ],
-													"text" : "hap.model hap.1 rtvi"
 												}
 
 											}
@@ -3034,7 +3061,25 @@
 
 											}
  ],
-										"lines" : [  ]
+										"lines" : [ 											{
+												"patchline" : 												{
+													"destination" : [ "obj-7", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-12", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-12", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-21", 0 ]
+												}
+
+											}
+ ]
 									}
 ,
 									"patching_rect" : [ 18.0, 210.51181, 72.0, 22.0 ],
@@ -3394,13 +3439,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "hap.model.maxpat",
-				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI/max-package/patchers",
-				"patcherrelativepath" : "./max-package/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "blur.model.maxpat",
 				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI/max-package/patchers",
 				"patcherrelativepath" : "./max-package/patchers",
@@ -3451,6 +3489,13 @@
 			}
 , 			{
 				"name" : "syphonclient.model.maxpat",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI/max-package/patchers",
+				"patcherrelativepath" : "./max-package/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "hap.model.maxpat",
 				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI/max-package/patchers",
 				"patcherrelativepath" : "./max-package/patchers",
 				"type" : "JSON",
@@ -3580,15 +3625,7 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jit.gl.hap.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "j.init.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.message.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -3597,6 +3634,14 @@
 			}
 , 			{
 				"name" : "jit.gl.syphonclient.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.message.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jit.gl.hap.mxo",
 				"type" : "iLaX"
 			}
 , 			{
