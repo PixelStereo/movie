@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 401.0, 44.0, 404.0, 626.0 ],
+		"rect" : [ 401.0, 45.0, 404.0, 626.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -968,7 +968,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 25.0, 69.0, 514.0, 500.0 ],
+										"rect" : [ 25.0, 69.0, 925.0, 569.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -992,12 +992,27 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"frgb" : 0.0,
-													"id" : "obj-1",
-													"linecount" : 12,
+													"id" : "obj-2",
+													"linecount" : 3,
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 47.0, 314.0, 118.0, 167.0 ],
+													"patching_rect" : [ 39.0, 326.0, 839.0, 47.0 ],
+													"text" : "JCUE\nIl y a un probleme avec la nottion de  namespace lié aux cues. C'est super, mais ce dont j'ai besoin est de définir plusieurs namespace… \nMon problème est pour sauvegarder le namespace quelque part… je ne trouve pas de moyen de sauver la liste du namespace utilisé."
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"frgb" : 0.0,
+													"id" : "obj-1",
+													"linecount" : 3,
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 39.0, 229.0, 839.0, 47.0 ],
 													"text" : "JCUE\nfaire un coll/dict qui recence toutes les mémoires, jouées, leur temps de rampe et ainsi donc leur activité. Et montrer tout cela sur un multislider et/ou sur un jit.cellblock ou même en openGL"
 												}
 
