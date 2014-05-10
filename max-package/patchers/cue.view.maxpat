@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 186.0, 298.0, 1203.0, 319.0 ],
+		"rect" : [ 237.0, 44.0, 1203.0, 319.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
@@ -32,12 +32,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"id" : "obj-34",
+					"id" : "obj-51",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 140.0, 124.0, 100.0, 20.0 ],
-					"text" : "print ##"
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 37.25, 88.0, 32.5, 20.0 ],
+					"text" : "+ 1"
 				}
 
 			}
@@ -612,7 +613,6 @@
 					"patching_rect" : [ 622.25, 88.0, 126.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 143.235199, 107.599991, 238.723175, 20.0 ],
-					"text" : "\"noise bande jaune\"",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -728,7 +728,6 @@
 					"patching_rect" : [ 756.25, 88.0, 126.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 106.5, 130.599991, 272.0, 47.350128 ],
-					"text" : "bande",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -881,7 +880,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"id" : "obj-15",
-					"items" : [ "noise bande jaune", ",", "deuz", ",", "tres", ",", "quatro" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1338,8 +1337,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 227.75, 121.0, 301.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 27.699982, 323.0, 17.0 ],
-					"text" : "system:/Users/reno/Documents/GITs/rtvi/rtvi demo.jcues"
+					"presentation_rect" : [ 5.0, 27.699982, 323.0, 17.0 ]
 				}
 
 			}
@@ -1466,7 +1464,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-15", 0 ],
+					"destination" : [ "obj-51", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-17", 0 ]
@@ -1513,15 +1511,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-21", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-34", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-21", 0 ]
@@ -1725,6 +1714,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-49", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-15", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-51", 0 ]
 				}
 
 			}

@@ -456,7 +456,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -505,7 +504,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 457.0, 137.0, 838.0, 442.0 ],
+										"rect" : [ 577.0, 47.0, 838.0, 442.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 1,
 										"default_fontsize" : 12.0,
