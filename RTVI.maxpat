@@ -2073,7 +2073,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 34.0, 245.0, 641.0, 537.0 ],
+										"rect" : [ 34.0, 245.0, 629.0, 431.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -2101,7 +2101,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 328.0, 429.397522, 65.0, 20.0 ],
+													"patching_rect" : [ 543.5, 364.625, 65.0, 20.0 ],
 													"text" : "jit.gl.nurbs"
 												}
 
@@ -2115,7 +2115,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 328.0, 282.647552, 77.0, 20.0 ],
+													"patching_rect" : [ 324.0, 261.647552, 77.0, 20.0 ],
 													"text" : "jit.gl.multiple"
 												}
 
@@ -2130,7 +2130,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 328.0, 73.897552, 181.0, 20.0 ],
+													"patching_rect" : [ 324.0, 63.897552, 181.0, 20.0 ],
 													"text" : "poly~ hap.model 5 args hap rtvi"
 												}
 
@@ -2427,7 +2427,7 @@
  ]
 													}
 ,
-													"patching_rect" : [ 17.0, 343.0, 82.0, 22.0 ],
+													"patching_rect" : [ 114.5, 148.63678, 82.0, 22.0 ],
 													"saved_object_attributes" : 													{
 														"default_fontface" : 0,
 														"default_fontname" : "Arial",
@@ -2456,22 +2456,8 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 328.0, 133.13678, 216.0, 18.0 ],
+													"patching_rect" : [ 324.0, 123.13678, 216.0, 18.0 ],
 													"text" : "syphonclient.model syphonclient.1 rtvi"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 18.0,
-													"frgb" : 0.0,
-													"id" : "obj-15",
-													"maxclass" : "comment",
-													"numinlets" : 1,
-													"numoutlets" : 0,
-													"patching_rect" : [ 149.0, 121.634735, 166.0, 27.0 ],
-													"text" : "SYPHON OUTPUT"
 												}
 
 											}
@@ -2484,7 +2470,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 528.0, 13.634735, 100.0, 27.0 ],
+													"patching_rect" : [ 524.0, 3.634735, 100.0, 27.0 ],
 													"text" : "SOURCES"
 												}
 
@@ -2498,7 +2484,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 168.0, 13.634735, 147.0, 27.0 ],
+													"patching_rect" : [ 164.0, 3.634735, 147.0, 27.0 ],
 													"text" : "3D RENDERING"
 												}
 
@@ -2514,7 +2500,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 17.0, 26.634735, 155.0, 20.0 ],
+													"patching_rect" : [ 13.0, 16.634735, 155.0, 20.0 ],
 													"text" : "window.model window.1 rtvi"
 												}
 
@@ -2529,7 +2515,7 @@
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 0,
-													"patching_rect" : [ 17.0, 166.252075, 182.0, 20.0 ],
+													"patching_rect" : [ 324.0, 360.625, 182.0, 20.0 ],
 													"text" : "syphonserver.model syphon.1 rtvi"
 												}
 
@@ -2545,7 +2531,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 17.0, 81.338524, 167.0, 20.0 ],
+													"patching_rect" : [ 13.0, 71.338524, 167.0, 20.0 ],
 													"text" : "framemotor.model clock.1 rtvi"
 												}
 
@@ -2561,7 +2547,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 328.0, 250.853333, 130.0, 20.0 ],
+													"patching_rect" : [ 324.0, 235.853333, 130.0, 20.0 ],
 													"text" : "lines.model lines.1 rtvi"
 												}
 
@@ -2576,7 +2562,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 328.0, 377.897552, 198.0, 20.0 ],
+													"patching_rect" : [ 324.0, 335.0, 198.0, 20.0 ],
 													"text" : "poly~ plane.model 10 args layer rtvi"
 												}
 
@@ -2592,7 +2578,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 328.0, 225.972412, 118.0, 20.0 ],
+													"patching_rect" : [ 324.0, 210.972412, 118.0, 20.0 ],
 													"text" : "blur.model blur.1 rtvi"
 												}
 
@@ -2608,7 +2594,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 17.0, 53.986629, 142.0, 20.0 ],
+													"patching_rect" : [ 13.0, 43.986629, 142.0, 20.0 ],
 													"text" : "render.model render.1 rtvi"
 												}
 
@@ -2622,7 +2608,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 66.0, 225.972412, 187.0, 33.0 ],
+													"patching_rect" : [ 62.0, 115.63678, 187.0, 33.0 ],
 													"text" : "Open GL engine"
 												}
 
@@ -2647,7 +2633,7 @@
 															"architecture" : "x86"
 														}
 ,
-														"rect" : [ 1009.0, 629.0, 432.0, 210.0 ],
+														"rect" : [ 1008.0, 629.0, 432.0, 210.0 ],
 														"bglocked" : 0,
 														"openinpresentation" : 0,
 														"default_fontsize" : 12.0,
@@ -2856,7 +2842,7 @@
  ]
 													}
 ,
-													"patching_rect" : [ 328.0, 104.510742, 50.0, 20.0 ],
+													"patching_rect" : [ 324.0, 94.510742, 50.0, 20.0 ],
 													"saved_object_attributes" : 													{
 														"default_fontface" : 0,
 														"default_fontname" : "Helvetica Neue Light Italic",
@@ -2885,7 +2871,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 328.0, 201.091492, 157.0, 20.0 ],
+													"patching_rect" : [ 324.0, 186.091492, 157.0, 20.0 ],
 													"text" : "color-control.model cc.1 rtvi"
 												}
 
@@ -2901,7 +2887,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 328.0, 46.872421, 130.0, 20.0 ],
+													"patching_rect" : [ 324.0, 36.872421, 130.0, 20.0 ],
 													"text" : "color.model color.1 rtvi"
 												}
 
@@ -2916,7 +2902,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 321.0, 491.397522, 303.0, 33.0 ],
+													"patching_rect" : [ 317.0, 388.25, 303.0, 33.0 ],
 													"text" : "each output can choose at least one texture for displaying and one texture for masking"
 												}
 
@@ -2931,7 +2917,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 321.0, 323.965454, 303.0, 33.0 ],
+													"patching_rect" : [ 317.0, 286.965454, 303.0, 33.0 ],
 													"text" : "each process can choose at least one texture as input and publish another texture"
 												}
 
@@ -2945,7 +2931,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 528.0, 194.091492, 99.0, 27.0 ],
+													"patching_rect" : [ 524.0, 179.091492, 99.0, 27.0 ],
 													"text" : "PROCESS"
 												}
 
@@ -2959,7 +2945,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 532.0, 370.897552, 96.0, 27.0 ],
+													"patching_rect" : [ 528.0, 328.0, 96.0, 27.0 ],
 													"text" : "OUTPUTS"
 												}
 
@@ -2975,7 +2961,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 328.0, 19.015091, 135.0, 20.0 ],
+													"patching_rect" : [ 324.0, 9.015091, 135.0, 20.0 ],
 													"text" : "noise.model noise.1 rtvi"
 												}
 
@@ -2988,7 +2974,7 @@
 													"maxclass" : "panel",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 321.0, 194.091492, 303.0, 162.873962 ],
+													"patching_rect" : [ 317.0, 179.091492, 303.0, 140.873962 ],
 													"rounded" : 0
 												}
 
@@ -3001,7 +2987,7 @@
 													"maxclass" : "panel",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 8.0, 13.634735, 303.0, 96.991302 ]
+													"patching_rect" : [ 4.0, 3.634735, 303.0, 96.991302 ]
 												}
 
 											}
@@ -3013,7 +2999,7 @@
 													"maxclass" : "panel",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 321.0, 370.897552, 303.0, 153.5 ],
+													"patching_rect" : [ 317.0, 328.0, 303.0, 93.25 ],
 													"rounded" : 0
 												}
 
@@ -3027,7 +3013,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 321.0, 160.13678, 291.0, 20.0 ],
+													"patching_rect" : [ 317.0, 150.13678, 291.0, 20.0 ],
 													"text" : "each source publishes at least one GLtexture texture"
 												}
 
@@ -3040,19 +3026,7 @@
 													"maxclass" : "panel",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 321.0, 13.634735, 303.0, 166.502045 ]
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"bgcolor" : [ 0.666667, 0.666667, 0.666667, 0.0 ],
-													"border" : 1,
-													"id" : "obj-16",
-													"maxclass" : "panel",
-													"numinlets" : 1,
-													"numoutlets" : 0,
-													"patching_rect" : [ 8.0, 121.634735, 303.0, 96.991302 ]
+													"patching_rect" : [ 317.0, 3.634735, 303.0, 166.502045 ]
 												}
 
 											}
