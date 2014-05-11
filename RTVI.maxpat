@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 395.0, 44.0, 404.0, 626.0 ],
+		"rect" : [ 395.0, 44.0, 421.0, 561.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,7 +39,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 448.0, 501.0, 300.0, 315.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.5, 310.0, 393.0, 315.0 ]
+					"presentation_rect" : [ 6.5, 288.0, 384.0, 267.0 ]
 				}
 
 			}
@@ -3270,7 +3270,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 308.5, 3.5, 382.0, 201.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.5, 67.0, 393.0, 244.0 ]
+					"presentation_rect" : [ 6.5, 67.0, 384.0, 222.0 ]
 				}
 
 			}

@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 202.0, 90.0, 1038.0, 573.0 ],
+		"rect" : [ 849.0, 135.0, 580.0, 384.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -73,7 +73,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 368.25, 5.0, 34.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 247.0, 27.0, 45.0, 19.0 ],
+					"presentation_rect" : [ 238.0, 27.0, 45.0, 19.0 ],
 					"text" : "none"
 				}
 
@@ -95,7 +95,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 309.25, 5.0, 34.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 200.0, 27.0, 45.0, 19.0 ],
+					"presentation_rect" : [ 191.0, 27.0, 45.0, 19.0 ],
 					"text" : "all"
 				}
 
@@ -693,7 +693,7 @@
 					"outmode" : 1,
 					"patching_rect" : [ 309.25, 119.0, 188.0, 78.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 200.0, 49.0, 188.0, 211.0 ],
+					"presentation_rect" : [ 191.0, 49.0, 188.0, 211.0 ],
 					"rowheight" : 20,
 					"rows" : 3,
 					"sccolor" : [ 0.0, 0.0, 0.0, 1.0 ],
