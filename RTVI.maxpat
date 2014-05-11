@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 401.0, 45.0, 404.0, 626.0 ],
+		"rect" : [ 395.0, 44.0, 404.0, 626.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -3389,8 +3389,8 @@
 			}
 , 			{
 				"name" : "j.datetime.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/Jamoma 0.6 a.33/patchers/components/datetime",
-				"patcherrelativepath" : "../Jamoma 0.6 a.33/patchers/components/datetime",
+				"bootpath" : "/Users/reno/Documents/GITs/Jamoma 0.6 a34/Jamoma/patchers/components/datetime",
+				"patcherrelativepath" : "../Jamoma 0.6 a34/Jamoma/patchers/components/datetime",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -3559,13 +3559,6 @@
 				"name" : "hap.view.maxpat",
 				"bootpath" : "/Users/reno/Documents/GITs/rtvi/max-package/patchers",
 				"patcherrelativepath" : "./max-package/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "span.requests.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/span/max-package/patchers/requests",
-				"patcherrelativepath" : "../span/max-package/patchers/requests",
 				"type" : "JSON",
 				"implicit" : 1
 			}
