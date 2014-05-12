@@ -5,7 +5,7 @@
 			"major" : 6,
 			"minor" : 1,
 			"revision" : 7,
-			"architecture" : "x64"
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 101.0, 451.0, 505.0, 247.0 ],
@@ -105,8 +105,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 180.0, 92.0, 202.0, 33.0 ],
-					"text" : "j.parameter amount @value/default 0 @type decimal @ramp/drive Max"
+					"patching_rect" : [ 180.0, 92.0, 295.0, 33.0 ],
+					"text" : "j.parameter amount @value/default 0 @type decimal @ramp/drive Max @range/bounds 0. 5."
 				}
 
 			}

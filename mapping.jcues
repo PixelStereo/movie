@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<jamoma version="0.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jamoma.org/ file:jamoma.xsd">
+ <cue name="map">
+  <flag name="description">none</flag>
+  <!---->
+  <script address="polymap">
+   <script address="function">
+    <command address="mode">base</command>
+    <command address="name">linear</command>
+    <command address="param">0</command>
+   </script>
+   <script address="in">
+    <command address="max">1</command>
+    <command address="min">0</command>
+   </script>
+   <command address="input">none</command>
+   <script address="out">
+    <command address="max">1</command>
+    <command address="min">0</command>
+   </script>
+   <command address="output">none</command>
+   <command address="sw">1</command>
+  </script>
+ </cue>
+ <cue name="testlines">
+  <flag name="description">none</flag>
+  <!---->
+  <script address="lines.1">
+   <script address="coeff">
+    <command address="x">0</command>
+    <command address="y">0</command>
+   </script>
+   <script address="number">
+    <command address="x">0</command>
+    <command address="y">0</command>
+   </script>
+   <script address="offset">
+    <command address="x">0</command>
+    <command address="y">0</command>
+   </script>
+   <command address="sw">0</command>
+   <command address="texture">black</command>
+  </script>
+ </cue>
+</jamoma>
