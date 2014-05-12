@@ -61,7 +61,7 @@
 					"patching_rect" : [ 241.0, 293.0, 99.0, 89.0 ],
 					"peakcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 573.5, 110.0, 99.0, 89.0 ],
+					"presentation_rect" : [ 674.5, 41.623932, 80.0, 68.376068 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"size" : 100
 				}
@@ -1605,7 +1605,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 35.0, 554.0, 56.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 616.5, -0.123932, 56.0, 24.0 ],
+					"presentation_rect" : [ 698.5, 1.876068, 56.0, 24.0 ],
 					"text" : "Off",
 					"texton" : "On"
 				}

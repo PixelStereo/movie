@@ -1,45 +1,133 @@
 <?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
 <jamoma version="0.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jamoma.org/ file:jamoma.xsd">
- <cue name="map">
+ <cue name="map 1">
   <flag name="description">none</flag>
   <!---->
-  <script address="polymap">
+  <script address="polymap.1">
    <script address="function">
     <command address="mode">base</command>
-    <command address="name">linear</command>
-    <command address="param">0</command>
+    <command address="name">exponential</command>
+    <command address="param">10.000000</command>
    </script>
    <script address="in">
     <command address="max">1</command>
     <command address="min">0</command>
    </script>
-   <command address="input">none</command>
+   <command address="input">/sound.1/slider.1</command>
    <script address="out">
     <command address="max">1</command>
     <command address="min">0</command>
    </script>
-   <command address="output">none</command>
+   <command address="output">/layer.1/color/alpha</command>
    <command address="sw">1</command>
   </script>
  </cue>
- <cue name="testlines">
+ <cue name="lines">
   <flag name="description">none</flag>
+  <!---->
+  <script address="color.1">
+   <script address="color">
+    <command address="alpha">1</command>
+    <command address="blue">1</command>
+    <command address="green">1</command>
+    <command address="red">1</command>
+   </script>
+   <command address="sw">1</command>
+  </script>
+  <!---->
+  <script address="layer.1">
+   <script address="color">
+    <command address="alpha">1</command>
+    <command address="blue">1</command>
+    <command address="green">1</command>
+    <command address="red">1</command>
+    <command address="saturation">1</command>
+   </script>
+   <command address="interp">1</command>
+   <command address="layer">1</command>
+   <script address="pos">
+    <command address="x">0</command>
+    <command address="y">0</command>
+    <command address="z">0</command>
+   </script>
+   <script address="scale">
+    <command address="x">1</command>
+    <command address="y">1</command>
+    <command address="z">1</command>
+   </script>
+   <command address="sw">1</command>
+   <command address="texture">lines.1</command>
+  </script>
   <!---->
   <script address="lines.1">
    <script address="coeff">
-    <command address="x">0</command>
+    <command address="x">0.500000</command>
     <command address="y">0</command>
    </script>
    <script address="number">
-    <command address="x">0</command>
+    <command address="x">25.000000</command>
     <command address="y">0</command>
    </script>
    <script address="offset">
     <command address="x">0</command>
     <command address="y">0</command>
    </script>
-   <command address="sw">0</command>
-   <command address="texture">black</command>
+   <command address="sw">1</command>
+   <command address="texture">color.1</command>
+  </script>
+ </cue>
+ <cue name="map 2">
+  <flag name="description">none</flag>
+  <!---->
+  <script address="color.1">
+   <script address="color">
+    <command address="alpha">1</command>
+    <command address="blue">1</command>
+    <command address="green">1</command>
+    <command address="red">1</command>
+   </script>
+   <command address="sw">1</command>
+  </script>
+  <!---->
+  <script address="layer.1">
+   <script address="color">
+    <command address="alpha">1</command>
+    <command address="blue">1</command>
+    <command address="green">1</command>
+    <command address="red">1</command>
+    <command address="saturation">1</command>
+   </script>
+   <command address="interp">1</command>
+   <command address="layer">1</command>
+   <script address="pos">
+    <command address="x">0</command>
+    <command address="y">0</command>
+    <command address="z">0</command>
+   </script>
+   <script address="scale">
+    <command address="x">1</command>
+    <command address="y">1</command>
+    <command address="z">1</command>
+   </script>
+   <command address="sw">1</command>
+   <command address="texture">lines.1</command>
+  </script>
+  <!---->
+  <script address="lines.1">
+   <script address="coeff">
+    <command address="x">0.500000</command>
+    <command address="y">0</command>
+   </script>
+   <script address="number">
+    <command address="x">25.000000</command>
+    <command address="y">0</command>
+   </script>
+   <script address="offset">
+    <command address="x">0</command>
+    <command address="y">0</command>
+   </script>
+   <command address="sw">1</command>
+   <command address="texture">color.1</command>
   </script>
  </cue>
 </jamoma>
