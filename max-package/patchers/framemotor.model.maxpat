@@ -80,7 +80,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 117.0, 40.0, 296.0, 20.0 ],
-					"text" : "j.parameter renderlist @value/default #2 @type string"
+					"text" : "j.parameter renderlist @default #2 @type string"
 				}
 
 			}
@@ -95,7 +95,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 12.0, 13.0, 289.0, 20.0 ],
-					"text" : "j.parameter sw @value/default 1 @type boolean"
+					"text" : "j.parameter sw @default 1 @type boolean"
 				}
 
 			}

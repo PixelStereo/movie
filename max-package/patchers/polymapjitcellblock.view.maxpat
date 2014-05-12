@@ -569,7 +569,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 61.0, 109.25, 140.0, 20.0 ],
-													"text" : "sprintf %s:range/bounds"
+													"text" : "sprintf %s:range"
 												}
 
 											}
@@ -975,7 +975,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 61.0, 109.25, 140.0, 20.0 ],
-													"text" : "sprintf %s:range/bounds"
+													"text" : "sprintf %s:range"
 												}
 
 											}

@@ -2055,7 +2055,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 667.0, 136.0, 292.0, 20.0 ],
-					"text" : "j.return sinus @range/bounds -1 1.28 @type decimal"
+					"text" : "j.return sinus @range -1 1.28 @type decimal"
 				}
 
 			}
@@ -2070,7 +2070,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 749.0, 64.0, 443.0, 20.0 ],
-					"text" : "j.parameter freq @value/default 0.1 @range/bounds -6.26 6.26 @ramp/drive Max"
+					"text" : "j.parameter freq @default 0.1 @range -6.26 6.26 @ramp/drive Max"
 				}
 
 			}
@@ -2085,7 +2085,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 667.0, 39.0, 288.0, 20.0 ],
-					"text" : "j.parameter enable @value/default 0 @type boolean"
+					"text" : "j.parameter enable @default 0 @type boolean"
 				}
 
 			}
@@ -2115,7 +2115,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 163.0, 136.0, 275.0, 20.0 ],
-					"text" : "j.parameter play @value/default 0 @type boolean"
+					"text" : "j.parameter play @default 0 @type boolean"
 				}
 
 			}
@@ -2130,7 +2130,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 163.0, 107.0, 313.0, 20.0 ],
-					"text" : "j.parameter loopmode @value/default Loop @type string"
+					"text" : "j.parameter loopmode @default Loop @type string"
 				}
 
 			}
@@ -2145,7 +2145,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 163.0, 81.0, 315.0, 20.0 ],
-					"text" : "j.parameter direction @value/default normal @type string"
+					"text" : "j.parameter direction @default normal @type string"
 				}
 
 			}
@@ -2160,7 +2160,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 163.0, 54.0, 386.0, 20.0 ],
-					"text" : "j.parameter rate @value/default 1 @type decimal @range/bounds -5 5"
+					"text" : "j.parameter rate @default 1 @type decimal @range -5 5"
 				}
 
 			}
@@ -2175,7 +2175,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 163.0, 25.0, 293.0, 20.0 ],
-					"text" : "j.parameter position @value/default 0 @type decimal"
+					"text" : "j.parameter position @default 0 @type decimal"
 				}
 
 			}

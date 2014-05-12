@@ -104,7 +104,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 226.666656, 141.040634, 387.0, 20.0 ],
-									"text" : "j.parameter scale/z @value/default 1 @type decimal @ramp/drive Max"
+									"text" : "j.parameter scale/z @default 1 @type decimal @ramp/drive Max"
 								}
 
 							}
@@ -119,7 +119,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 194.666656, 116.707291, 387.0, 20.0 ],
-									"text" : "j.parameter scale/y @value/default 1 @type decimal @ramp/drive Max"
+									"text" : "j.parameter scale/y @default 1 @type decimal @ramp/drive Max"
 								}
 
 							}
@@ -134,7 +134,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 162.666656, 92.373962, 387.0, 20.0 ],
-									"text" : "j.parameter scale/x @value/default 1 @type decimal @ramp/drive Max"
+									"text" : "j.parameter scale/x @default 1 @type decimal @ramp/drive Max"
 								}
 
 							}
@@ -163,7 +163,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 113.666656, 57.166668, 402.0, 20.0 ],
-									"text" : "j.parameter pos/z @value/default 0 @type decimal @ramp/drive Max"
+									"text" : "j.parameter pos/z @default 0 @type decimal @ramp/drive Max"
 								}
 
 							}
@@ -178,7 +178,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 81.666656, 32.833332, 410.0, 20.0 ],
-									"text" : "j.parameter pos/y @value/default 0 @type decimal @ramp/drive Max"
+									"text" : "j.parameter pos/y @default 0 @type decimal @ramp/drive Max"
 								}
 
 							}
@@ -193,7 +193,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 49.666656, 8.5, 406.0, 20.0 ],
-									"text" : "j.parameter pos/x @value/default 0 @type decimal @ramp/drive Max"
+									"text" : "j.parameter pos/x @default 0 @type decimal @ramp/drive Max"
 								}
 
 							}
@@ -327,7 +327,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 370.0, 110.039795, 95.0, 18.0 ],
-					"text" : "value/default $1"
+					"text" : "default $1"
 				}
 
 			}
@@ -356,7 +356,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 17.0, 45.0, 289.0, 20.0 ],
-					"text" : "j.parameter sw @value/default 0 @type boolean"
+					"text" : "j.parameter sw @default 0 @type boolean"
 				}
 
 			}
@@ -426,7 +426,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 658.0, 143.0, 297.0, 20.0 ],
-					"text" : "j.parameter texture @value/default black @type string"
+					"text" : "j.parameter texture @default black @type string"
 				}
 
 			}
@@ -484,7 +484,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 76.833313, 143.0, 282.0, 20.0 ],
-					"text" : "j.parameter interp @value/default 1 @type boolean"
+					"text" : "j.parameter interp @default 1 @type boolean"
 				}
 
 			}
@@ -593,7 +593,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 121.5, 80.5, 431.0, 20.0 ],
-									"text" : "j.parameter color/saturation @value/default 1 @type decimal @ramp/drive Max"
+									"text" : "j.parameter color/saturation @default 1 @type decimal @ramp/drive Max"
 								}
 
 							}
@@ -622,7 +622,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 162.916656, 178.0, 408.0, 20.0 ],
-									"text" : "j.parameter color/alpha @value/default 1 @type decimal @ramp/drive Max"
+									"text" : "j.parameter color/alpha @default 1 @type decimal @ramp/drive Max"
 								}
 
 							}
@@ -637,7 +637,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 100.666656, 54.5, 402.0, 20.0 ],
-									"text" : "j.parameter color/blue @value/default 1 @type decimal @ramp/drive Max"
+									"text" : "j.parameter color/blue @default 1 @type decimal @ramp/drive Max"
 								}
 
 							}
@@ -652,7 +652,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 75.166656, 31.5, 410.0, 20.0 ],
-									"text" : "j.parameter color/green @value/default 1 @type decimal @ramp/drive Max"
+									"text" : "j.parameter color/green @default 1 @type decimal @ramp/drive Max"
 								}
 
 							}
@@ -667,7 +667,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 49.666656, 8.5, 396.0, 20.0 ],
-									"text" : "j.parameter color/red @value/default 1 @type decimal @ramp/drive Max"
+									"text" : "j.parameter color/red @default 1 @type decimal @ramp/drive Max"
 								}
 
 							}

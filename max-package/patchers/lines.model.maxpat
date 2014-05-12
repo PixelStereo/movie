@@ -52,7 +52,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 388.75, 369.5, 289.0, 20.0 ],
-					"text" : "j.parameter coeff/y @value/default 0 @type decimal"
+					"text" : "j.parameter coeff/y @default 0 @type decimal"
 				}
 
 			}
@@ -67,7 +67,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 347.25, 342.5, 286.0, 20.0 ],
-					"text" : "j.parameter coeff/x @value/default 0 @type decimal"
+					"text" : "j.parameter coeff/x @default 0 @type decimal"
 				}
 
 			}
@@ -96,7 +96,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 319.75, 315.0, 301.0, 20.0 ],
-					"text" : "j.parameter number/y @value/default 0 @type decimal"
+					"text" : "j.parameter number/y @default 0 @type decimal"
 				}
 
 			}
@@ -111,7 +111,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 278.25, 288.0, 302.0, 20.0 ],
-					"text" : "j.parameter number/x @value/default 0 @type decimal"
+					"text" : "j.parameter number/x @default 0 @type decimal"
 				}
 
 			}
@@ -140,7 +140,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 250.75, 260.5, 289.0, 20.0 ],
-					"text" : "j.parameter offset/y @value/default 0 @type decimal"
+					"text" : "j.parameter offset/y @default 0 @type decimal"
 				}
 
 			}
@@ -155,7 +155,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 209.25, 233.5, 289.0, 20.0 ],
-					"text" : "j.parameter offset/x @value/default 0 @type decimal"
+					"text" : "j.parameter offset/x @default 0 @type decimal"
 				}
 
 			}
@@ -797,7 +797,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 58.0, 70.0, 330.0, 20.0 ],
-					"text" : "j.parameter texture @value/default black @type string"
+					"text" : "j.parameter texture @default black @type string"
 				}
 
 			}
@@ -855,7 +855,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 14.0, 14.0, 303.0, 20.0 ],
-					"text" : "j.parameter sw @type boolean @value/default 0"
+					"text" : "j.parameter sw @type boolean @default 0"
 				}
 
 			}

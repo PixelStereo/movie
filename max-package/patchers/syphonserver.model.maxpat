@@ -76,7 +76,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 50.0, 43.373978, 267.0, 20.0 ],
-					"text" : "j.parameter sw @type boolean @value/default 0"
+					"text" : "j.parameter sw @type boolean @default 0"
 				}
 
 			}

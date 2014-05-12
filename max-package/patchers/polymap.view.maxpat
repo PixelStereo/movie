@@ -1313,7 +1313,7 @@
 					"patching_rect" : [ 366.0, 21.876068, 78.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 41.0, 76.75, 84.0, 20.0 ],
-					"text" : "range/bounds"
+					"text" : "range"
 				}
 
 			}
@@ -1330,7 +1330,7 @@
 					"patching_rect" : [ -76.5, 27.876068, 78.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 245.0, 76.75, 84.0, 20.0 ],
-					"text" : "range/bounds"
+					"text" : "range"
 				}
 
 			}

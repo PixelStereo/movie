@@ -38,7 +38,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 243.0, 105.0, 282.0, 20.0 ],
-					"text" : "j.parameter interp @value/default 1 @type boolean"
+					"text" : "j.parameter interp @default 1 @type boolean"
 				}
 
 			}
@@ -147,7 +147,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 14.0, 18.0, 267.0, 20.0 ],
-					"text" : "j.parameter sw @type boolean @value/default 0"
+					"text" : "j.parameter sw @type boolean @default 0"
 				}
 
 			}
@@ -162,7 +162,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 178.5, 72.0, 391.0, 20.0 ],
-					"text" : "j.parameter dim/y @type decimal @value/default 720 @ramp/drive Max"
+					"text" : "j.parameter dim/y @type decimal @default 720 @ramp/drive Max"
 				}
 
 			}
@@ -177,7 +177,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 104.0, 45.0, 398.0, 20.0 ],
-					"text" : "j.parameter dim/x @type decimal @value/default 1280 @ramp/drive Max"
+					"text" : "j.parameter dim/x @type decimal @default 1280 @ramp/drive Max"
 				}
 
 			}

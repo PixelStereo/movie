@@ -364,7 +364,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 736.699951, 146.0, 283.0, 20.0 ],
-					"text" : "j.parameter address @type string @value/default /"
+					"text" : "j.parameter address @type string @default /"
 				}
 
 			}
@@ -379,7 +379,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 761.333252, 204.5, 367.0, 20.0 ],
-					"text" : "j.parameter namespace @type string @value/default namespace.1"
+					"text" : "j.parameter namespace @type string @default namespace.1"
 				}
 
 			}
