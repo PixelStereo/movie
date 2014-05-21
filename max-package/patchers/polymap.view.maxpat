@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 1.0, 46.0, 1041.0, 789.0 ],
+		"rect" : [ 346.0, 44.0, 1041.0, 789.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -62,8 +62,8 @@
 					"peakcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 674.5, 41.623932, 80.0, 68.376068 ],
-					"setminmax" : [ 0.0, 1.0 ],
-					"size" : 100
+					"setminmax" : [ 0.0, 65535.0 ],
+					"size" : 101
 				}
 
 			}
@@ -807,6 +807,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "none",
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
@@ -840,6 +841,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "none",
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
@@ -1924,7 +1926,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 78.0, 303.0, 139.0, 20.0 ],
-					"prefix" : "/clock.1/",
+					"prefix" : "/span/osc/",
 					"presentation" : 1,
 					"presentation_rect" : [ 67.0, 23.876068, 168.0, 20.0 ]
 				}
@@ -1961,7 +1963,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 3.0, 172.876068, 168.0, 20.0 ],
-					"prefix" : "system:/",
+					"prefix" : "new:/",
 					"presentation" : 1,
 					"presentation_rect" : [ 67.0, 1.876068, 168.0, 20.0 ]
 				}
@@ -2279,7 +2281,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 396.0, 297.0, 139.0, 20.0 ],
-					"prefix" : "/layer.1/",
+					"prefix" : "/span/osc/send/",
 					"presentation" : 1,
 					"presentation_rect" : [ 332.0, 23.876068, 169.0, 20.0 ]
 				}
@@ -2316,7 +2318,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 321.0, 166.876068, 168.0, 20.0 ],
-					"prefix" : "system:/",
+					"prefix" : "new:/",
 					"presentation" : 1,
 					"presentation_rect" : [ 332.0, 1.876068, 168.0, 20.0 ]
 				}

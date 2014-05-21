@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 95.0, 221.0, 539.0, 235.0 ],
+		"rect" : [ 95.0, 221.0, 584.0, 427.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -165,21 +165,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 269.5, 181.0, 44.0, 25.0 ],
 					"text" : "set"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"color" : [ 0.870588, 0.0, 0.0, 0.66 ],
-					"fontname" : "Arial",
-					"fontsize" : 18.0,
-					"id" : "obj-1",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 431.0, 296.799988, 57.0, 27.0 ],
-					"text" : "j.view"
 				}
 
 			}
