@@ -1,8 +1,49 @@
 {
+	"system" : 	{
+		"isruntime" : 0,
+		"os" : "macintosh",
+		"osversion" : "92",
+		"maxversion" : "617",
+		"span" : 		{
+			"credits" : "Tom Mays & Renaud Rubiano / didascalie.net",
+			"license" : "GNU-LGPL",
+			"status" : "alpha",
+			"version" : 			{
+				"major" : 0,
+				"minor" : 0,
+				"revision" : 2
+			}
+,
+			"path" : "data:/RENAUD/GITs/span/max-package/patchers/"
+		}
+,
+		"projectloaded" : 0,
+		"preferences" : 		{
+			"path" : "~/Library/Application Support/span/span.preferences.json",
+			"file" : "~/Library/preferences/com.didascalie-net.span.plist"
+		}
+,
+		"data" : 		{
+
+		}
+
+	}
+,
+	"preferences" : 	{
+		"verbose" : 1,
+		"autoload" : 1,
+		"dynamicvars" : 1,
+		"project" : 		{
+			"path" : "data:/RENAUD/GITs/RTVI/rtvi.json",
+			"name" : "rtvi"
+		}
+
+	}
+,
 	"projectinfo" : 	{
 		"created" : "2014-05-13T23:10:51",
-		"lastopened" : "2014-05-16T12:31:13",
-		"lastsaved" : "2014-05-16T12:31:13",
+		"lastopened" : "2014-05-21T16:34:02",
+		"lastsaved" : "2014-05-21T16:34:02",
 		"appname" : "span",
 		"appversion" : 		{
 			"major" : 0,
@@ -12,564 +53,16 @@
 
 	}
 ,
+	"data" : 	{
+
+	}
+,
 	"paths" : 	{
-		"system:/Applications/Max 6.1/patches/media/" : 		{
-			"valid" : 1,
-			"name" : "media",
-			"type" : "fold"
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/bball.mov" : 		{
-			"valid" : 1,
-			"name" : "bball.mov",
-			"type" : "MooV"
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/blading.mov" : 		{
-			"valid" : 1,
-			"name" : "blading.mov",
-			"type" : "MooV"
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/bokeh.cubemap.jpg" : 		{
-			"valid" : 1,
-			"name" : "bokeh.cubemap.jpg",
-			"type" : "JPEG"
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/cell.bump.png" : 		{
-			"valid" : 1,
-			"name" : "cell.bump.png",
-			"type" : "PNG "
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/chilis.jpg" : 		{
-			"valid" : 1,
-			"name" : "chilis.jpg",
-			"type" : "JPEG"
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/colorbars.png" : 		{
-			"valid" : 1,
-			"name" : "colorbars.png",
-			"type" : "PNG "
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/colorswatch.png" : 		{
-			"valid" : 1,
-			"name" : "colorswatch.png",
-			"type" : "PNG "
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/colorwheel.jpg" : 		{
-			"valid" : 1,
-			"name" : "colorwheel.jpg",
-			"type" : "JPEG"
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/colorwheel.png" : 		{
-			"valid" : 1,
-			"name" : "colorwheel.png",
-			"type" : "PNG "
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/countdown.mov" : 		{
-			"valid" : 1,
-			"name" : "countdown.mov",
-			"type" : "MooV"
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/countdown15.mov" : 		{
-			"valid" : 1,
-			"name" : "countdown15.mov",
-			"type" : "MooV"
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/crashtest.mov" : 		{
-			"valid" : 1,
-			"name" : "crashtest.mov",
-			"type" : "MooV"
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/dishes.mov" : 		{
-			"valid" : 1,
-			"name" : "dishes.mov",
-			"type" : "MooV"
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/dozer.mov" : 		{
-			"valid" : 1,
-			"name" : "dozer.mov",
-			"type" : "MooV"
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/dvducks.mov" : 		{
-			"valid" : 1,
-			"name" : "dvducks.mov",
-			"type" : "MooV"
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/dvkite.mov" : 		{
-			"valid" : 1,
-			"name" : "dvkite.mov",
-			"type" : "MooV"
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/fuzz_circle.jpg" : 		{
-			"valid" : 1,
-			"name" : "fuzz_circle.jpg",
-			"type" : "JPEG"
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/garbage.mov" : 		{
-			"valid" : 1,
-			"name" : "garbage.mov",
-			"type" : "MooV"
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/models/" : 		{
-			"valid" : 1,
-			"name" : "models",
-			"type" : "fold"
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/models/apple Folder/" : 		{
-			"valid" : 1,
-			"name" : "apple Folder",
-			"type" : "fold"
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/models/apple Folder/apple.obj" : 		{
-			"valid" : 1,
-			"name" : "apple.obj",
-			"type" : "Jobj"
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/models/apple Folder/ReadMe!.txt" : 		{
-			"valid" : 1,
-			"name" : "ReadMe!.txt",
-			"type" : "TEXT"
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/models/apple Folder/skin.tif" : 		{
-			"valid" : 1,
-			"name" : "skin.tif",
-			"type" : "TIFF"
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/models/apple Folder/stem_bump.tif" : 		{
-			"valid" : 1,
-			"name" : "stem_bump.tif",
-			"type" : "TIFF"
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/models/apple Folder/stem_color.tif" : 		{
-			"valid" : 1,
-			"name" : "stem_color.tif",
-			"type" : "TIFF"
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/models/bvh/" : 		{
-			"valid" : 1,
-			"name" : "bvh",
-			"type" : "fold"
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/models/bvh/01_nn.bvh.source.txt" : 		{
-			"valid" : 1,
-			"name" : "01_nn.bvh.source.txt",
-			"type" : "TEXT"
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/models/bvh/Boxing_Toes.bvh" : 		{
-			"valid" : 1,
-			"name" : "Boxing_Toes.bvh",
-			"type" : "Jbvh"
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/models/collada/" : 		{
-			"valid" : 1,
-			"name" : "collada",
-			"type" : "fold"
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/models/collada/COLLADA.dae" : 		{
-			"valid" : 1,
-			"name" : "COLLADA.dae",
-			"type" : "Jdae"
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/models/collada/duck-license.txt" : 		{
-			"valid" : 1,
-			"name" : "duck-license.txt",
-			"type" : "TEXT"
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/models/collada/duck.dae" : 		{
-			"valid" : 1,
-			"name" : "duck.dae",
-			"type" : "Jdae"
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/models/collada/earthSpherical.jpg" : 		{
-			"valid" : 1,
-			"name" : "earthSpherical.jpg",
-			"type" : "JPEG"
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/models/collada/earthSpherical.source.txt" : 		{
-			"valid" : 1,
-			"name" : "earthSpherical.source.txt",
-			"type" : "TEXT"
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/models/collada/seymour-license.txt" : 		{
-			"valid" : 1,
-			"name" : "seymour-license.txt",
-			"type" : "TEXT"
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/models/collada/Seymour.dae" : 		{
-			"valid" : 1,
-			"name" : "Seymour.dae",
-			"type" : "Jdae"
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/models/collada/seymourplane-license.txt" : 		{
-			"valid" : 1,
-			"name" : "seymourplane-license.txt",
-			"type" : "TEXT"
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/models/collada/seymourplane.dae" : 		{
-			"valid" : 1,
-			"name" : "seymourplane.dae",
-			"type" : "Jdae"
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/models/collada/teapots.dae" : 		{
-			"valid" : 1,
-			"name" : "teapots.dae",
-			"type" : "Jdae"
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/models/dwarf/" : 		{
-			"valid" : 1,
-			"name" : "dwarf",
-			"type" : "fold"
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/models/dwarf/dwarf.source.txt" : 		{
-			"valid" : 1,
-			"name" : "dwarf.source.txt",
-			"type" : "TEXT"
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/models/dwarf/dwarf2.b3d" : 		{
-			"valid" : 1,
-			"name" : "dwarf2.b3d",
-			"type" : "Jb3d"
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/models/dwarf/dwarf2.jpg" : 		{
-			"valid" : 1,
-			"name" : "dwarf2.jpg",
-			"type" : "JPEG"
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/models/mushrooms Folder/" : 		{
-			"valid" : 1,
-			"name" : "mushrooms Folder",
-			"type" : "fold"
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/models/mushrooms Folder/mushrooms.obj" : 		{
-			"valid" : 1,
-			"name" : "mushrooms.obj",
-			"type" : "Jobj"
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/models/mushrooms Folder/ReadMe!.txt" : 		{
-			"valid" : 1,
-			"name" : "ReadMe!.txt",
-			"type" : "TEXT"
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/models/mushrooms Folder/shroom.tif" : 		{
-			"valid" : 1,
-			"name" : "shroom.tif",
-			"type" : "TIFF"
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/models/ninja/" : 		{
-			"valid" : 1,
-			"name" : "ninja",
-			"type" : "fold"
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/models/ninja/ninja.mesh.xml" : 		{
-			"valid" : 1,
-			"name" : "ninja.mesh.xml",
-			"type" : "TEXT"
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/models/ninja/ninja.skeleton.xml" : 		{
-			"valid" : 1,
-			"name" : "ninja.skeleton.xml",
-			"type" : "TEXT"
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/models/ninja/nskingr.jpg" : 		{
-			"valid" : 1,
-			"name" : "nskingr.jpg",
-			"type" : "JPEG"
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/models/starfish Folder/" : 		{
-			"valid" : 1,
-			"name" : "starfish Folder",
-			"type" : "fold"
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/models/starfish Folder/ReadMe!.txt" : 		{
-			"valid" : 1,
-			"name" : "ReadMe!.txt",
-			"type" : "TEXT"
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/models/starfish Folder/starfish.obj" : 		{
-			"valid" : 1,
-			"name" : "starfish.obj",
-			"type" : "Jobj"
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/models/trashbin Folder/" : 		{
-			"valid" : 1,
-			"name" : "trashbin Folder",
-			"type" : "fold"
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/models/trashbin Folder/ReadMe!.txt" : 		{
-			"valid" : 1,
-			"name" : "ReadMe!.txt",
-			"type" : "TEXT"
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/models/trashbin Folder/rustbin.jpg" : 		{
-			"valid" : 1,
-			"name" : "rustbin.jpg",
-			"type" : "JPEG"
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/models/trashbin Folder/trashbin.obj" : 		{
-			"valid" : 1,
-			"name" : "trashbin.obj",
-			"type" : "Jobj"
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/oh.mov" : 		{
-			"valid" : 1,
-			"name" : "oh.mov",
-			"type" : "MooV"
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/ozone.mov" : 		{
-			"valid" : 1,
-			"name" : "ozone.mov",
-			"type" : "MooV"
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/panorama_cube_map.png" : 		{
-			"valid" : 1,
-			"name" : "panorama_cube_map.png",
-			"type" : "PNG "
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/rain.mov" : 		{
-			"valid" : 1,
-			"name" : "rain.mov",
-			"type" : "MooV"
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/rca.mov" : 		{
-			"valid" : 1,
-			"name" : "rca.mov",
-			"type" : "MooV"
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/redball.mov" : 		{
-			"valid" : 1,
-			"name" : "redball.mov",
-			"type" : "MooV"
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/sunset.jpg" : 		{
-			"valid" : 1,
-			"name" : "sunset.jpg",
-			"type" : "JPEG"
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/talk.aiff" : 		{
-			"valid" : 1,
-			"name" : "talk.aiff",
-			"type" : "AIFF"
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/track1.mov" : 		{
-			"valid" : 1,
-			"name" : "track1.mov",
-			"type" : "MooV"
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/track2.mov" : 		{
-			"valid" : 1,
-			"name" : "track2.mov",
-			"type" : "MooV"
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/traffic.mov" : 		{
-			"valid" : 1,
-			"name" : "traffic.mov",
-			"type" : "MooV"
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/volume-datasets/" : 		{
-			"valid" : 1,
-			"name" : "volume-datasets",
-			"type" : "fold"
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/volume-datasets/aneurism-64.jxf" : 		{
-			"valid" : 1,
-			"name" : "aneurism-64.jxf",
-			"type" : "JiT!"
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/volume-datasets/aneurism-64.txt" : 		{
-			"valid" : 1,
-			"name" : "aneurism-64.txt",
-			"type" : "TEXT"
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/volume-datasets/fuel-64.jxf" : 		{
-			"valid" : 1,
-			"name" : "fuel-64.jxf",
-			"type" : "JiT!"
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/volume-datasets/fuel-64.txt" : 		{
-			"valid" : 1,
-			"name" : "fuel-64.txt",
-			"type" : "TEXT"
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/volume-datasets/skull-64.jxf" : 		{
-			"valid" : 1,
-			"name" : "skull-64.jxf",
-			"type" : "JiT!"
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/volume-datasets/skull-64.txt" : 		{
-			"valid" : 1,
-			"name" : "skull-64.txt",
-			"type" : "TEXT"
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/volume-datasets/ventricles-64.jxf" : 		{
-			"valid" : 1,
-			"name" : "ventricles-64.jxf",
-			"type" : "JiT!"
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/volume-datasets/ventricles-64.txt" : 		{
-			"valid" : 1,
-			"name" : "ventricles-64.txt",
-			"type" : "TEXT"
-		}
-,
-		"system:/Applications/Max 6.1/patches/media/wheel.mov" : 		{
-			"valid" : 1,
-			"name" : "wheel.mov",
-			"type" : "MooV"
-		}
 
 	}
 ,
-	"namespace" : 	{
-
-	}
-,
-	"nodes" : 	{
-
-	}
-,
-	"events" : 	{
-
-	}
-,
-	"system" : 	{
-		"projectstructure" : 		{
-			"projectinfo" : 			{
-
-			}
-,
-			"paths" : 			{
-
-			}
-,
-			"namespace" : 			{
-
-			}
-,
-			"nodes" : 			{
-
-			}
-,
-			"events" : 			{
-
-			}
-,
-			"system" : [ "projectstructure", "data" ]
-		}
-,
-		"data" : 		{
-			"events" : 			{
-				"criteria" : 				{
-					"empty" : "tags",
-					"all" : "",
-					"all-active" : [ "ifvalue", "sw=1" ],
-					"control-active" : [ "tags", "control", "ifvalue", "sw=1" ],
-					"audio-active" : [ "tags", "audio", "ifvalue", "sw=1" ],
-					"device-active" : [ "tags", "device", "ifvalue", "sw=1" ],
-					"tapemovie" : [ "ifvalue", "sw=1", "except", "mtrx", "dac", "subb", "rev/1" ]
-				}
-,
-				"defaulttag" : "undefined",
-				"format" : 1,
-				"format_explanation" : "1=instances with dot (/module.1/param), 2=instances with slash (/module/1/param)",
-				"hidetags" : 0,
-				"hidedescription" : 0
-			}
-,
-			"osc" : 			{
-				"send" : 				{
-					"host" : "localhost",
-					"port" : 8888,
-					"maxqueuesize" : 2048,
-					"maxpacketsize" : 4096
-				}
-,
-				"receive" : 				{
-					"port" : 9999,
-					"maxqueuesize" : 2048
-				}
-,
-				"ctlin" : 				{
-					"port" : 11100,
-					"maxqueuesize" : 2048
-				}
-
-			}
+	"cuesheets" : 	{
+		"cuesheet.1" : 		{
 
 		}
 
