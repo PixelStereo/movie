@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 988.0, 405.0, 580.0, 283.0 ],
+		"rect" : [ 977.0, 285.0, 580.0, 283.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -84,8 +84,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 285.75, 58.659302, 130.0, 20.0 ],
-					"text" : "r cue.1/tocuelistmenu"
+					"patching_rect" : [ 285.75, 58.659302, 136.0, 20.0 ],
+					"text" : "r /span//tocuelistmenu"
 				}
 
 			}
@@ -137,7 +137,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 111.75, 88.945557, 172.0, 18.0 ],
+					"patching_rect" : [ 113.75, 78.659302, 172.0, 18.0 ],
 					"text" : "col 0 width 50, col 1 width 300"
 				}
 
@@ -872,8 +872,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 30.5, 88.945557, 95.0, 19.0 ],
-					"text" : "refer #1-coll"
+					"patching_rect" : [ 30.5, 78.659302, 136.0, 19.0 ],
+					"text" : "refer span/events-coll"
 				}
 
 			}

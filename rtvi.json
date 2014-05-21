@@ -1,8 +1,8 @@
 {
 	"projectinfo" : 	{
 		"created" : "2014-05-13T23:10:51",
-		"lastopened" : "2014-05-14T23:53:00",
-		"lastsaved" : "2014-05-14T23:53:00",
+		"lastopened" : "2014-05-16T12:31:13",
+		"lastsaved" : "2014-05-16T12:31:13",
 		"appname" : "span",
 		"appversion" : 		{
 			"major" : 0,
@@ -554,13 +554,13 @@
 			"osc" : 			{
 				"send" : 				{
 					"host" : "localhost",
-					"port" : 10000,
+					"port" : 8888,
 					"maxqueuesize" : 2048,
 					"maxpacketsize" : 4096
 				}
 ,
 				"receive" : 				{
-					"port" : 11000,
+					"port" : 9999,
 					"maxqueuesize" : 2048
 				}
 ,
