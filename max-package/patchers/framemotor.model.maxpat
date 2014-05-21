@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 546.0, 527.0, 614.0, 176.0 ],
+		"rect" : [ 72.0, 712.0, 574.0, 231.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -31,12 +31,41 @@
 				"box" : 				{
 					"fontname" : "Helvetica Light",
 					"fontsize" : 12.0,
+					"id" : "obj-13",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 62.0, 66.0, 50.0, 18.0 ],
+					"text" : "!/ 1000"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.0, 0.572549, 0.811765, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 62.0, 39.5, 242.0, 20.0 ],
+					"text" : "j.parameter fps @default 30 @type integer"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Helvetica Light",
+					"fontsize" : 12.0,
 					"id" : "obj-9",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 117.0, 70.0, 91.0, 18.0 ],
+					"patching_rect" : [ 116.0, 120.0, 91.0, 18.0 ],
 					"text" : "sprintf %s/step"
 				}
 
@@ -50,7 +79,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 117.0, 103.0, 86.0, 18.0 ],
+					"patching_rect" : [ 116.0, 153.0, 86.0, 18.0 ],
 					"text" : "prepend send"
 				}
 
@@ -64,7 +93,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 92.0, 137.0, 51.0, 20.0 ],
+					"patching_rect" : [ 91.0, 187.0, 51.0, 20.0 ],
 					"text" : "forward"
 				}
 
@@ -79,7 +108,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 117.0, 40.0, 296.0, 20.0 ],
+					"patching_rect" : [ 116.0, 90.0, 296.0, 20.0 ],
 					"text" : "j.parameter renderlist @default #2 @type string"
 				}
 
@@ -94,7 +123,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 12.0, 13.0, 289.0, 20.0 ],
+					"patching_rect" : [ 11.0, 12.0, 289.0, 20.0 ],
 					"text" : "j.parameter sw @default 1 @type boolean"
 				}
 
@@ -106,7 +135,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 460.0, 122.5, 25.0, 25.0 ]
+					"patching_rect" : [ 425.0, 136.5, 25.0, 25.0 ]
 				}
 
 			}
@@ -118,7 +147,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 460.0, 37.5, 25.0, 25.0 ]
+					"patching_rect" : [ 425.0, 51.5, 25.0, 25.0 ]
 				}
 
 			}
@@ -132,7 +161,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 460.0, 76.5, 125.0, 34.0 ],
+					"patching_rect" : [ 425.0, 90.5, 125.0, 34.0 ],
 					"text" : "j.model @description \"framemotor engine\""
 				}
 
@@ -146,7 +175,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.0, 98.0, 74.0, 20.0 ],
+					"patching_rect" : [ 11.0, 148.0, 74.0, 20.0 ],
 					"text" : "s #2/render"
 				}
 
@@ -160,7 +189,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 12.0, 43.0, 70.0, 18.0 ],
+					"patching_rect" : [ 11.0, 93.0, 70.0, 18.0 ],
 					"text" : "qmetro 32"
 				}
 
@@ -174,7 +203,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "erase", "bang", "bang" ],
-					"patching_rect" : [ 12.0, 68.0, 99.0, 18.0 ],
+					"patching_rect" : [ 11.0, 118.0, 99.0, 18.0 ],
 					"text" : "t erase b b"
 				}
 
@@ -186,6 +215,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-10", 0 ]
 				}
 
 			}
@@ -213,6 +251,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-13", 0 ]
 				}
 
 			}
