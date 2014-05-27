@@ -17,7 +17,7 @@
 			"path" : "data:/RENAUD/GITs/span/max-package/patchers/"
 		}
 ,
-		"projectloaded" : 0,
+		"projectloaded" : 1,
 		"preferences" : 		{
 			"path" : "~/Library/Application Support/span/span.preferences.json",
 			"file" : "~/Library/preferences/com.didascalie-net.span.plist"
@@ -29,21 +29,10 @@
 
 	}
 ,
-	"preferences" : 	{
-		"verbose" : 1,
-		"autoload" : 1,
-		"dynamicvars" : 1,
-		"project" : 		{
-			"path" : "data:/RENAUD/GITs/RTVI/rtvi.json",
-			"name" : "rtvi"
-		}
-
-	}
-,
 	"projectinfo" : 	{
 		"created" : "2014-05-13T23:10:51",
-		"lastopened" : "2014-05-21T16:34:02",
-		"lastsaved" : "2014-05-21T16:34:02",
+		"lastopened" : "2014-05-28T01:48:10",
+		"lastsaved" : "2014-05-28T01:48:10",
 		"appname" : "span",
 		"appversion" : 		{
 			"major" : 0,
@@ -60,12 +49,4 @@
 	"paths" : 	{
 
 	}
-,
-	"cuesheets" : 	{
-		"cuesheet.1" : 		{
-
-		}
-
-	}
-
 }
