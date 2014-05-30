@@ -5,10 +5,10 @@
 			"major" : 6,
 			"minor" : 1,
 			"revision" : 7,
-			"architecture" : "x86"
+			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 465.0, 44.0, 1087.0, 474.0 ],
+		"rect" : [ 465.0, 44.0, 1069.0, 462.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -28,6 +28,22 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"annotation" : "none",
+					"args" : [ "cam.1" ],
+					"border" : 1,
+					"id" : "obj-2",
+					"maxclass" : "bpatcher",
+					"name" : "camera.view.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 801.5, 138.0, 257.0, 76.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 805.5, 133.0, 257.0, 76.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"annotation" : "none",
 					"args" : [ "clock.1" ],
@@ -279,7 +295,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 7,
-							"architecture" : "x86"
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 1072.0, 468.0, 689.0, 428.0 ],
@@ -596,7 +612,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 7,
-							"architecture" : "x86"
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 38.0, 519.0, 403.0, 137.0 ],
@@ -720,7 +736,7 @@
 											"major" : 6,
 											"minor" : 1,
 											"revision" : 7,
-											"architecture" : "x86"
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 25.0, 69.0, 925.0, 569.0 ],
@@ -853,7 +869,7 @@
 											"major" : 6,
 											"minor" : 1,
 											"revision" : 7,
-											"architecture" : "x86"
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 23.0, 283.0, 629.0, 431.0 ],
@@ -876,6 +892,22 @@
 										"digest" : "",
 										"tags" : "",
 										"boxes" : [ 											{
+												"box" : 												{
+													"annotation" : "camera grabber",
+													"color" : [ 0.572549, 0.0, 0.0, 0.5 ],
+													"fontname" : "Helvetica Neue Light Italic",
+													"fontsize" : 12.0,
+													"id" : "obj-5",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 395.0, 94.510742, 139.0, 20.0 ],
+													"text" : "camera.model cam.1 rtvi"
+												}
+
+											}
+, 											{
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
@@ -933,10 +965,10 @@
 															"major" : 6,
 															"minor" : 1,
 															"revision" : 7,
-															"architecture" : "x86"
+															"architecture" : "x64"
 														}
 ,
-														"rect" : [ 603.0, 302.0, 365.0, 384.0 ],
+														"rect" : [ 333.0, 544.0, 365.0, 384.0 ],
 														"bglocked" : 0,
 														"openinpresentation" : 0,
 														"default_fontsize" : 12.0,
@@ -956,6 +988,180 @@
 														"digest" : "",
 														"tags" : "",
 														"boxes" : [ 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-19",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patcher" : 																	{
+																		"fileversion" : 1,
+																		"appversion" : 																		{
+																			"major" : 6,
+																			"minor" : 1,
+																			"revision" : 7,
+																			"architecture" : "x64"
+																		}
+,
+																		"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+																		"bglocked" : 0,
+																		"openinpresentation" : 0,
+																		"default_fontsize" : 12.0,
+																		"default_fontface" : 0,
+																		"default_fontname" : "Arial",
+																		"gridonopen" : 0,
+																		"gridsize" : [ 15.0, 15.0 ],
+																		"gridsnaponopen" : 0,
+																		"statusbarvisible" : 2,
+																		"toolbarvisible" : 1,
+																		"boxanimatetime" : 200,
+																		"imprint" : 0,
+																		"enablehscroll" : 1,
+																		"enablevscroll" : 1,
+																		"devicewidth" : 0.0,
+																		"description" : "",
+																		"digest" : "",
+																		"tags" : "",
+																		"boxes" : [ 																			{
+																				"box" : 																				{
+																					"fontname" : "Arial",
+																					"fontsize" : 12.0,
+																					"id" : "obj-16",
+																					"maxclass" : "newobj",
+																					"numinlets" : 1,
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
+																					"patching_rect" : [ 50.0, 139.248962, 56.0, 20.0 ],
+																					"text" : "deferlow"
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"fontname" : "Arial",
+																					"fontsize" : 12.0,
+																					"id" : "obj-15",
+																					"maxclass" : "newobj",
+																					"numinlets" : 1,
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
+																					"patching_rect" : [ 50.0, 120.0, 56.0, 20.0 ],
+																					"text" : "deferlow"
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"fontname" : "Arial",
+																					"fontsize" : 12.0,
+																					"id" : "obj-14",
+																					"maxclass" : "newobj",
+																					"numinlets" : 1,
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
+																					"patching_rect" : [ 50.0, 100.0, 56.0, 20.0 ],
+																					"text" : "deferlow"
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"comment" : "",
+																					"id" : "obj-17",
+																					"maxclass" : "inlet",
+																					"numinlets" : 0,
+																					"numoutlets" : 1,
+																					"outlettype" : [ "bang" ],
+																					"patching_rect" : [ 50.0, 40.0, 25.0, 25.0 ]
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"comment" : "",
+																					"id" : "obj-18",
+																					"maxclass" : "outlet",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 50.0, 219.248962, 25.0, 25.0 ]
+																				}
+
+																			}
+ ],
+																		"lines" : [ 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-15", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-14", 0 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-16", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-15", 0 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-18", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-16", 0 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-14", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-17", 0 ]
+																				}
+
+																			}
+ ]
+																	}
+,
+																	"patching_rect" : [ 139.0, 41.248962, 56.0, 20.0 ],
+																	"saved_object_attributes" : 																	{
+																		"default_fontface" : 0,
+																		"default_fontname" : "Arial",
+																		"default_fontsize" : 12.0,
+																		"description" : "",
+																		"digest" : "",
+																		"fontface" : 0,
+																		"fontname" : "Arial",
+																		"fontsize" : 12.0,
+																		"globalpatchername" : "",
+																		"tags" : ""
+																	}
+,
+																	"text" : "p"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-11",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "bang" ],
+																	"patching_rect" : [ 139.0, 14.748962, 61.0, 20.0 ],
+																	"text" : "loadbang"
+																}
+
+															}
+, 															{
 																"box" : 																{
 																	"color" : [ 0.0, 0.572549, 0.811765, 1.0 ],
 																	"fontname" : "Arial",
@@ -1170,6 +1376,15 @@
 															}
 , 															{
 																"patchline" : 																{
+																	"destination" : [ "obj-19", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-11", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
 																	"destination" : [ "obj-2", 0 ],
 																	"disabled" : 0,
 																	"hidden" : 0,
@@ -1183,6 +1398,15 @@
 																	"disabled" : 0,
 																	"hidden" : 0,
 																	"source" : [ "obj-13", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-4", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-19", 0 ]
 																}
 
 															}
@@ -1496,7 +1720,7 @@
 															"major" : 6,
 															"minor" : 1,
 															"revision" : 7,
-															"architecture" : "x86"
+															"architecture" : "x64"
 														}
 ,
 														"rect" : [ 548.0, 471.0, 534.0, 255.0 ],
@@ -2097,35 +2321,35 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "noise.model.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI/max-package/patchers",
 				"patcherrelativepath" : "./max-package/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "color.model.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI/max-package/patchers",
 				"patcherrelativepath" : "./max-package/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "color-control.model.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI/max-package/patchers",
 				"patcherrelativepath" : "./max-package/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "render.model.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI/max-package/patchers",
 				"patcherrelativepath" : "./max-package/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "blur.model.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI/max-package/patchers",
 				"patcherrelativepath" : "./max-package/patchers",
 				"type" : "JSON",
 				"implicit" : 1
@@ -2139,147 +2363,161 @@
 			}
 , 			{
 				"name" : "plane.model.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI/max-package/patchers",
 				"patcherrelativepath" : "./max-package/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "lines.model.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI/max-package/patchers",
 				"patcherrelativepath" : "./max-package/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "framemotor.model.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI/max-package/patchers",
 				"patcherrelativepath" : "./max-package/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "syphonserver.model.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI/max-package/patchers",
 				"patcherrelativepath" : "./max-package/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "window.model.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI/max-package/patchers",
 				"patcherrelativepath" : "./max-package/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "syphonclient.model.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI/max-package/patchers",
 				"patcherrelativepath" : "./max-package/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "hap.model.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI/max-package/patchers",
+				"patcherrelativepath" : "./max-package/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "camera.model.maxpat",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI/max-package/patchers",
 				"patcherrelativepath" : "./max-package/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "soundtrack.model.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI/max-package/patchers",
 				"patcherrelativepath" : "./max-package/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "syphonclient.view.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI/max-package/patchers",
 				"patcherrelativepath" : "./max-package/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "plane.view.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI/max-package/patchers",
 				"patcherrelativepath" : "./max-package/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "noise.view.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI/max-package/patchers",
 				"patcherrelativepath" : "./max-package/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "color.view.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI/max-package/patchers",
 				"patcherrelativepath" : "./max-package/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "color-control.view.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI/max-package/patchers",
 				"patcherrelativepath" : "./max-package/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "render.view.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI/max-package/patchers",
 				"patcherrelativepath" : "./max-package/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "hap.view.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI/max-package/patchers",
 				"patcherrelativepath" : "./max-package/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "span.requests.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/span/max-package/patchers/requests",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/span/max-package/patchers/requests",
 				"patcherrelativepath" : "../span/max-package/patchers/requests",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "blur.view.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI/max-package/patchers",
 				"patcherrelativepath" : "./max-package/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "lines.view.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI/max-package/patchers",
 				"patcherrelativepath" : "./max-package/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "soundtrack.view.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI/max-package/patchers",
 				"patcherrelativepath" : "./max-package/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "syphonserver.view.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI/max-package/patchers",
 				"patcherrelativepath" : "./max-package/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "framemotor.view.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI/max-package/patchers",
+				"patcherrelativepath" : "./max-package/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "camera.view.maxpat",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI/max-package/patchers",
 				"patcherrelativepath" : "./max-package/patchers",
 				"type" : "JSON",
 				"implicit" : 1
@@ -2322,10 +2560,6 @@
 			}
 , 			{
 				"name" : "j.namespace.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jit.gl.hap.mxo",
 				"type" : "iLaX"
 			}
 , 			{
