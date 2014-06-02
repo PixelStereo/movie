@@ -689,6 +689,19 @@
 										"tags" : "",
 										"boxes" : [ 											{
 												"box" : 												{
+													"fontname" : "Helvetica Neue Light Italic",
+													"fontsize" : 12.0,
+													"id" : "obj-2",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 23.416626, 74.0, 150.0, 20.0 ],
+													"text" : "print TO_ARDUINO_VISCA"
+												}
+
+											}
+, 											{
+												"box" : 												{
 													"annotation" : "none",
 													"fontname" : "Helvetica Neue Light Italic",
 													"fontsize" : 12.0,
@@ -710,10 +723,9 @@
 													"id" : "obj-1",
 													"maxclass" : "newobj",
 													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 15.416626, 46.417175, 151.0, 20.0 ],
-													"text" : "j.send /span/osc/send/data"
+													"numoutlets" : 0,
+													"patching_rect" : [ 15.416626, 46.417175, 166.0, 20.0 ],
+													"text" : "udpsend 192.168.0.111 8888"
 												}
 
 											}
@@ -727,11 +739,19 @@
 												}
 
 											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-2", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-5", 0 ]
+												}
+
+											}
  ]
 									}
 ,
 									"patching_rect" : [ 91.333313, 27.75, 63.0, 22.0 ],
-									"presentation_rect" : [ 91.333313, 30.5, 0.0, 0.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
 										"default_fontname" : "Helvetica Neue Light Italic",
