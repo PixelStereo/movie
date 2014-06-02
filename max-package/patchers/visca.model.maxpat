@@ -287,8 +287,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 63.140381, 137.264404, 350.0, 20.0 ],
-									"text" : "j.parameter fx @type string @default off @range off negart bw"
+									"patching_rect" : [ 63.140381, 137.264404, 353.0, 20.0 ],
+									"text" : "j.parameter fx @type string @default off @range off \"neg art\" bw"
 								}
 
 							}
@@ -529,7 +529,8 @@
 					"id" : "obj-27",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
-					"numoutlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -539,7 +540,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 25.0, 69.0, 426.0, 296.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -560,15 +561,26 @@
 						"tags" : "",
 						"boxes" : [ 							{
 								"box" : 								{
+									"comment" : "",
+									"id" : "obj-7",
+									"maxclass" : "outlet",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 31.5, 243.0, 25.0, 25.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"fontname" : "Arial",
-									"fontsize" : 9.0,
-									"id" : "obj-1",
+									"fontsize" : 12.0,
+									"id" : "obj-6",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 104.5, 137.367126, 47.0, 17.0 ],
-									"text" : "tosymbol"
+									"patching_rect" : [ 106.5, 174.0, 134.0, 20.0 ],
+									"text" : "prepend memory/set"
 								}
 
 							}
@@ -576,14 +588,13 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : 0.0,
-									"id" : "obj-35",
-									"maxclass" : "comment",
+									"id" : "obj-5",
+									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 224.0, 285.0, 57.0, 20.0 ],
-									"text" : "/memory",
-									"textcolor" : [ 0.56112, 0.087567, 0.133955, 1.0 ]
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 70.5, 115.0, 134.0, 20.0 ],
+									"text" : "prepend memory/reset"
 								}
 
 							}
@@ -591,41 +602,28 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : 0.0,
-									"id" : "obj-24",
-									"maxclass" : "comment",
+									"id" : "obj-4",
+									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 199.5, 137.367126, 37.0, 20.0 ],
-									"text" : "reset"
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 31.5, 47.0, 134.0, 20.0 ],
+									"text" : "prepend memory/recall"
 								}
 
 							}
 , 							{
 								"box" : 								{
+									"color" : [ 0.0, 0.572549, 0.811765, 1.0 ],
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : 0.0,
-									"id" : "obj-16",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 199.5, 214.0, 27.0, 20.0 ],
-									"text" : "set"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"frgb" : 0.0,
 									"id" : "obj-3",
-									"maxclass" : "comment",
+									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 94.5, 214.0, 39.0, 20.0 ],
-									"text" : "recall"
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 106.5, 147.367126, 289.0, 20.0 ],
+									"text" : "j.message memory/set @type integer @range 0 5"
 								}
 
 							}
@@ -634,103 +632,13 @@
 									"color" : [ 0.0, 0.572549, 0.811765, 1.0 ],
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"id" : "obj-239",
+									"id" : "obj-2",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 104.5, 169.867126, 93.0, 20.0 ],
-									"text" : "j.parameter WB"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"bgcolor" : [ 0.972549, 0.692801, 0.211183, 1.0 ],
-									"bgcolor2" : [ 0.54902, 0.54902, 0.54902, 1.0 ],
-									"discolor" : [ 0.439216, 0.439216, 0.439216, 1.0 ],
-									"fontname" : "Arial",
-									"fontsize" : 10.0,
-									"framecolor" : [ 0.015686, 0.015686, 0.015686, 1.0 ],
-									"hltcolor" : [ 0.972549, 0.207843, 0.0, 1.0 ],
-									"id" : "obj-168",
-									"items" : [ 0, ",", 1, ",", 2, ",", 3, ",", 4, ",", 5 ],
-									"maxclass" : "umenu",
-									"numinlets" : 1,
-									"numoutlets" : 3,
-									"outlettype" : [ "int", "", "" ],
-									"parameter_enable" : 0,
-									"patching_rect" : [ 199.5, 157.367126, 68.0, 18.0 ],
-									"pattrmode" : 1,
-									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"textcolor2" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"togcolor" : [ 0.552941, 0.552941, 0.552941, 1.0 ],
-									"varname" : "picEx[3]"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"color" : [ 0.0, 0.572549, 0.811765, 1.0 ],
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-169",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 199.5, 185.367126, 141.0, 20.0 ],
-									"text" : "j.message memory/reset"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"bgcolor" : [ 0.972549, 0.207843, 0.0, 1.0 ],
-									"bgcolor2" : [ 0.54902, 0.54902, 0.54902, 1.0 ],
-									"discolor" : [ 0.439216, 0.439216, 0.439216, 1.0 ],
-									"fontname" : "Arial",
-									"fontsize" : 10.0,
-									"framecolor" : [ 0.015686, 0.015686, 0.015686, 1.0 ],
-									"hltcolor" : [ 0.972549, 0.207843, 0.0, 1.0 ],
-									"id" : "obj-11",
-									"items" : [ 0, ",", 1, ",", 2, ",", 3, ",", 4, ",", 5 ],
-									"maxclass" : "umenu",
-									"numinlets" : 1,
-									"numoutlets" : 3,
-									"outlettype" : [ "int", "", "" ],
-									"parameter_enable" : 0,
-									"patching_rect" : [ 199.5, 234.0, 68.0, 18.0 ],
-									"pattrmode" : 1,
-									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"textcolor2" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"togcolor" : [ 0.552941, 0.552941, 0.552941, 1.0 ],
-									"varname" : "picEx[2]"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"bgcolor" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
-									"bgcolor2" : [ 0.54902, 0.54902, 0.54902, 1.0 ],
-									"discolor" : [ 0.439216, 0.439216, 0.439216, 1.0 ],
-									"fontname" : "Arial",
-									"fontsize" : 10.0,
-									"framecolor" : [ 0.015686, 0.015686, 0.015686, 1.0 ],
-									"hltcolor" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
-									"id" : "obj-12",
-									"items" : [ 0, ",", 1, ",", 2, ",", 3, ",", 4, ",", 5 ],
-									"maxclass" : "umenu",
-									"numinlets" : 1,
-									"numoutlets" : 3,
-									"outlettype" : [ "int", "", "" ],
-									"parameter_enable" : 0,
-									"patching_rect" : [ 94.5, 234.0, 68.0, 18.0 ],
-									"pattrmode" : 1,
-									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"textcolor2" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"togcolor" : [ 0.552941, 0.552941, 0.552941, 1.0 ],
-									"varname" : "picEx[1]"
+									"patching_rect" : [ 70.5, 89.0, 289.0, 20.0 ],
+									"text" : "j.message memory/reset @type integer @range 0 5"
 								}
 
 							}
@@ -744,97 +652,63 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 94.5, 262.0, 143.0, 20.0 ],
-									"text" : "j.message memory/recall"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"color" : [ 0.0, 0.572549, 0.811765, 1.0 ],
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-14",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 199.5, 262.0, 129.0, 20.0 ],
-									"text" : "j.message memory/set"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Helvetica Light Oblique",
-									"fontsize" : 12.0,
-									"id" : "obj-135",
-									"items" : [ "auto", ",", "indoor", ",", "outdoor", ",", "onepush", ",", "manual", ",", "ATW", ",", "outdoor", "auto", ",", "sodium", "lamp", "auto", ",", "sodium", "lamp" ],
-									"maxclass" : "umenu",
-									"numinlets" : 1,
-									"numoutlets" : 3,
-									"outlettype" : [ "int", "", "" ],
-									"parameter_enable" : 0,
-									"patching_rect" : [ 56.0, 112.367126, 116.0, 18.0 ],
-									"pattrmode" : 1,
-									"varname" : "WB"
+									"patching_rect" : [ 31.5, 14.0, 289.0, 20.0 ],
+									"text" : "j.message memory/recall @type integer @range 0 5"
 								}
 
 							}
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
-									"destination" : [ "obj-239", 0 ],
+									"destination" : [ "obj-4", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-1", 0 ]
+									"source" : [ "obj-13", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-14", 0 ],
+									"destination" : [ "obj-5", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-11", 0 ]
+									"source" : [ "obj-2", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-13", 0 ],
+									"destination" : [ "obj-6", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-12", 0 ]
+									"source" : [ "obj-3", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-1", 0 ],
+									"destination" : [ "obj-7", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 114.0, 133.367126, 114.0, 133.367126 ],
-									"source" : [ "obj-135", 1 ]
+									"source" : [ "obj-4", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-169", 0 ],
+									"destination" : [ "obj-7", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-168", 0 ]
+									"source" : [ "obj-5", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-135", 0 ],
+									"destination" : [ "obj-7", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 114.0, 194.867126, 52.0, 194.867126, 52.0, 102.367126, 65.5, 102.367126 ],
-									"source" : [ "obj-239", 0 ]
+									"source" : [ "obj-6", 0 ]
 								}
 
 							}
@@ -878,7 +752,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 25.0, 69.0, 337.0, 230.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -906,7 +780,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 341.0, 151.5, 114.0, 20.0 ],
+									"patching_rect" : [ 110.0, 113.5, 114.0, 20.0 ],
 									"text" : "prepend /wb/trigger"
 								}
 
@@ -920,7 +794,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 151.5, 77.0, 20.0 ],
+									"patching_rect" : [ 20.0, 113.5, 77.0, 20.0 ],
 									"text" : "prepend /wb"
 								}
 
@@ -936,8 +810,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 50.0, 100.0, 278.0, 47.0 ],
-									"text" : "j.parameter wb @type string @range auto indoor outdoor onepush manual ATW outdoor_auto sodium_lamp_auto sodium_lamp @default auto"
+									"patching_rect" : [ 20.0, 21.0, 281.0, 47.0 ],
+									"text" : "j.parameter wb @type string @range auto indoor outdoor \"one push\" manual ATW \"outdoor auto\" \"sodium lamp auto\" \"sodium lamp\" @default auto"
 								}
 
 							}
@@ -951,8 +825,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 341.0, 113.5, 125.0, 20.0 ],
-									"text" : "j.message WB/trigger"
+									"patching_rect" : [ 110.0, 80.5, 125.0, 20.0 ],
+									"text" : "j.message wb/trigger"
 								}
 
 							}
@@ -963,7 +837,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 190.5, 231.5, 25.0, 25.0 ]
+									"patching_rect" : [ 20.0, 167.5, 25.0, 25.0 ]
 								}
 
 							}

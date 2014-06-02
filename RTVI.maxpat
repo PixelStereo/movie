@@ -668,7 +668,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 76.0, 483.0, 212.0, 96.0 ],
+										"rect" : [ 76.0, 483.0, 316.0, 97.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -695,7 +695,7 @@
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 23.416626, 74.0, 150.0, 20.0 ],
+													"patching_rect" : [ 134.416626, 16.0, 150.0, 20.0 ],
 													"text" : "print TO_ARDUINO_VISCA"
 												}
 
