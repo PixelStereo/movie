@@ -104,7 +104,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 33.150146, 17.75, 436.0, 20.0 ],
-									"text" : "j.parameter mode @type string @default auto @range \"auto manual iris shutter\""
+									"text" : "j.parameter mode @type string @default auto @range auto manual iris shutter"
 								}
 
 							}
@@ -287,7 +287,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 134.140381, 291.057617, 465.0, 20.0 ],
-									"text" : "j.parameter chromasupress @type string @default off @range \"off light medium hard\""
+									"text" : "j.parameter chromasupress @type string @default off @range off light medium hard"
 								}
 
 							}
@@ -302,7 +302,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 63.140381, 137.264404, 350.0, 20.0 ],
-									"text" : "j.parameter fx @type string @default off @range \"off negart bw\""
+									"text" : "j.parameter fx @type string @default off @range off negart bw"
 								}
 
 							}
@@ -960,7 +960,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 50.0, 100.0, 278.0, 47.0 ],
-									"text" : "j.parameter wb @type string @range \"auto indoor outdoor onepush manual ATW outdoor_auto  sodium_lamp_auto sodium_lamp\" @default auto"
+									"text" : "j.parameter wb @type string @range auto indoor outdoor onepush manual ATW outdoor_auto  sodium_lamp_auto sodium_lamp @default auto"
 								}
 
 							}
@@ -1764,7 +1764,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 240.0, 161.162842, 150.0, 60.0 ],
-									"text" : "@range \"home reset upleft up upright left stop right downleft down downright\""
+									"text" : "@range home reset upleft up upright left stop right downleft down downright"
 								}
 
 							}
@@ -2062,7 +2062,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 47.5, 72.481323, 331.0, 20.0 ],
-									"text" : "j.parameter zoom/standard @type string @range \"wide tele\""
+									"text" : "j.parameter zoom/standard @type string @range wide tele"
 								}
 
 							}
@@ -2325,7 +2325,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 80.136719, 124.700195, 442.0, 20.0 ],
-									"text" : "j.parameter focus/sensitivity @type string @range \"normal auto\" @default normal"
+									"text" : "j.parameter focus/sensitivity @type string @range normal auto @default normal"
 								}
 
 							}
@@ -2437,7 +2437,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 121.0, 237.400391, 325.0, 20.0 ],
-									"text" : "j.parameter focus/standard @type string @range \"near far\""
+									"text" : "j.parameter focus/standard @type string @range near far"
 								}
 
 							}
@@ -2452,7 +2452,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 137.0, 293.750488, 332.0, 20.0 ],
-									"text" : "j.parameter focus/mode @type string @range \"auto manual\""
+									"text" : "j.parameter focus/mode @type string @range auto manual"
 								}
 
 							}
@@ -2688,7 +2688,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 62.661865, 81.051453, 279.0, 20.0 ],
-					"text" : "j.message init @type string @range \"lens camera\""
+					"text" : "j.message init @type string @range lens camera"
 				}
 
 			}
