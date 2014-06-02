@@ -5,7 +5,7 @@
 			"major" : 6,
 			"minor" : 1,
 			"revision" : 7,
-			"architecture" : "x64"
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 146.0, 73.0, 1142.0, 831.0 ],
@@ -37,7 +37,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 77.5, 345.75, 107.0, 17.0 ],
-					"presentation_rect" : [ 79.5, 349.75, 0.0, 0.0 ],
 					"text" : "substitute set setsymbol"
 				}
 
@@ -52,7 +51,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 732.0, 59.75, 107.0, 17.0 ],
-					"presentation_rect" : [ 974.5, 126.75, 0.0, 0.0 ],
 					"text" : "substitute set setsymbol"
 				}
 
@@ -82,8 +80,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 153.5, 765.714294, 74.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 6,
-					"presentation_rect" : [ 158.5, 770.714294, 22.0, 78.0 ],
+					"presentation_rect" : [ 4.0, 334.0, 74.0, 18.0 ],
 					"text" : "ir/correction"
 				}
 
@@ -106,7 +103,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 86.0, 745.714294, 119.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 87.0, 745.714294, 100.625, 20.0 ],
+					"presentation_rect" : [ 79.5, 334.0, 100.625, 20.0 ],
 					"text" : "off",
 					"texton" : "on",
 					"textoncolor" : [ 0.467332, 0.467332, 0.467332, 1.0 ],
@@ -303,7 +300,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 486.5, 291.798676, 30.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 12.0, 319.0, 30.0, 18.0 ],
+					"presentation_rect" : [ 12.0, 313.0, 30.0, 18.0 ],
 					"text" : "WD"
 				}
 
@@ -319,8 +316,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 153.5, 714.714294, 53.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 4,
-					"presentation_rect" : [ 12.0, 293.0, 22.0, 54.0 ],
+					"presentation_rect" : [ 12.0, 290.0, 53.0, 18.0 ],
 					"text" : "ir/active"
 				}
 
@@ -358,7 +354,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 41.0, 686.714294, 119.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 79.5, 292.0, 100.625, 20.0 ],
+					"presentation_rect" : [ 79.5, 289.0, 100.625, 20.0 ],
 					"text" : "off",
 					"texton" : "on",
 					"textoncolor" : [ 0.467332, 0.467332, 0.467332, 1.0 ],
@@ -598,7 +594,7 @@
 					"fontsize" : 12.0,
 					"id" : "obj-46",
 					"maxclass" : "number",
-					"maximum" : 8,
+					"maximum" : 17,
 					"minimum" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -620,8 +616,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 673.0, 791.214294, 90.0, 20.0 ],
-					"text" : "j.remote speed"
+					"patching_rect" : [ 673.0, 791.214294, 114.0, 20.0 ],
+					"text" : "j.remote pos/speed"
 				}
 
 			}
@@ -1568,7 +1564,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 397.5, 264.727264, 119.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 79.5, 319.0, 100.625, 19.0 ],
+					"presentation_rect" : [ 79.5, 313.0, 100.625, 19.0 ],
 					"text" : "off",
 					"texton" : "on",
 					"textoncolor" : [ 0.467332, 0.467332, 0.467332, 1.0 ],

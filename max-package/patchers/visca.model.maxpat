@@ -69,27 +69,13 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"id" : "obj-5",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 155.925537, 59.0, 50.0, 18.0 ],
-									"text" : "bang"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
 									"id" : "obj-28",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 33.150146, 51.25, 88.0, 20.0 ],
-									"text" : "prepend mode"
+									"patching_rect" : [ 33.150146, 51.25, 96.0, 20.0 ],
+									"text" : "prepend /mode"
 								}
 
 							}
@@ -373,15 +359,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-28", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-241", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-5", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-241", 0 ]
@@ -960,7 +937,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 50.0, 100.0, 278.0, 47.0 ],
-									"text" : "j.parameter wb @type string @range auto indoor outdoor onepush manual ATW outdoor_auto  sodium_lamp_auto sodium_lamp @default auto"
+									"text" : "j.parameter wb @type string @range auto indoor outdoor onepush manual ATW outdoor_auto sodium_lamp_auto sodium_lamp @default auto"
 								}
 
 							}
@@ -1763,7 +1740,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 240.0, 161.162842, 150.0, 60.0 ],
+									"patching_rect" : [ 240.0, 161.162842, 146.0, 60.0 ],
 									"text" : "@range home reset upleft up upright left stop right downleft down downright"
 								}
 
@@ -1821,8 +1798,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 50.0, 100.0, 130.0, 20.0 ],
-									"text" : "j.parameter pos/speed"
+									"patching_rect" : [ 50.0, 100.0, 343.0, 20.0 ],
+									"text" : "j.parameter pos/speed @type integer @range 0 17 @default 5"
 								}
 
 							}
@@ -2369,7 +2346,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 201.0, 434.625732, 158.0, 20.0 ],
-									"text" : "prepend /focus/varable/far"
+									"text" : "prepend /focus/variable/far"
 								}
 
 							}
@@ -2382,8 +2359,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 166.0, 378.275635, 158.0, 20.0 ],
-									"text" : "prepend /focus/varable/near"
+									"patching_rect" : [ 166.0, 378.275635, 164.0, 20.0 ],
+									"text" : "prepend /focus/variable/near"
 								}
 
 							}
