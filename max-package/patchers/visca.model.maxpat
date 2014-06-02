@@ -1734,7 +1734,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1757,12 +1757,27 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-2",
+									"linecount" : 4,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 240.0, 161.162842, 150.0, 60.0 ],
+									"text" : "@range \"home reset upleft up upright left stop right downleft down downright\""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
 									"id" : "obj-7",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 69.564697, 191.162842, 81.0, 20.0 ],
+									"patching_rect" : [ 69.564697, 204.162842, 81.0, 20.0 ],
 									"text" : "prepend /pos"
 								}
 
@@ -1787,13 +1802,12 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-72",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 69.564697, 161.162842, 306.0, 33.0 ],
-									"text" : "j.message pos @type string @range \"home reset upleft up upright left stop right downleft down downright\""
+									"patching_rect" : [ 69.564697, 161.162842, 159.0, 20.0 ],
+									"text" : "j.message pos @type string"
 								}
 
 							}
