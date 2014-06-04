@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 468.0, 421.0, 1143.0, 451.0 ],
+		"rect" : [ 291.0, 350.0, 1143.0, 451.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -64,6 +64,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 842.0, 408.0, 37.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "out 1"
 				}
 
@@ -78,6 +82,10 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 842.0, 323.0, 30.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "in 1"
 				}
 
@@ -1148,14 +1156,16 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.0, 0.572549, 0.811765, 0.69 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-6",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 457.5, 293.0, 214.0, 20.0 ],
-					"text" : "s #1/duration"
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 457.5, 293.0, 95.0, 20.0 ],
+					"text" : "j.return duration"
 				}
 
 			}
@@ -1302,7 +1312,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 71.5, 8.960205, 122.5, 60.0 ],
+					"patching_rect" : [ 71.5, 8.960205, 98.5, 60.0 ],
 					"text" : "j.parameter file @type string @default <none>"
 				}
 
