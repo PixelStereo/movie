@@ -32,6 +32,22 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-4",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 211.0, 36.0, 150.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 189.0, 23.0, 27.0, 20.0 ],
+					"text" : "fps"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-3",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -55,7 +71,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 152.0, 14.5, 66.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 150.0, 23.0, 66.0, 33.0 ]
+					"presentation_rect" : [ 117.0, 10.0, 66.0, 33.0 ]
 				}
 
 			}
@@ -118,8 +134,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 16.0, 199.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 2.0, 150.0, 20.0 ],
-					"text" : "/noModelAddress"
+					"presentation_rect" : [ 4.0, 2.0, 150.0, 20.0 ]
 				}
 
 			}
