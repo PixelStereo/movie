@@ -52,7 +52,7 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "none",
+					"annotation" : "framemotor engine",
 					"color" : [ 0.572549, 0.0, 0.811765, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -62,7 +62,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 5.0, 56.08551, 172.0, 20.0 ],
-					"text" : "framemotor.model #1"
+					"text" : "framemotor.model #1 #2"
 				}
 
 			}
@@ -102,14 +102,14 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "framemotor.view.maxpat",
-				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI/lightmovie/framemotor",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI/max-package/patchers/framemotor",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "framemotor.model.maxpat",
-				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI/lightmovie/framemotor",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI/max-package/patchers/framemotor",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -128,6 +128,10 @@
 			}
 , 			{
 				"name" : "j.remote.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.send.mxo",
 				"type" : "iLaX"
 			}
 , 			{
