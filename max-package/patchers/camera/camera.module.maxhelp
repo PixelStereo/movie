@@ -5,10 +5,10 @@
 			"major" : 6,
 			"minor" : 1,
 			"revision" : 7,
-			"architecture" : "x64"
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 25.0, 69.0, 680.0, 427.0 ],
+		"rect" : [ 25.0, 69.0, 548.0, 395.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,12 +45,13 @@
 					"fontname" : "Helvetica Neue Light Italic",
 					"fontsize" : 12.0,
 					"id" : "obj-2",
+					"linecount" : 4,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 20.0, 289.0, 405.0, 20.0 ],
-					"text" : "jit.gl.videoplane CameraHelpModule @transform_reset 2 @texture NoiseHelp"
+					"patching_rect" : [ 20.0, 287.0, 127.0, 62.0 ],
+					"text" : "jit.gl.videoplane CameraHelpModule @transform_reset 2 @texture CamHelp"
 				}
 
 			}
@@ -62,8 +63,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 65.0, 220.0, 153.0, 20.0 ],
-					"text" : "s CameraHelpModule /step"
+					"patching_rect" : [ 65.0, 220.0, 149.0, 20.0 ],
+					"text" : "s CameraHelpModule/step"
 				}
 
 			}
@@ -123,7 +124,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "CamHelp", "HelpRender" ],
+					"args" : [ "CamHelp", "CameraHelpModule" ],
 					"id" : "obj-8",
 					"maxclass" : "bpatcher",
 					"name" : "camera.module.maxpat",
@@ -174,21 +175,21 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "camera.module.maxpat",
-				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI/max-package/patchers/camera",
+				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers/camera",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camera.model.maxpat",
-				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI/max-package/patchers/camera",
+				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers/camera",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camera.view.maxpat",
-				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI/max-package/patchers/camera",
+				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers/camera",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
