@@ -5,12 +5,12 @@
 			"major" : 6,
 			"minor" : 1,
 			"revision" : 7,
-			"architecture" : "x86"
+			"architecture" : "x64"
 		}
 ,
 		"rect" : [ 63.0, 84.0, 507.0, 140.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 0,
+		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -29,43 +29,87 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"color" : [ 0.572549, 0.0, 0.811765, 1.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-31",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
+					"comment" : "",
+					"id" : "obj-4",
+					"maxclass" : "outlet",
+					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6.0, 13.58551, 172.0, 20.0 ],
-					"text" : "framemotor.model framemotor"
+					"patching_rect" : [ 5.0, 79.0, 25.0, 25.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "framemotor" ],
+					"comment" : "",
+					"id" : "obj-1",
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 5.0, 19.0, 25.0, 25.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"annotation" : "none",
+					"color" : [ 0.572549, 0.0, 0.811765, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-31",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 5.0, 56.08551, 172.0, 20.0 ],
+					"text" : "framemotor.model #1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"annotation" : "none",
 					"id" : "obj-24",
 					"maxclass" : "bpatcher",
 					"name" : "framemotor.view.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 187.0, 13.58551, 300.0, 105.0 ],
-					"presentation_rect" : [ 115.0, 309.0, 300.0, 105.0 ]
+					"presentation" : 1,
+					"presentation_rect" : [ -2.0, -0.41449, 300.0, 105.0 ]
 				}
 
 			}
  ],
-		"lines" : [  ],
+		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-31", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-31", 0 ]
+				}
+
+			}
+ ],
 		"dependency_cache" : [ 			{
 				"name" : "framemotor.view.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/lightmovie/max-package/patchers/framemotor",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI/lightmovie/framemotor",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "framemotor.model.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/lightmovie/max-package/patchers/framemotor",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI/lightmovie/framemotor",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
