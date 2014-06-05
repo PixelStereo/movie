@@ -5,7 +5,7 @@
 			"major" : 6,
 			"minor" : 1,
 			"revision" : 7,
-			"architecture" : "x86"
+			"architecture" : "x64"
 		}
 ,
 		"rect" : [ 101.0, 451.0, 505.0, 247.0 ],
@@ -179,7 +179,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 14.0, 14.0, 303.0, 20.0 ],
-					"text" : "j.parameter sw @type boolean @default 0"
+					"text" : "j.parameter active @type boolean @default 0"
 				}
 
 			}
