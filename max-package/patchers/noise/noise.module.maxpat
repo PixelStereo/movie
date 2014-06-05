@@ -5,7 +5,7 @@
 			"major" : 6,
 			"minor" : 1,
 			"revision" : 7,
-			"architecture" : "x86"
+			"architecture" : "x64"
 		}
 ,
 		"rect" : [ 159.0, 529.0, 425.0, 214.0 ],
@@ -35,9 +35,9 @@
 					"id" : "obj-5",
 					"maxclass" : "bpatcher",
 					"name" : "noise.view.maxpat",
-					"numinlets" : 0,
+					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 0.0, 306.0, 77.0 ],
+					"patching_rect" : [ 0.0, 0.0, 249.0, 74.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 261.0, 70.0 ]
 				}
@@ -45,7 +45,7 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "none",
+					"annotation" : "noise generator",
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-4",
@@ -53,8 +53,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 6.0, 129.0, 96.0, 19.0 ],
-					"text" : "noise.model #1"
+					"patching_rect" : [ 6.0, 129.0, 243.0, 19.0 ],
+					"text" : "noise.model #1 #2"
 				}
 
 			}
@@ -103,14 +103,14 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "noise.model.maxpat",
-				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI/max-package/patchers/noise",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "noise.view.maxpat",
-				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI/max-package/patchers/noise",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -129,6 +129,14 @@
 			}
 , 			{
 				"name" : "j.remote.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.receive.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.send.mxo",
 				"type" : "iLaX"
 			}
  ]
