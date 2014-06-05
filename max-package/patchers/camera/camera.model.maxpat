@@ -5,7 +5,7 @@
 			"major" : 6,
 			"minor" : 1,
 			"revision" : 7,
-			"architecture" : "x86"
+			"architecture" : "x64"
 		}
 ,
 		"rect" : [ 869.0, 580.0, 601.0, 255.0 ],
@@ -57,7 +57,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 7,
-							"architecture" : "x86"
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 1037.0, 364.0, 643.0, 354.0 ],
@@ -86,8 +86,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 186.0, 300.0, 25.0, 25.0 ],
-									"presentation_rect" : [ 234.0, 300.0, 0.0, 0.0 ]
+									"patching_rect" : [ 186.0, 300.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -509,7 +508,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 7,
-							"architecture" : "x86"
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 821.0, 253.0 ],
@@ -539,8 +538,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 547.5, 53.006195, 25.0, 25.0 ],
-									"presentation_rect" : [ 551.0, 52.006195, 0.0, 0.0 ]
+									"patching_rect" : [ 547.5, 53.006195, 25.0, 25.0 ]
 								}
 
 							}
@@ -848,7 +846,7 @@
 									"destination" : [ "obj-23", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 207.699341, 93.893738, 319.316956, 93.893738 ],
+									"midpoints" : [ 207.699333, 93.893738, 319.316956, 93.893738 ],
 									"source" : [ "obj-32", 1 ]
 								}
 
@@ -858,7 +856,7 @@
 									"destination" : [ "obj-27", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 207.699341, 74.893738, 206.314209, 74.893738 ],
+									"midpoints" : [ 207.699333, 74.893738, 206.314209, 74.893738 ],
 									"source" : [ "obj-32", 1 ]
 								}
 
@@ -1056,7 +1054,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 14.0, 6.0, 267.0, 20.0 ],
-					"text" : "j.parameter sw @type boolean @default 0"
+					"text" : "j.parameter active @type boolean @default 0"
 				}
 
 			}
@@ -1257,6 +1255,23 @@
 					"source" : [ "obj-8", 0 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "j.parameter.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.model.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.message.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.init.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}

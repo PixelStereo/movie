@@ -5,7 +5,7 @@
 			"major" : 6,
 			"minor" : 1,
 			"revision" : 7,
-			"architecture" : "x86"
+			"architecture" : "x64"
 		}
 ,
 		"rect" : [ 96.0, 51.0, 915.0, 648.0 ],
@@ -37,7 +37,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 455.0, 501.5, 249.0, 18.0 ],
-					"presentation_rect" : [ 302.0, 324.0, 0.0, 0.0 ],
 					"text" : "filter/set myAddressFilter object Data value 1"
 				}
 
@@ -51,9 +50,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 359.0, 152.0, 258.0, 18.0 ],
-					"presentation_rect" : [ 359.0, 152.0, 0.0, 0.0 ],
-					"text" : "filter/set myAddressFilter object Data name sw"
+					"patching_rect" : [ 359.0, 152.0, 276.0, 18.0 ],
+					"text" : "filter/set myAddressFilter object Data name active"
 				}
 
 			}
@@ -67,7 +65,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 443.0, 533.5, 285.0, 18.0 ],
-					"presentation_rect" : [ 349.0, 421.0, 0.0, 0.0 ],
 					"text" : "filter/set myAddressFilter object Data attribute value"
 				}
 
@@ -95,8 +92,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 759.0, 11.0, 110.0, 18.0 ],
-					"presentation_rect" : [ 239.0, 64.0, 0.0, 0.0 ],
+					"patching_rect" : [ 771.0, 11.0, 110.0, 18.0 ],
 					"text" : "model instance 1"
 				}
 
@@ -110,8 +106,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 586.0, 11.0, 165.0, 18.0 ],
-					"presentation_rect" : [ 595.0, 13.0, 0.0, 0.0 ],
+					"patching_rect" : [ 598.0, 11.0, 165.0, 18.0 ],
 					"text" : "parameter service parameter"
 				}
 
@@ -125,8 +120,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 475.0, 11.0, 105.0, 18.0 ],
-					"presentation_rect" : [ 571.0, 20.0, 0.0, 0.0 ],
+					"patching_rect" : [ 487.0, 11.0, 105.0, 18.0 ],
 					"text" : "parameter value 1"
 				}
 
@@ -140,8 +134,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 347.0, 11.0, 117.0, 18.0 ],
-					"text" : "parameter name sw"
+					"patching_rect" : [ 347.0, 11.0, 133.0, 18.0 ],
+					"text" : "parameter name active"
 				}
 
 			}
@@ -155,7 +149,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 554.0, 274.0, 50.0, 33.0 ],
+					"patching_rect" : [ 554.0, 274.0, 52.0, 33.0 ],
 					"text" : "append value"
 				}
 
@@ -771,6 +765,11 @@
 					"source" : [ "obj-9", 0 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "j.namespace.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}

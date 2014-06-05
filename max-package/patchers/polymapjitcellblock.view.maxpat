@@ -5,7 +5,7 @@
 			"major" : 6,
 			"minor" : 1,
 			"revision" : 7,
-			"architecture" : "x86"
+			"architecture" : "x64"
 		}
 ,
 		"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -43,7 +43,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 7,
-							"architecture" : "x86"
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 595.0, 327.0, 833.0, 538.0 ],
@@ -65,6 +65,7 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -205,7 +206,7 @@
 											"major" : 6,
 											"minor" : 1,
 											"revision" : 7,
-											"architecture" : "x86"
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 597.0, 271.0, 640.0, 480.0 ],
@@ -443,7 +444,7 @@
 											"major" : 6,
 											"minor" : 1,
 											"revision" : 7,
-											"architecture" : "x86"
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 25.0, 69.0, 211.0, 423.0 ],
@@ -849,7 +850,7 @@
 											"major" : 6,
 											"minor" : 1,
 											"revision" : 7,
-											"architecture" : "x86"
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 25.0, 69.0, 211.0, 423.0 ],
@@ -1255,7 +1256,7 @@
 											"major" : 6,
 											"minor" : 1,
 											"revision" : 7,
-											"architecture" : "x86"
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 79.0, 576.0, 159.0, 269.0 ],
@@ -1380,7 +1381,7 @@
 													"maxclass" : "inlet",
 													"numinlets" : 0,
 													"numoutlets" : 1,
-													"outlettype" : [ "" ],
+													"outlettype" : [ "int" ],
 													"patching_rect" : [ 18.0, 26.0, 25.0, 25.0 ]
 												}
 
@@ -1539,8 +1540,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 51.0, 40.0, 72.0, 20.0 ],
-									"text" : "j.receive sw"
+									"patching_rect" : [ 51.0, 40.0, 91.0, 20.0 ],
+									"text" : "j.receive active"
 								}
 
 							}
@@ -1801,7 +1802,7 @@
 									"destination" : [ "obj-131", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 260.666687, 478.75, 336.5, 478.75, 336.5, 336.75, 224.5, 336.75 ],
+									"midpoints" : [ 260.666672, 478.75, 336.5, 478.75, 336.5, 336.75, 224.5, 336.75 ],
 									"source" : [ "obj-132", 1 ]
 								}
 

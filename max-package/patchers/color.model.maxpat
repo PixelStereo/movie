@@ -5,7 +5,7 @@
 			"major" : 6,
 			"minor" : 1,
 			"revision" : 7,
-			"architecture" : "x86"
+			"architecture" : "x64"
 		}
 ,
 		"rect" : [ 669.0, 244.0, 538.0, 408.0 ],
@@ -38,7 +38,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 206.5, 187.0, 311.0, 20.0 ],
-					"text" : "j.parameter sw @default 0 @type boolean"
+					"text" : "j.parameter active @default 0 @type boolean"
 				}
 
 			}
@@ -497,6 +497,15 @@
 					"source" : [ "obj-88", 0 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "j.parameter.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.model.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}
