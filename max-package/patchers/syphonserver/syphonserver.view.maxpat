@@ -5,7 +5,7 @@
 			"major" : 6,
 			"minor" : 1,
 			"revision" : 7,
-			"architecture" : "x86"
+			"architecture" : "x64"
 		}
 ,
 		"rect" : [ 800.0, 506.0, 640.0, 480.0 ],
@@ -30,16 +30,14 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"handoff" : "",
-					"hltcolor" : [ 1.0, 0.0, 0.0, 0.5 ],
 					"id" : "obj-20",
-					"maxclass" : "ubutton",
+					"maxclass" : "button",
 					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "bang", "bang", "", "int" ],
-					"patching_rect" : [ 152.0, 73.0, 33.0, 42.0 ],
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 152.0, 73.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 0.5, 72.0, 20.0 ]
+					"presentation_rect" : [ 171.0, 0.5, 20.0, 20.0 ]
 				}
 
 			}
@@ -82,7 +80,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 433.0, 139.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 0.5, 150.0, 20.0 ]
+					"presentation_rect" : [ 4.0, 0.5, 150.0, 20.0 ],
+					"text" : "/noModelAddress"
 				}
 
 			}
@@ -135,8 +134,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 27.0, 54.0, 72.0, 20.0 ],
-					"text" : "j.remote sw"
+					"patching_rect" : [ 27.0, 54.0, 90.0, 20.0 ],
+					"text" : "j.remote active"
 				}
 
 			}

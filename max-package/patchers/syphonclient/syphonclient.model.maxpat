@@ -8,7 +8,7 @@
 			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 675.0, 239.0, 1036.0, 478.0 ],
+		"rect" : [ 675.0, 239.0, 804.0, 394.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -55,20 +55,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"frgb" : 0.0,
-					"id" : "obj-20",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 437.0, 424.0, 150.0, 20.0 ],
-					"text" : "@defaultimage black"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"color" : [ 0.0, 0.572549, 0.811765, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -77,7 +63,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 759.684326, 97.102234, 96.0, 20.0 ],
+					"patching_rect" : [ 579.5, 40.102234, 96.0, 20.0 ],
 					"text" : "j.send getserver"
 				}
 
@@ -93,7 +79,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 14.0, 5.102234, 267.0, 20.0 ],
-					"text" : "j.parameter sw @type boolean @default 0"
+					"text" : "j.parameter active @type boolean @default 0"
 				}
 
 			}
@@ -136,7 +122,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 384.5, 363.181824, 86.0, 20.0 ],
+					"patching_rect" : [ 384.5, 317.181824, 86.0, 20.0 ],
 					"text" : "j.return applist"
 				}
 
@@ -151,7 +137,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 174.0, 363.181824, 181.0, 20.0 ],
+					"patching_rect" : [ 174.0, 317.181824, 181.0, 20.0 ],
 					"text" : "j.return serverlist"
 				}
 
@@ -209,7 +195,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 174.0, 265.181824, 34.0, 20.0 ],
+					"patching_rect" : [ 174.0, 219.181824, 34.0, 20.0 ],
 					"text" : "t 0 0"
 				}
 
@@ -223,7 +209,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 585.0, 267.181824, 37.0, 18.0 ],
+					"patching_rect" : [ 585.0, 221.181824, 37.0, 18.0 ],
 					"text" : "clear"
 				}
 
@@ -238,7 +224,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 585.0, 231.181824, 60.0, 20.0 ],
+					"patching_rect" : [ 585.0, 185.181824, 60.0, 20.0 ],
 					"text" : "loadbang"
 				}
 
@@ -252,7 +238,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "clear" ],
-					"patching_rect" : [ 468.25, 298.0, 43.0, 20.0 ],
+					"patching_rect" : [ 468.25, 252.0, 43.0, 20.0 ],
 					"text" : "t clear"
 				}
 
@@ -281,7 +267,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 384.5, 298.0, 56.0, 33.0 ],
+					"patching_rect" : [ 384.5, 252.0, 56.0, 33.0 ],
 					"text" : "prepend append"
 				}
 
@@ -296,7 +282,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 300.75, 298.0, 56.0, 33.0 ],
+					"patching_rect" : [ 300.75, 252.0, 56.0, 33.0 ],
 					"text" : "prepend append"
 				}
 
@@ -310,7 +296,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
-					"patching_rect" : [ 217.0, 267.181824, 354.0, 20.0 ],
+					"patching_rect" : [ 217.0, 221.181824, 354.0, 20.0 ],
 					"text" : "route dim servername appname clear"
 				}
 
@@ -353,8 +339,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 63.684296, 424.0, 359.0, 21.0 ],
-					"text" : "jit.gl.texture #2 @name #1 "
+					"patching_rect" : [ 64.0, 347.0, 409.75, 21.0 ],
+					"text" : "jit.gl.texture #2 @name #1 @defaultimage black"
 				}
 
 			}
@@ -380,7 +366,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 645.0, 424.0, 25.0, 25.0 ]
+					"patching_rect" : [ 585.5, 151.181824, 25.0, 25.0 ]
 				}
 
 			}
@@ -392,7 +378,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 645.0, 339.0, 25.0, 25.0 ]
+					"patching_rect" : [ 585.5, 66.181824, 25.0, 25.0 ]
 				}
 
 			}
@@ -404,7 +390,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 552.0, 298.0, 209.0, 20.0 ],
+					"patching_rect" : [ 552.0, 252.0, 209.0, 20.0 ],
 					"text" : "print #1_dumpout"
 				}
 
@@ -418,7 +404,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 759.684326, 55.102234, 32.5, 20.0 ],
+					"patching_rect" : [ 579.5, 5.102234, 32.5, 20.0 ],
 					"text" : "j.init"
 				}
 
@@ -434,7 +420,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 645.0, 376.0, 205.0, 38.0 ],
+					"patching_rect" : [ 585.5, 103.181824, 205.0, 38.0 ],
 					"text" : "j.model @description \"A syphon client\" @tag GLtexture"
 				}
 
@@ -491,7 +477,7 @@
 					"destination" : [ "obj-26", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 394.0, 332.0, 394.0, 332.0 ],
+					"midpoints" : [ 394.0, 286.0, 394.0, 286.0 ],
 					"source" : [ "obj-16", 0 ]
 				}
 
@@ -510,7 +496,7 @@
 					"destination" : [ "obj-14", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 310.25, 344.0, 183.5, 344.0 ],
+					"midpoints" : [ 310.25, 298.0, 183.5, 298.0 ],
 					"source" : [ "obj-19", 0 ]
 				}
 
@@ -548,7 +534,7 @@
 					"destination" : [ "obj-14", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 594.5, 350.0, 183.5, 350.0 ],
+					"midpoints" : [ 594.5, 304.0, 183.5, 304.0 ],
 					"source" : [ "obj-24", 0 ]
 				}
 
@@ -559,7 +545,7 @@
 					"destination" : [ "obj-26", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 594.5, 350.0, 394.0, 350.0 ],
+					"midpoints" : [ 594.5, 304.0, 394.0, 304.0 ],
 					"source" : [ "obj-24", 0 ]
 				}
 
@@ -589,7 +575,7 @@
 					"destination" : [ "obj-14", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 477.75, 344.0, 183.5, 344.0 ],
+					"midpoints" : [ 477.75, 298.0, 183.5, 298.0 ],
 					"source" : [ "obj-29", 0 ]
 				}
 
@@ -599,7 +585,7 @@
 					"destination" : [ "obj-26", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 477.75, 344.0, 394.0, 344.0 ],
+					"midpoints" : [ 477.75, 298.0, 394.0, 298.0 ],
 					"source" : [ "obj-29", 0 ]
 				}
 
@@ -645,7 +631,7 @@
 					"destination" : [ "obj-14", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 183.5, 287.0, 183.5, 287.0 ],
+					"midpoints" : [ 183.5, 241.0, 183.5, 241.0 ],
 					"source" : [ "obj-38", 0 ]
 				}
 
@@ -655,7 +641,7 @@
 					"destination" : [ "obj-26", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 198.5, 344.0, 394.0, 344.0 ],
+					"midpoints" : [ 198.5, 298.0, 394.0, 298.0 ],
 					"source" : [ "obj-38", 1 ]
 				}
 
@@ -732,6 +718,35 @@
 					"source" : [ "obj-9", 0 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "j.model.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.init.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jit.gl.syphonclient.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.parameter.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.return.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.message.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.send.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}
