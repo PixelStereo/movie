@@ -5,7 +5,7 @@
 			"major" : 6,
 			"minor" : 1,
 			"revision" : 7,
-			"architecture" : "x86"
+			"architecture" : "x64"
 		}
 ,
 		"rect" : [ 1106.0, 506.0, 477.0, 420.0 ],
@@ -30,16 +30,14 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"handoff" : "",
-					"hltcolor" : [ 1.0, 0.0, 0.0, 0.5 ],
 					"id" : "obj-2",
-					"maxclass" : "ubutton",
+					"maxclass" : "button",
 					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "bang", "bang", "", "int" ],
-					"patching_rect" : [ 295.0, 32.0, 33.0, 42.0 ],
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 295.0, 32.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 0.5, 70.0, 20.0 ]
+					"presentation_rect" : [ 166.0, 0.5, 20.0, 20.0 ]
 				}
 
 			}
@@ -346,7 +344,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 151.0, 158.0, 147.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 90.0, 0.5, 101.0, 20.0 ]
+					"presentation_rect" : [ 65.0, 0.5, 101.0, 20.0 ]
 				}
 
 			}
@@ -375,7 +373,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 8.0, 194.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 0.5, 150.0, 20.0 ]
+					"presentation_rect" : [ 4.0, 0.5, 150.0, 20.0 ],
+					"text" : "/noModelAddress"
 				}
 
 			}
@@ -428,8 +427,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 27.0, 54.0, 72.0, 20.0 ],
-					"text" : "j.remote sw"
+					"patching_rect" : [ 27.0, 54.0, 90.0, 20.0 ],
+					"text" : "j.remote active"
 				}
 
 			}
@@ -447,7 +446,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 27.0, 21.5, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 191.0, 0.5, 46.0, 20.0 ],
+					"presentation_rect" : [ 186.0, 0.5, 29.0, 20.0 ],
 					"text" : "Off",
 					"texton" : "On"
 				}

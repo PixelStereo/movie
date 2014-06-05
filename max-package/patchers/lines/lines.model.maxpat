@@ -855,7 +855,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 14.0, 14.0, 303.0, 20.0 ],
-					"text" : "j.parameter sw @type boolean @default 0"
+					"text" : "j.parameter active @type boolean @default 0"
 				}
 
 			}
@@ -1086,6 +1086,15 @@
 					"source" : [ "obj-9", 0 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "j.parameter.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.model.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}
