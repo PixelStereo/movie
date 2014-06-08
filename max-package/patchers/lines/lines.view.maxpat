@@ -35,7 +35,7 @@
 					"bgmode" : 1,
 					"id" : "obj-4",
 					"maxclass" : "bpatcher",
-					"name" : "texture.header.view.maxpat",
+					"name" : "header.texture.view.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ -3.0, 25.0, 252.0, 27.0 ],
@@ -51,7 +51,7 @@
 					"bgmode" : 1,
 					"id" : "obj-1",
 					"maxclass" : "bpatcher",
-					"name" : "poly.header.view.maxpat",
+					"name" : "header.poly.view.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -435,14 +435,14 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "poly.header.view.maxpat",
+				"name" : "header.poly.view.maxpat",
 				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI/max-package/patchers",
 				"patcherrelativepath" : "..",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "texture.header.view.maxpat",
+				"name" : "header.texture.view.maxpat",
 				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI/max-package/patchers",
 				"patcherrelativepath" : "..",
 				"type" : "JSON",
