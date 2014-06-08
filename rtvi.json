@@ -1,34 +1,8 @@
 {
-	"system" : 	{
-		"isruntime" : 0,
-		"os" : "macintosh",
-		"osversion" : "65",
-		"maxversion" : "617",
-		"span" : 		{
-			"credits" : "Tom Mays & Renaud Rubiano / didascalie.net",
-			"license" : "GNU-LGPL",
-			"status" : "alpha",
-			"version" : 			{
-				"major" : 0,
-				"minor" : 0,
-				"revision" : 2
-			}
-,
-			"path" : "data:/RENAUD/GITs/span/max-package/patchers/"
-		}
-,
-		"projectloaded" : 0,
-		"preferences" : 		{
-			"path" : "~/Library/Application Support/span/span.preferences.json",
-			"file" : "~/Library/preferences/com.didascalie-net.span.plist"
-		}
-
-	}
-,
 	"projectinfo" : 	{
 		"created" : "2014-06-08T18:25:52",
-		"lastopened" : "2014-06-08T18:25:52",
-		"lastsaved" : "2014-06-08T18:25:52",
+		"lastopened" : "2014-06-08T18:36:10",
+		"lastsaved" : "2014-06-08T18:36:10",
 		"appname" : "span",
 		"appversion" : 		{
 			"major" : 0,
