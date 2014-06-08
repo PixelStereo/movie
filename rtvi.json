@@ -2,7 +2,7 @@
 	"system" : 	{
 		"isruntime" : 0,
 		"os" : "macintosh",
-		"osversion" : "92",
+		"osversion" : "65",
 		"maxversion" : "617",
 		"span" : 		{
 			"credits" : "Tom Mays & Renaud Rubiano / didascalie.net",
@@ -17,27 +17,23 @@
 			"path" : "data:/RENAUD/GITs/span/max-package/patchers/"
 		}
 ,
-		"projectloaded" : 1,
+		"projectloaded" : 0,
 		"preferences" : 		{
 			"path" : "~/Library/Application Support/span/span.preferences.json",
 			"file" : "~/Library/preferences/com.didascalie-net.span.plist"
-		}
-,
-		"data" : 		{
-
 		}
 
 	}
 ,
 	"projectinfo" : 	{
-		"created" : "2014-05-13T23:10:51",
-		"lastopened" : "2014-06-08T18:12:15",
-		"lastsaved" : "2014-06-08T18:12:15",
+		"created" : "2014-06-08T18:25:52",
+		"lastopened" : "2014-06-08T18:25:52",
+		"lastsaved" : "2014-06-08T18:25:52",
 		"appname" : "span",
 		"appversion" : 		{
 			"major" : 0,
 			"minor" : 0,
-			"revision" : 1
+			"revision" : 2
 		}
 
 	}
@@ -47,11 +43,6 @@
 	}
 ,
 	"paths" : 	{
-		"system:/Users/reno/Dropbox/* PROJETS/# ARCHIVES/Formation ONR 2013/exemples/cloudy.mov" : 		{
-			"valid" : 1,
-			"name" : "cloudy.mov",
-			"type" : "MooV"
-		}
 
 	}
 
