@@ -5,7 +5,7 @@
 			"major" : 6,
 			"minor" : 1,
 			"revision" : 7,
-			"architecture" : "x64"
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 238.0, 374.0, 583.0, 373.0 ],
@@ -427,6 +427,16 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 128.5, 210.0, 105.0, 210.0, 105.0, 159.0, 114.0, 159.0, 114.0, 156.0, 128.5, 156.0 ],
+					"source" : [ "obj-17", 0 ]
 				}
 
 			}

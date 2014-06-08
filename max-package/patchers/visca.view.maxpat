@@ -5,7 +5,7 @@
 			"major" : 6,
 			"minor" : 1,
 			"revision" : 7,
-			"architecture" : "x64"
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 191.0, 133.0, 840.0, 884.0 ],
@@ -87,7 +87,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 16.5, 59.98703, 41.0, 20.0 ],
+					"patching_rect" : [ 16.5, 40.25, 41.0, 20.0 ],
 					"text" : "j.view"
 				}
 

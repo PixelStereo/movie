@@ -5,7 +5,7 @@
 			"major" : 6,
 			"minor" : 1,
 			"revision" : 7,
-			"architecture" : "x64"
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 461.0, 44.0, 778.0, 372.0 ],
@@ -59,7 +59,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 7,
-							"architecture" : "x64"
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 461.0, 70.0, 778.0, 346.0 ],
@@ -95,7 +95,7 @@
 									"patching_rect" : [ 267.0, 188.0, 50.0, 31.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 7.0, 210.0, 151.0, 18.0 ],
-									"text" : "/slider.5/val"
+									"text" : "/slider.1/val"
 								}
 
 							}
@@ -173,7 +173,7 @@
 											"major" : 6,
 											"minor" : 1,
 											"revision" : 7,
-											"architecture" : "x64"
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 25.0, 69.0, 267.0, 492.0 ],
@@ -744,7 +744,7 @@
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 26.0, 116.0, 112.0, 62.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 1.0, 0.0, 700.0, 200.0 ]
+									"presentation_rect" : [ 4.0, 3.0, 700.0, 200.0 ]
 								}
 
 							}
@@ -889,7 +889,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 7,
-							"architecture" : "x64"
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 0.0, 26.0, 778.0, 346.0 ],
@@ -964,7 +964,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 7,
-							"architecture" : "x64"
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 0.0, 26.0, 778.0, 346.0 ],
@@ -1071,7 +1071,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 7,
-							"architecture" : "x64"
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 0.0, 26.0, 778.0, 346.0 ],
@@ -1146,7 +1146,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 7,
-							"architecture" : "x64"
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 0.0, 26.0, 778.0, 346.0 ],
@@ -1253,7 +1253,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 7,
-							"architecture" : "x64"
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 0.0, 26.0, 778.0, 346.0 ],
@@ -1438,7 +1438,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 7,
-							"architecture" : "x64"
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 1072.0, 468.0, 689.0, 428.0 ],
@@ -1755,7 +1755,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 7,
-							"architecture" : "x64"
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 38.0, 519.0, 338.0, 169.0 ],
@@ -1809,7 +1809,7 @@
 											"major" : 6,
 											"minor" : 1,
 											"revision" : 7,
-											"architecture" : "x64"
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 76.0, 483.0, 350.0, 133.0 ],
@@ -1965,7 +1965,7 @@
 											"major" : 6,
 											"minor" : 1,
 											"revision" : 7,
-											"architecture" : "x64"
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 25.0, 69.0, 925.0, 569.0 ],
@@ -2098,7 +2098,7 @@
 											"major" : 6,
 											"minor" : 1,
 											"revision" : 7,
-											"architecture" : "x64"
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 23.0, 283.0, 629.0, 431.0 ],
@@ -2194,7 +2194,7 @@
 															"major" : 6,
 															"minor" : 1,
 															"revision" : 7,
-															"architecture" : "x64"
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 333.0, 544.0, 365.0, 384.0 ],
@@ -2231,7 +2231,7 @@
 																			"major" : 6,
 																			"minor" : 1,
 																			"revision" : 7,
-																			"architecture" : "x64"
+																			"architecture" : "x86"
 																		}
 ,
 																		"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
@@ -2949,7 +2949,7 @@
 															"major" : 6,
 															"minor" : 1,
 															"revision" : 7,
-															"architecture" : "x64"
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 548.0, 471.0, 534.0, 255.0 ],
@@ -3827,6 +3827,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "thru.maxpat",
+				"bootpath" : "/Applications/Max 6.1/patches/m4l-patches/Pluggo for Live resources/patches",
+				"patcherrelativepath" : "../../../../../Applications/Max 6.1/patches/m4l-patches/Pluggo for Live resources/patches",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "framemotor.view.maxpat",
 				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI/max-package/patchers/framemotor",
 				"patcherrelativepath" : "./max-package/patchers/framemotor",
@@ -3875,6 +3882,10 @@
 			}
 , 			{
 				"name" : "j.message.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jit.gl.hap.mxo",
 				"type" : "iLaX"
 			}
 , 			{
