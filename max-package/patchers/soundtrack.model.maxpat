@@ -133,8 +133,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 39.333328, 34.0, 106.0, 20.0 ],
-					"text" : "udpreceive 22222"
+					"patching_rect" : [ 39.333328, 34.0, 158.0, 20.0 ],
+					"text" : "udpreceive 22222 @quiet 1"
 				}
 
 			}
