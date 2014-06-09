@@ -30,6 +30,38 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-5",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 236.0, 98.0, 69.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 137.5, 24.0, 69.0, 20.0 ],
+					"text" : "fps/smooth"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-4",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 82.5, 126.0, 27.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 6.5, 24.0, 27.0, 20.0 ],
+					"text" : "fps"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"annotation" : "none",
 					"args" : [ "#1" ],
 					"bgmode" : 1,
@@ -54,24 +86,27 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 11.0, 72.0, 41.0, 20.0 ],
+					"patching_rect" : [ 11.0, 56.0, 41.0, 20.0 ],
 					"text" : "j.view"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "none",
+					"bordercolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontsize" : 14.0,
 					"id" : "obj-21",
 					"maxclass" : "number",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 71.0, 98.0, 50.0, 20.0 ],
+					"patching_rect" : [ 71.0, 98.0, 53.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 199.5, 24.0, 50.0, 20.0 ]
+					"presentation_rect" : [ 33.5, 23.0, 53.0, 22.0 ],
+					"triangle" : 0
 				}
 
 			}
@@ -100,24 +135,26 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 169.5, 67.0, 75.0, 20.0 ],
-					"text" : "j.receive fps"
+					"patching_rect" : [ 169.5, 67.0, 118.0, 20.0 ],
+					"text" : "j.receive fps/smooth"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"bordercolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontsize" : 14.0,
 					"id" : "obj-20",
 					"maxclass" : "number",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 169.5, 98.0, 50.0, 20.0 ],
+					"patching_rect" : [ 169.5, 98.0, 53.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 199.5, 45.0, 50.0, 20.0 ]
+					"presentation_rect" : [ 210.5, 23.0, 53.0, 22.0 ],
+					"triangle" : 0
 				}
 
 			}
@@ -162,7 +199,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "header.poly.view.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/rtvi/max-package/patchers",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI/max-package/patchers",
 				"patcherrelativepath" : "..",
 				"type" : "JSON",
 				"implicit" : 1
