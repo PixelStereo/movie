@@ -1,8 +1,8 @@
 {
 	"projectinfo" : 	{
-		"created" : "2014-06-08T18:25:52",
-		"lastopened" : "2014-06-09T15:02:22",
-		"lastsaved" : "2014-06-09T15:02:22",
+		"created" : "2014-06-10T19:05:55",
+		"lastopened" : "2014-06-10T19:05:55",
+		"lastsaved" : "2014-06-10T19:05:55",
 		"appname" : "RTVI",
 		"appversion" : 		{
 			"major" : 0,
@@ -17,6 +17,11 @@
 	}
 ,
 	"paths" : 	{
+		"new:/Users/reno/Movies/fumée slowmo.mov" : 		{
+			"valid" : 1,
+			"name" : "fumée slowmo.mov",
+			"type" : "MooV"
+		}
 
 	}
 
