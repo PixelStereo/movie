@@ -993,7 +993,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 68.0, 70.0, 574.0, 362.0 ],
+						"rect" : [ 0.0, 26.0, 574.0, 362.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
