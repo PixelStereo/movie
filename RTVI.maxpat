@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 461.0, 44.0, 574.0, 388.0 ],
+		"rect" : [ 68.0, 44.0, 574.0, 388.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -29,21 +29,6 @@
 		"tags" : "",
 		"showontab" : 1,
 		"boxes" : [ 			{
-				"box" : 				{
-					"bgcolor" : [ 0.937255, 0.937255, 0.937255, 0.0 ],
-					"border" : 1,
-					"id" : "obj-4",
-					"maxclass" : "bpatcher",
-					"name" : "span.preferences.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 19.75, 118.373291, 450.0, 50.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 214.0, 89.0, 341.0, 50.0 ]
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"annotation" : "none",
 					"args" : [ "clock.1" ],
@@ -125,7 +110,7 @@
 									"patching_rect" : [ 270.0, 220.0, 50.0, 31.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 7.0, 210.0, 151.0, 18.0 ],
-									"text" : "/slider.6/val"
+									"text" : "/slider.5/val"
 								}
 
 							}
@@ -1008,7 +993,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 26.0, 574.0, 362.0 ],
+						"rect" : [ 68.0, 70.0, 574.0, 362.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -1029,6 +1014,99 @@
 						"tags" : "",
 						"showontab" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-9",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 260.75, 298.0, 25.5, 18.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 361.75, 298.0, 25.5, 18.0 ],
+									"text" : "t"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-10",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 230.0, 298.0, 25.5, 18.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 331.0, 298.0, 25.5, 18.0 ],
+									"text" : "x"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-18",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 230.0, 324.0, 134.0, 20.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 331.0, 322.0, 135.0, 20.0 ],
+									"text" : "j.send /split.1/*/*/trigger"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-19",
+									"maxclass" : "button",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 260.75, 269.0, 20.0, 20.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 361.75, 270.0, 20.0, 20.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-2",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 260.75, 233.0, 63.0, 20.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 331.0, 241.0, 63.0, 20.0 ],
+									"text" : "r rtvi/step"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"annotation" : "none",
+									"args" : [ "split.1" ],
+									"border" : 1,
+									"id" : "obj-1",
+									"maxclass" : "bpatcher",
+									"name" : "split.view.maxpat",
+									"numinlets" : 0,
+									"numoutlets" : 0,
+									"patching_rect" : [ 1.5, 152.0, 244.0, 101.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 0.5, 154.0, 257.0, 171.0 ]
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"annotation" : "none",
 									"args" : [ "syphonserver.1" ],
@@ -1077,7 +1155,34 @@
 
 							}
  ],
-						"lines" : [  ]
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-18", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-10", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-9", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-19", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-18", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-9", 0 ]
+								}
+
+							}
+ ]
 					}
 ,
 					"patching_rect" : [ 46.247375, 212.036865, 62.0, 22.0 ],
@@ -2187,7 +2292,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 23.0, 283.0, 629.0, 431.0 ],
+										"rect" : [ 929.0, 572.0, 629.0, 428.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -2207,6 +2312,22 @@
 										"digest" : "",
 										"tags" : "",
 										"boxes" : [ 											{
+												"box" : 												{
+													"annotation" : "split generator",
+													"color" : [ 0.572549, 0.0, 0.0, 0.5 ],
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-12",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 117.0, 365.853333, 130.0, 20.0 ],
+													"text" : "split.model split.1 rtvi"
+												}
+
+											}
+, 											{
 												"box" : 												{
 													"annotation" : "camera grabber",
 													"color" : [ 0.572549, 0.0, 0.0, 0.5 ],
@@ -3788,6 +3909,34 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "split.model.maxpat",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI/max-package/patchers/split",
+				"patcherrelativepath" : "./max-package/patchers/split",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "thru.maxpat",
+				"bootpath" : "/Applications/Max 6.1/patches/m4l-patches/Pluggo for Live resources/patches",
+				"patcherrelativepath" : "../../../../../Applications/Max 6.1/patches/m4l-patches/Pluggo for Live resources/patches",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "split_auto.maxpat",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI/max-package/patchers/split",
+				"patcherrelativepath" : "./max-package/patchers/split",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j.random.maxpat",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/Jamoma/Implementations/Max/Jamoma/patchers/components/random",
+				"patcherrelativepath" : "../Jamoma/Implementations/Max/Jamoma/patchers/components/random",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "visca.model.maxpat",
 				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI/max-package/patchers",
 				"patcherrelativepath" : "./max-package/patchers",
@@ -3977,6 +4126,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "split.view.maxpat",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI/max-package/patchers/split",
+				"patcherrelativepath" : "./max-package/patchers/split",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "visca.view.maxpat",
 				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI/max-package/patchers",
 				"patcherrelativepath" : "./max-package/patchers",
@@ -3991,23 +4147,9 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "thru.maxpat",
-				"bootpath" : "/Applications/Max 6.1/patches/m4l-patches/Pluggo for Live resources/patches",
-				"patcherrelativepath" : "../../../../../Applications/Max 6.1/patches/m4l-patches/Pluggo for Live resources/patches",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "framemotor.view.maxpat",
 				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI/max-package/patchers/framemotor",
 				"patcherrelativepath" : "./max-package/patchers/framemotor",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "span.preferences.maxpat",
-				"bootpath" : "/Volumes/data/RENAUD/GITs/span/max-package/patchers/GUI",
-				"patcherrelativepath" : "../span/max-package/patchers/GUI",
 				"type" : "JSON",
 				"implicit" : 1
 			}
