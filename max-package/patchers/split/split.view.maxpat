@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 755.0, 586.0, 519.0, 424.0 ],
+		"rect" : [ 604.0, 339.0, 519.0, 424.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -35,7 +35,7 @@
 					"fontsize" : 12.0,
 					"id" : "obj-25",
 					"maxclass" : "flonum",
-					"maximum" : 0.5,
+					"maximum" : 1.0,
 					"minimum" : 0.0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -69,7 +69,7 @@
 					"fontsize" : 12.0,
 					"id" : "obj-22",
 					"maxclass" : "flonum",
-					"maximum" : 0.5,
+					"maximum" : 1.0,
 					"minimum" : 0.0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -103,7 +103,7 @@
 					"fontsize" : 12.0,
 					"id" : "obj-18",
 					"maxclass" : "flonum",
-					"maximum" : 0.5,
+					"maximum" : 1.0,
 					"minimum" : 0.0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -137,7 +137,7 @@
 					"fontsize" : 12.0,
 					"id" : "obj-16",
 					"maxclass" : "flonum",
-					"maximum" : 0.5,
+					"maximum" : 1.0,
 					"minimum" : 0.0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -772,14 +772,14 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "header.poly.view.maxpat",
-				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI/max-package/patchers",
+				"bootpath" : "/Users/reno/Documents/GITs/rtvi/max-package/patchers",
 				"patcherrelativepath" : "..",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "header.texture.view.maxpat",
-				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI/max-package/patchers",
+				"bootpath" : "/Users/reno/Documents/GITs/rtvi/max-package/patchers",
 				"patcherrelativepath" : "..",
 				"type" : "JSON",
 				"implicit" : 1
