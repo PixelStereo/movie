@@ -1,33 +1,37 @@
 <?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
 <jamoma version="0.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jamoma.org/ file:jamoma.xsd">
- <cue name="cloudy x 2">
-  <flag name="description">none</flag>
+ <cue name="water glass">
+  <flag name="description">"all parameters default values"</flag>
   <!---->
-  <script address="layer.2">
+  <script address="layer">
+   <command address="active">1</command>
    <script address="color">
-    <command address="alpha">0.511111</command>
+    <command address="alpha">1.000000</command>
     <command address="blue">1.000000</command>
-    <command address="green">1.000000</command>
-    <command address="red">1.000000</command>
+    <command address="green">0.622222</command>
+    <command address="red">0.311111</command>
     <command address="saturation">1</command>
    </script>
    <command address="interp">1</command>
-   <command address="layer">3</command>
+   <command address="layer">1</command>
    <script address="pos">
     <command address="x">0</command>
     <command address="y">0</command>
     <command address="z">0</command>
    </script>
    <script address="scale">
-    <command address="x">1.704000</command>
+    <command address="x">1.770000</command>
     <command address="y">1</command>
     <command address="z">1</command>
    </script>
-   <command address="sw">1</command>
-   <command address="texture">hap.2</command>
+   <command address="texture">hap</command>
   </script>
+ </cue>
+ <cue name="glass">
+  <flag name="description">"all parameters default values"</flag>
   <!---->
-  <script address="layer.1">
+  <script address="layer">
+   <command address="active">0</command>
    <script address="color">
     <command address="alpha">1</command>
     <command address="blue">1</command>
@@ -36,50 +40,18 @@
     <command address="saturation">1</command>
    </script>
    <command address="interp">1</command>
-   <command address="layer">2</command>
+   <command address="layer">1</command>
    <script address="pos">
     <command address="x">0</command>
     <command address="y">0</command>
     <command address="z">0</command>
    </script>
    <script address="scale">
-    <command address="x">1.760000</command>
+    <command address="x">1</command>
     <command address="y">1</command>
     <command address="z">1</command>
    </script>
-   <command address="sw">1</command>
-   <command address="texture">hap.1</command>
-  </script>
-  <!---->
-  <script address="hap">
-   <command address="autostart">1</command>
-   <command address="file">&quot;system:/Users/reno/Dropbox/* PROJETS/# ARCHIVES/Formation ONR 2013/exemples/cloudy.mov&quot;</command>
-   <command address="flip">0</command>
-   <script address="loop">
-    <command address="mode">1</command>
-    <command address="out">10600</command>
-   </script>
-   <command address="loopreport">1</command>
-   <command address="play">1</command>
-   <command address="rate">3.027167</command>
-   <command address="sw">0</command>
-   <command address="vol">0</command>
-  </script>
-  <!---->
-  <script address="hap.1">
-   <command address="autostart">1</command>
-   <command address="file">&quot;system:/Users/reno/Dropbox/* PROJETS/# ARCHIVES/Formation ONR 2013/exemples/cloudy.mov&quot;</command>
-   <command address="flip">1</command>
-   <script address="loop">
-    <command address="in">3530</command>
-    <command address="mode">2</command>
-    <command address="out">4315</command>
-   </script>
-   <command address="loopreport">1</command>
-   <command address="play">1</command>
-   <command address="rate">1.112548</command>
-   <command address="sw">0</command>
-   <command address="vol">0</command>
+   <command address="texture">black</command>
   </script>
  </cue>
 </jamoma>

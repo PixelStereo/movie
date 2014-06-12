@@ -1,8 +1,8 @@
 {
 	"projectinfo" : 	{
 		"created" : "2014-06-10T19:05:55",
-		"lastopened" : "2014-06-12T00:39:59",
-		"lastsaved" : "2014-06-12T00:51:58",
+		"lastopened" : "2014-06-12T11:26:26",
+		"lastsaved" : "2014-06-12T11:26:28",
 		"appname" : "RTVI",
 		"appversion" : 		{
 			"major" : 0,
@@ -15,10 +15,10 @@
 	"data" : 	{
 		"default" : 		{
 			"events" : 			{
-				"read" : "system:::Users::reno::Documents::GITs::rtvi::rtvi.jcues",
+				"read" : "data:::RENAUD::GITs::RTVI::rtvi.jcues",
 				"address" : "::",
 				"namespace" : "events-namespace",
-				"select" : [ "2014-06-12", "00:42:46" ],
+				"select" : "initialisation",
 				"cuelist" : 				{
 					"update" : 0.0
 				}
@@ -27,7 +27,26 @@
 					"closed" : 0.0
 				}
 ,
-				"store" : [ "2014-06-12", "00:42:46" ]
+				"store" : [ "water", "glass" ],
+				"save" : [ "water", "glass" ],
+				"description" : [ "all", "parameters", "default", "values" ],
+				"ramp" : 0,
+				"edit" : 0.0,
+				"current" : 				{
+					"ramp" : 0,
+					"description" : [ "all", "parameters", "default", "values" ],
+					"position" : 2,
+					"name" : "glass",
+					"done" : 0.0
+				}
+,
+				"next" : 				{
+					"position" : 3
+				}
+,
+				"recall" : 0.0,
+				"update" : 0.0,
+				"remove" : 0.0
 			}
 ,
 			"osc" : 			{
@@ -195,63 +214,63 @@
 ,
 	"paths" : 	{
 		"new:/Users/reno/Movies/fumée slowmo.mov" : 		{
-			"valid" : 0,
+			"valid" : 1,
 			"name" : "fumée slowmo.mov",
 			"type" : "MooV"
 		}
 ,
 		"data:/A TRIER/hap/briquet-HAP.mov" : 		{
-			"valid" : 0,
+			"valid" : 1,
 			"name" : "briquet-HAP.mov",
 			"type" : "MooV"
 		}
 ,
 		"data:/A TRIER/hap/waterglass 200 .mov" : 		{
-			"valid" : 0,
+			"valid" : 1,
 			"name" : "waterglass 200 .mov",
 			"type" : "MooV"
 		}
 ,
 		"data:/A TRIER/hap/verre brise loop-HAP.mov" : 		{
-			"valid" : 0,
+			"valid" : 1,
 			"name" : "verre brise loop-HAP.mov",
 			"type" : "MooV"
 		}
 ,
 		"data:/A TRIER/hap/vase berlin loop-HAP.mov" : 		{
-			"valid" : 0,
+			"valid" : 1,
 			"name" : "vase berlin loop-HAP.mov",
 			"type" : "MooV"
 		}
 ,
 		"data:/A TRIER/hap/sablier central-HAP.mov" : 		{
-			"valid" : 0,
+			"valid" : 1,
 			"name" : "sablier central-HAP.mov",
 			"type" : "MooV"
 		}
 ,
 		"data:/A TRIER/hap/pluie nette loop-HAP.mov" : 		{
-			"valid" : 0,
+			"valid" : 1,
 			"name" : "pluie nette loop-HAP.mov",
 			"type" : "MooV"
 		}
 ,
 		"system:/Users/reno/Library/Mail/V2/IMAP-cycling.list@imap.gmail.com/[Gmail].mbox/Tous les messages.mbox/204EBB7D-1464-4852-863B-AEF5CC48CE61/Data/0/7/Attachments/70617/3/battlingtherobot.mov" : 		{
-			"valid" : 1,
+			"valid" : 0,
 			"name" : "battlingtherobot.mov",
 			"type" : "MooV",
 			"tags" : "hap.1"
 		}
 ,
 		"system:/Applications/Max 6.1/patches/media/blading.mov" : 		{
-			"valid" : 1,
+			"valid" : 0,
 			"name" : "blading.mov",
 			"type" : "MooV",
 			"tags" : "hap.1"
 		}
 ,
 		"system:/Users/reno/Library/Mail/V2/IMAP-cycling.list@imap.gmail.com/[Gmail].mbox/Tous les messages.mbox/204EBB7D-1464-4852-863B-AEF5CC48CE61/Data/9/6/Attachments/69645/2/colors.mov" : 		{
-			"valid" : 1,
+			"valid" : 0,
 			"name" : "colors.mov",
 			"type" : "MooV",
 			"tags" : "hap.1"
