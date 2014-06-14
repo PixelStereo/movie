@@ -97,4 +97,81 @@
    <command address="planes">2</command>
   </script>
  </cue>
+ <cue name="noise+lines+layer+polymap1+2">
+  <flag name="description">none</flag>
+  <!---->
+  <script address="layer">
+   <command address="active">1</command>
+   <script address="color">
+    <command address="alpha">1.000000</command>
+    <command address="blue">1.000000</command>
+    <command address="green">1.000000</command>
+    <command address="red">1.000000</command>
+    <command address="saturation">1</command>
+   </script>
+   <command address="interp">1</command>
+   <command address="layer">1</command>
+   <script address="pos">
+    <command address="x">0</command>
+    <command address="y">0</command>
+    <command address="z">0</command>
+   </script>
+   <script address="scale">
+    <command address="x">1.770000</command>
+    <command address="y">1</command>
+    <command address="z">1</command>
+   </script>
+   <command address="texture">lines.1</command>
+  </script>
+  <!---->
+  <script address="lines.1">
+   <command address="active">1</command>
+   <script address="coeff">
+    <command address="x">0.500000</command>
+    <command address="y">0</command>
+   </script>
+   <script address="number">
+    <command address="x">21.799999</command>
+    <command address="y">0</command>
+   </script>
+   <script address="offset">
+    <command address="x">0</command>
+    <command address="y">0</command>
+   </script>
+   <command address="texture">noise.1</command>
+  </script>
+  <!---->
+  <script address="noise.1">
+   <command address="active">1</command>
+   <script address="dim">
+    <command address="x">1280</command>
+    <command address="y">720</command>
+   </script>
+   <command address="fps">25</command>
+   <command address="interp">1</command>
+   <command address="planes">2</command>
+  </script>
+  <!---->
+  <script address="span">
+   <!---->
+   <script address="polymap.2">
+    <command address="active">0</command>
+    <script address="function">
+     <command address="mode">none</command>
+     <command address="name">linear</command>
+     <command address="param">0</command>
+    </script>
+    <script address="in">
+     <command address="max">1</command>
+     <command address="min">0</command>
+    </script>
+    <command address="input">none</command>
+    <script address="out">
+     <command address="max">1</command>
+     <command address="min">0</command>
+    </script>
+    <command address="output">none</command>
+   </script>
+  </script>
+ </cue>
 </jamoma>

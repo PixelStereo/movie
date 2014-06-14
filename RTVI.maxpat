@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 401.0, 46.0, 547.0, 366.0 ],
+		"rect" : [ 120.0, 80.0, 712.0, 368.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -46,7 +46,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 401.0, 72.0, 547.0, 340.0 ],
+						"rect" : [ 0.0, 26.0, 712.0, 342.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -191,7 +191,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 26.0, 547.0, 340.0 ],
+						"rect" : [ 0.0, 26.0, 712.0, 342.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -1216,7 +1216,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 26.0, 547.0, 340.0 ],
+						"rect" : [ 0.0, 26.0, 712.0, 342.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -1292,7 +1292,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 26.0, 547.0, 340.0 ],
+						"rect" : [ 0.0, 26.0, 712.0, 342.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -1514,7 +1514,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 26.0, 547.0, 340.0 ],
+						"rect" : [ 120.0, 106.0, 712.0, 342.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -1535,6 +1535,21 @@
 						"tags" : "",
 						"showontab" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"annotation" : "none",
+									"args" : [ "polymap" ],
+									"id" : "obj-2",
+									"maxclass" : "bpatcher",
+									"name" : "polymap.view.maxpat",
+									"numinlets" : 0,
+									"numoutlets" : 0,
+									"patching_rect" : [ 103.0, 159.0, 128.0, 128.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 2.0, 150.0, 705.0, 182.0 ]
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"annotation" : "none",
 									"args" : [ "random.1" ],
@@ -1606,7 +1621,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 26.0, 547.0, 340.0 ],
+						"rect" : [ 0.0, 26.0, 712.0, 342.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -1714,7 +1729,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 26.0, 547.0, 340.0 ],
+						"rect" : [ 0.0, 26.0, 712.0, 342.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -1923,6 +1938,7 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -2291,7 +2307,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 929.0, 572.0, 629.0, 428.0 ],
+										"rect" : [ 519.0, 468.0, 629.0, 428.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -2310,6 +2326,7 @@
 										"description" : "",
 										"digest" : "",
 										"tags" : "",
+										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Helvetica Neue Light Italic",
@@ -4162,6 +4179,13 @@
 				"name" : "random.view.maxpat",
 				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI/max-package/patchers/random",
 				"patcherrelativepath" : "./max-package/patchers/random",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "polymap.view.maxpat",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/span/max-package/patchers",
+				"patcherrelativepath" : "../span/max-package/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
