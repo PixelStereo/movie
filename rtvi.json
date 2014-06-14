@@ -1,8 +1,8 @@
 {
 	"projectinfo" : 	{
 		"created" : "2014-06-10T19:05:55",
-		"lastopened" : "2014-06-14T15:34:08",
-		"lastsaved" : "2014-06-14T15:34:08",
+		"lastopened" : "2014-06-14T16:35:26",
+		"lastsaved" : "2014-06-14T16:35:26",
 		"appname" : "RTVI",
 		"appversion" : 		{
 			"major" : 0,
@@ -11,7 +11,20 @@
 		}
 
 	}
+,
+	"data" : 	{
+		"default" : 		{
 
+		}
+,
+		"cuesheets" : 		{
+			"cuesheet.1" : 			{
+
+			}
+
+		}
+
+	}
 ,
 	"paths" : 	{
 		"new:/Users/reno/Movies/fumée slowmo.mov" : 		{
