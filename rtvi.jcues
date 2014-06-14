@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
 <jamoma version="0.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jamoma.org/ file:jamoma.xsd">
- <cue name="&quot;&quot;&quot;water glass&quot;&quot;&quot;">
-  <flag name="description">"""all parameters default values"""</flag>
+ <cue name="hap+layer">
+  <flag name="description">none</flag>
+  <!---->
+  <script address="hap">
+   <command address="active">1</command>
+   <command address="autostart">1</command>
+   <command address="file">&quot;data:/A TRIER/hap/waterglass 200 .mov&quot;</command>
+   <command address="flip">1</command>
+   <script address="loop">
+    <command address="mode">1</command>
+    <command address="out">45552</command>
+   </script>
+   <command address="loopreport">1</command>
+   <command address="play">1</command>
+   <command address="rate">1</command>
+   <command address="vol">0</command>
+  </script>
   <!---->
   <script address="layer">
    <command address="active">1</command>
@@ -27,16 +42,16 @@
    <command address="texture">hap</command>
   </script>
  </cue>
- <cue name="toto">
-  <flag name="description">another one</flag>
+ <cue name="noise+lines+layer">
+  <flag name="description">none</flag>
   <!---->
   <script address="layer">
-   <command address="active">0</command>
+   <command address="active">1</command>
    <script address="color">
     <command address="alpha">1.000000</command>
     <command address="blue">1.000000</command>
-    <command address="green">0.622222</command>
-    <command address="red">0.311111</command>
+    <command address="green">1.000000</command>
+    <command address="red">1.000000</command>
     <command address="saturation">1</command>
    </script>
    <command address="interp">1</command>
@@ -51,10 +66,35 @@
     <command address="y">1</command>
     <command address="z">1</command>
    </script>
-   <command address="texture">hap</command>
+   <command address="texture">lines.1</command>
   </script>
- </cue>
- <cue name="glass">
-  <flag name="description">none</flag>
+  <!---->
+  <script address="lines.1">
+   <command address="active">1</command>
+   <script address="coeff">
+    <command address="x">0</command>
+    <command address="y">0</command>
+   </script>
+   <script address="number">
+    <command address="x">0</command>
+    <command address="y">0</command>
+   </script>
+   <script address="offset">
+    <command address="x">0</command>
+    <command address="y">0</command>
+   </script>
+   <command address="texture">noise.1</command>
+  </script>
+  <!---->
+  <script address="noise.1">
+   <command address="active">1</command>
+   <script address="dim">
+    <command address="x">1280</command>
+    <command address="y">720</command>
+   </script>
+   <command address="fps">25</command>
+   <command address="interp">1</command>
+   <command address="planes">2</command>
+  </script>
  </cue>
 </jamoma>
