@@ -1,8 +1,8 @@
 {
 	"projectinfo" : 	{
 		"created" : "2014-06-10T19:05:55",
-		"lastopened" : "2014-06-14T17:42:53",
-		"lastsaved" : "2014-06-14T17:42:53",
+		"lastopened" : "2014-06-16T10:15:30",
+		"lastsaved" : "2014-06-16T10:15:31",
 		"appname" : "RTVI",
 		"appversion" : 		{
 			"major" : 0,
@@ -28,43 +28,43 @@
 ,
 	"paths" : 	{
 		"new:/Users/reno/Movies/fumée slowmo.mov" : 		{
-			"valid" : 1,
+			"valid" : 0,
 			"name" : "fumée slowmo.mov",
 			"type" : "MooV"
 		}
 ,
 		"data:/A TRIER/hap/briquet-HAP.mov" : 		{
-			"valid" : 1,
+			"valid" : 0,
 			"name" : "briquet-HAP.mov",
 			"type" : "MooV"
 		}
 ,
 		"data:/A TRIER/hap/waterglass 200 .mov" : 		{
-			"valid" : 1,
+			"valid" : 0,
 			"name" : "waterglass 200 .mov",
 			"type" : "MooV"
 		}
 ,
 		"data:/A TRIER/hap/verre brise loop-HAP.mov" : 		{
-			"valid" : 1,
+			"valid" : 0,
 			"name" : "verre brise loop-HAP.mov",
 			"type" : "MooV"
 		}
 ,
 		"data:/A TRIER/hap/vase berlin loop-HAP.mov" : 		{
-			"valid" : 1,
+			"valid" : 0,
 			"name" : "vase berlin loop-HAP.mov",
 			"type" : "MooV"
 		}
 ,
 		"data:/A TRIER/hap/sablier central-HAP.mov" : 		{
-			"valid" : 1,
+			"valid" : 0,
 			"name" : "sablier central-HAP.mov",
 			"type" : "MooV"
 		}
 ,
 		"data:/A TRIER/hap/pluie nette loop-HAP.mov" : 		{
-			"valid" : 1,
+			"valid" : 0,
 			"name" : "pluie nette loop-HAP.mov",
 			"type" : "MooV"
 		}
