@@ -133,4 +133,48 @@
    <command address="servername">g2s_1</command>
   </script>
  </cue>
+ <cue name="diff">
+  <flag name="description">none</flag>
+  <!---->
+  <script address="cam.1">
+   <command address="active">1</command>
+   <command address="device">0</command>
+   <script address="dim">
+    <command address="x">1280</command>
+    <command address="y">720</command>
+   </script>
+   <command address="fps">25</command>
+   <command address="interp">1</command>
+   <command address="status">1</command>
+  </script>
+  <!---->
+  <script address="diff.1">
+   <command address="active">1</command>
+   <command address="texture">cam.1</command>
+  </script>
+  <!---->
+  <script address="layer.1">
+   <command address="active">1</command>
+   <script address="color">
+    <command address="alpha">1</command>
+    <command address="blue">1</command>
+    <command address="green">1</command>
+    <command address="red">1</command>
+    <command address="saturation">1</command>
+   </script>
+   <command address="interp">1</command>
+   <command address="layer">1</command>
+   <script address="pos">
+    <command address="x">0</command>
+    <command address="y">0</command>
+    <command address="z">0</command>
+   </script>
+   <script address="scale">
+    <command address="x">1.770000</command>
+    <command address="y">1</command>
+    <command address="z">1</command>
+   </script>
+   <command address="texture">diff.1</command>
+  </script>
+ </cue>
 </jamoma>

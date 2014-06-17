@@ -889,7 +889,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 26.0, 533.0, 360.0 ],
+						"rect" : [ 410.0, 105.0, 533.0, 360.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -910,6 +910,38 @@
 						"tags" : "",
 						"showontab" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"annotation" : "none",
+									"args" : [ "diff.1" ],
+									"border" : 1,
+									"id" : "obj-3",
+									"maxclass" : "bpatcher",
+									"name" : "diff.view.maxpat",
+									"numinlets" : 0,
+									"numoutlets" : 0,
+									"patching_rect" : [ 383.333313, -1.25, 257.0, 85.5 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 258.5, 154.0, 257.0, 75.5 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"annotation" : "none",
+									"args" : [ "brcosa.1", "rtvi" ],
+									"border" : 1,
+									"id" : "obj-2",
+									"maxclass" : "bpatcher",
+									"name" : "brcosa.view.maxpat",
+									"numinlets" : 0,
+									"numoutlets" : 0,
+									"patching_rect" : [ 624.333313, -16.25, 257.0, 85.5 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 1.5, 154.0, 257.0, 75.5 ]
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"annotation" : "none",
 									"args" : [ "diff.1" ],
@@ -1730,7 +1762,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 869.0, 628.0, 629.0, 428.0 ],
+										"rect" : [ 546.0, 497.0, 629.0, 428.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -1752,6 +1784,22 @@
 										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
+													"annotation" : "brcosa effect",
+													"color" : [ 0.572549, 0.0, 0.0, 0.5 ],
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-21",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 462.0, 255.972412, 151.0, 20.0 ],
+													"text" : "brcosa.model brcosa.1 rtvi"
+												}
+
+											}
+, 											{
+												"box" : 												{
 													"annotation" : "frame difference  effect",
 													"color" : [ 0.572549, 0.0, 0.0, 0.5 ],
 													"fontname" : "Arial",
@@ -1761,7 +1809,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 480.0, 222.972412, 118.0, 20.0 ],
+													"patching_rect" : [ 462.0, 222.972412, 118.0, 20.0 ],
 													"text" : "diff.model diff.1 rtvi"
 												}
 
@@ -3423,6 +3471,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "brcosa.model.maxpat",
+				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers/brcosa",
+				"patcherrelativepath" : "./max-package/patchers/brcosa",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "visca.model.maxpat",
 				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers",
 				"patcherrelativepath" : "./max-package/patchers",
@@ -3636,6 +3691,13 @@
 				"name" : "diff.view.maxpat",
 				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers/diff",
 				"patcherrelativepath" : "./max-package/patchers/diff",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "brcosa.view.maxpat",
+				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers/brcosa",
+				"patcherrelativepath" : "./max-package/patchers/brcosa",
 				"type" : "JSON",
 				"implicit" : 1
 			}
