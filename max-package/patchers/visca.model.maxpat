@@ -1785,7 +1785,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 43.400146, 49.727264, 94.0, 20.0 ],
-					"text" : "prepend /power"
+					"text" : "prepend /active"
 				}
 
 			}
@@ -2600,8 +2600,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 43.400146, 21.727264, 107.0, 20.0 ],
-					"text" : "j.parameter power"
+					"patching_rect" : [ 43.400146, 21.727264, 106.0, 20.0 ],
+					"text" : "j.parameter active"
 				}
 
 			}

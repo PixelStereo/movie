@@ -99,6 +99,9 @@
  </cue>
  <cue name="mapping">
   <flag name="description">none</flag>
+ </cue>
+ <cue name="camera-syphon">
+  <flag name="description">none</flag>
   <!---->
   <script address="layer">
    <command address="active">1</command>
@@ -121,51 +124,13 @@
     <command address="y">1</command>
     <command address="z">1</command>
    </script>
-   <command address="texture">lines.1</command>
+   <command address="texture">syphonclient.1</command>
   </script>
   <!---->
-  <script address="lines.1">
+  <script address="syphonclient.1">
    <command address="active">1</command>
-   <script address="coeff">
-    <command address="x">0.500000</command>
-    <command address="y">0</command>
-   </script>
-   <script address="number">
-    <command address="x">21.799999</command>
-    <command address="y">0</command>
-   </script>
-   <script address="offset">
-    <command address="x">6.400000</command>
-    <command address="y">10.000000</command>
-   </script>
-   <command address="texture">noise.1</command>
-  </script>
-  <!---->
-  <script address="noise.1">
-   <command address="active">1</command>
-   <script address="dim">
-    <command address="x">6.400000</command>
-    <command address="y">6.400000</command>
-   </script>
-   <command address="fps">25</command>
-   <command address="interp">0</command>
-   <command address="planes">2</command>
-  </script>
-  <!---->
-  <script address="random.1">
-   <command address="active">1</command>
-   <script address="time">
-    <command address="max">500</command>
-    <command address="min">100</command>
-   </script>
-   <script address="trans">
-    <command address="max">100</command>
-    <command address="min">0</command>
-   </script>
-  </script>
-  <!---->
-  <script address="span">
-   <command address="mapping">&quot;/random.1/val/map.1 /random.1/val /noise.1/dim/x 0.0000 1.0000 1 10 exponential base 2.7183&quot; &quot;/random.1/val/map.2 /random.1/val /noise.1/dim/y 0.0000 1.0000 1 10 exponential base 2.7183&quot; &quot;/random.1/val/map.3 /random.1/val /lines.1/offset/x 0.0000 1.0000 1 10 exponential base 2.7183&quot; &quot;/random.1/val/map.4 /random.1/val /lines.1/offset/y 0.0000 1.0000 10 1 exponential base 2.7183&quot;</command>
+   <command address="appname">&quot;grab2syphon 0.2&quot;</command>
+   <command address="servername">g2s_1</command>
   </script>
  </cue>
 </jamoma>
