@@ -18,7 +18,7 @@
    <command address="vol">0</command>
   </script>
   <!---->
-  <script address="layer">
+  <script address="layer.1">
    <command address="active">1</command>
    <script address="color">
     <command address="alpha">1.000000</command>
@@ -28,7 +28,7 @@
     <command address="saturation">1</command>
    </script>
    <command address="interp">1</command>
-   <command address="layer">1</command>
+   <command address="layer.1">1</command>
    <script address="pos">
     <command address="x">0</command>
     <command address="y">0</command>
@@ -45,7 +45,7 @@
  <cue name="noise+lines+layer">
   <flag name="description">none</flag>
   <!---->
-  <script address="layer">
+  <script address="layer.1">
    <command address="active">1</command>
    <script address="color">
     <command address="alpha">1.000000</command>
@@ -55,7 +55,7 @@
     <command address="saturation">1</command>
    </script>
    <command address="interp">1</command>
-   <command address="layer">1</command>
+   <command address="layer.1">1</command>
    <script address="pos">
     <command address="x">0</command>
     <command address="y">0</command>
@@ -100,7 +100,7 @@
  <cue name="noise+lines+layer+polymap1+2">
   <flag name="description">none</flag>
   <!---->
-  <script address="layer">
+  <script address="layer.1">
    <command address="active">1</command>
    <script address="color">
     <command address="alpha">1.000000</command>
@@ -110,7 +110,7 @@
     <command address="saturation">1</command>
    </script>
    <command address="interp">1</command>
-   <command address="layer">1</command>
+   <command address="layer.1">1</command>
    <script address="pos">
     <command address="x">0</command>
     <command address="y">0</command>
@@ -177,7 +177,7 @@
  <cue name="mapping">
   <flag name="description">none</flag>
   <!---->
-  <script address="layer">
+  <script address="layer.1">
    <command address="active">1</command>
    <script address="color">
     <command address="alpha">1.000000</command>
@@ -187,7 +187,7 @@
     <command address="saturation">1</command>
    </script>
    <command address="interp">1</command>
-   <command address="layer">1</command>
+   <command address="layer.1">1</command>
    <script address="pos">
     <command address="x">0</command>
     <command address="y">0</command>
@@ -242,7 +242,7 @@
   </script>
   <!---->
   <script address="span">
-   <command address="mappingmemory">&quot;/random.1/val/map.1 /random.1/val /noise.1/dim/x 0.0000 1.0000 1 10 exponential base 2.7183&quot; &quot;/random.1/val/map.2 /random.1/val /noise.1/dim/y 0.0000 1.0000 1 10 exponential base 2.7183&quot; &quot;/random.1/val/map.3 /random.1/val /lines.1/offset/x 0.0000 1.0000 1 10 exponential base 2.7183&quot; &quot;/random.1/val/map.4 /random.1/val /lines.1/offset/y 0.0000 1.0000 10 1 exponential base 2.7183&quot;</command>
+   <command address="mapping">&quot;/random.1/val/map.1 /random.1/val /noise.1/dim/x 0.0000 1.0000 1 10 exponential base 2.7183&quot; &quot;/random.1/val/map.2 /random.1/val /noise.1/dim/y 0.0000 1.0000 1 10 exponential base 2.7183&quot; &quot;/random.1/val/map.3 /random.1/val /lines.1/offset/x 0.0000 1.0000 1 10 exponential base 2.7183&quot; &quot;/random.1/val/map.4 /random.1/val /lines.1/offset/y 0.0000 1.0000 10 1 exponential base 2.7183&quot;</command>
   </script>
  </cue>
 </jamoma>
