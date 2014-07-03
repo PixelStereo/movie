@@ -1,0 +1,63 @@
+- cue "noise"
+- description "something about this cue"
+# ###########################################
+# 
+/layer.1/active 1
+/layer.1/blend 1
+/layer.1/color/alpha 1
+/layer.1/color/blue 1
+/layer.1/color/green 1
+/layer.1/color/red 1
+/layer.1/color/saturation 1
+/layer.1/interp 1
+/layer.1/layer 1
+/layer.1/pos/x 0
+/layer.1/pos/y 0
+/layer.1/pos/z 0
+/layer.1/scale/x 1.770000
+/layer.1/scale/y 1
+/layer.1/scale/z 1
+/layer.1/texture noise.1
+# 
+/noise.1/active 1
+/noise.1/dim/x 1280
+/noise.1/dim/y 720
+/noise.1/fps 25
+
+- cue "lines"
+- description "something about this cue"
+# ###########################################
+# 
+/layer.1/active 1
+/layer.1/blend 1
+/layer.1/color/alpha 1
+/layer.1/color/blue 1
+/layer.1/color/green 1
+/layer.1/color/red 1
+/layer.1/color/saturation 1
+/layer.1/interp 1
+/layer.1/layer 1
+/layer.1/pos/x 0
+/layer.1/pos/y 0
+/layer.1/pos/z 0
+/layer.1/scale/x 1.770000
+/layer.1/scale/y 1
+/layer.1/scale/z 1
+/layer.1/texture lines.1
+# 
+/lines.1/active 1
+/lines.1/coeff/x 0.200000
+/lines.1/coeff/y 0.100000
+/lines.1/number/x 4.000000
+/lines.1/number/y 8.000000
+/lines.1/offset/x 0
+/lines.1/offset/y 0
+/lines.1/texture noise.1
+# 
+/noise.1/active 1
+/noise.1/dim/x 3
+/noise.1/dim/y 12
+/noise.1/fps 25
+/noise.1/interp 0
+/noise.1/planes 1
+
