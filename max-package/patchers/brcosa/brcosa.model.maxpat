@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 7,
+			"revision" : 8,
 			"architecture" : "x86"
 		}
 ,
@@ -204,7 +204,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 447.5, 48.0, 157.0, 34.0 ],
-					"text" : "j.model @tag GLtexture @description \"brcosa effect\""
+					"text" : "j.model @tags GLtexture @description \"brcosa effect\""
 				}
 
 			}
@@ -233,7 +233,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 58.0, 98.0, 53.0, 33.0 ],
+					"patching_rect" : [ 58.0, 98.0, 56.0, 33.0 ],
 					"text" : "prepend texture"
 				}
 
@@ -426,6 +426,15 @@
 					"source" : [ "obj-84", 0 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "j.parameter.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.model.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}

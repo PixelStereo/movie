@@ -4,8 +4,8 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 7,
-			"architecture" : "x64"
+			"revision" : 8,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 70.0, 426.0, 740.0, 343.0 ],
@@ -171,13 +171,13 @@
 					"fontname" : "Helvetica Neue Light Italic",
 					"fontsize" : 12.0,
 					"id" : "obj-1",
-					"linecount" : 4,
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 576.0, 127.0, 113.0, 62.0 ],
-					"text" : "j.model @description \"noise generator\" @tag GLtexture"
+					"patching_rect" : [ 576.0, 127.0, 157.0, 34.0 ],
+					"text" : "j.model @description \"noise generator\" @tags GLtexture"
 				}
 
 			}

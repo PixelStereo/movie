@@ -90,7 +90,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 320.5, 173.0, 144.0, 34.0 ],
-					"text" : "j.model @tag GLtexture @description \"blur effect\""
+					"text" : "j.model @tags GLtexture @description \"blur effect\""
 				}
 
 			}

@@ -437,7 +437,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 357.553925, 180.0, 285.0, 19.0 ],
-					"text" : "j.model @tag clock @description \"framemotor engine\""
+					"text" : "j.model @tags clock @description \"framemotor engine\""
 				}
 
 			}

@@ -4,8 +4,8 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 7,
-			"architecture" : "x64"
+			"revision" : 8,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 51.0, 99.0, 584.0, 497.0 ],
@@ -29,6 +29,48 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Helvetica Neue Light Italic",
+					"fontsize" : 12.0,
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 337.0, 136.126038, 100.0, 20.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Helvetica Neue Light Italic",
+					"fontsize" : 12.0,
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 337.0, 167.0, 100.0, 20.0 ],
+					"text" : "del 1000"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Helvetica Neue Light Italic",
+					"fontsize" : 12.0,
+					"id" : "obj-5",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 90.0, 196.0, 185.0, 18.0 ],
+					"text" : "usetexture NoiseBlurHelp, interp 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"args" : [ "BlurHelp", "BlurHelpRender" ],
 					"id" : "obj-3",
 					"maxclass" : "bpatcher",
@@ -36,7 +78,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 100.0, 243.0, 79.126038 ]
+					"patching_rect" : [ 8.0, 100.0, 257.0, 75.126038 ]
 				}
 
 			}
@@ -53,8 +95,8 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
-							"architecture" : "x64"
+							"revision" : 8,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 68.0, 659.0, 492.0, 314.0 ],
@@ -425,7 +467,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 278.0, 8.0, 263.0, 109.126038 ]
+					"patching_rect" : [ 278.0, 8.0, 263.0, 119.126038 ]
 				}
 
 			}
@@ -506,7 +548,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 8.0, 243.0, 79.126038 ]
+					"patching_rect" : [ 8.0, 8.0, 257.0, 75.126038 ]
 				}
 
 			}
@@ -559,59 +601,100 @@
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-20", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
  ],
 		"dependency_cache" : [ 			{
 				"name" : "noise.module.maxpat",
-				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI/max-package/patchers/noise",
+				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers/noise",
 				"patcherrelativepath" : "../noise",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "noise.model.maxpat",
-				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI/max-package/patchers/noise",
+				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers/noise",
 				"patcherrelativepath" : "../noise",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "noise.view.maxpat",
-				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI/max-package/patchers/noise",
+				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers/noise",
 				"patcherrelativepath" : "../noise",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "header.poly.view.maxpat",
+				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers",
+				"patcherrelativepath" : "..",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "plane.module.maxpat",
-				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI/max-package/patchers/plane",
+				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers/plane",
 				"patcherrelativepath" : "../plane",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "plane.model.maxpat",
-				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI/max-package/patchers/plane",
+				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers/plane",
 				"patcherrelativepath" : "../plane",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "plane.view.maxpat",
-				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI/max-package/patchers/plane",
+				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers/plane",
 				"patcherrelativepath" : "../plane",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "header.texture.view.maxpat",
+				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers",
+				"patcherrelativepath" : "..",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "blur.module.maxpat",
-				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI/max-package/patchers/blur",
+				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers/blur",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "blur.model.maxpat",
-				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI/max-package/patchers/blur",
+				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers/blur",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -625,7 +708,7 @@
 			}
 , 			{
 				"name" : "blur.view.maxpat",
-				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI/max-package/patchers/blur",
+				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers/blur",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -639,15 +722,11 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.view.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "j.remote.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.receive.mxo",
+				"name" : "j.view.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -655,11 +734,15 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.init.mxo",
+				"name" : "j.receive.mxo",
 				"type" : "iLaX"
 			}
 , 			{
 				"name" : "j.namespace.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.init.mxo",
 				"type" : "iLaX"
 			}
  ]

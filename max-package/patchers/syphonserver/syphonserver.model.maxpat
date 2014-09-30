@@ -4,8 +4,8 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 7,
-			"architecture" : "x64"
+			"revision" : 8,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 25.0, 69.0, 543.0, 235.0 ],
@@ -61,7 +61,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 365.0, 100.0, 163.0, 34.0 ],
-					"text" : "j.model @tag GLtexture @description \"syphon server\""
+					"text" : "j.model @tags GLtexture @description \"syphon server\""
 				}
 
 			}

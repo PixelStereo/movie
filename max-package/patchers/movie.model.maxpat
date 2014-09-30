@@ -1076,7 +1076,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 842.0, 360.0, 296.0, 38.0 ],
-					"text" : "j.model @description \"A simple video player\" @tag GLtexture"
+					"text" : "j.model @description \"A simple video player\" @tags GLtexture"
 				}
 
 			}

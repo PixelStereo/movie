@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 7,
+			"revision" : 8,
 			"architecture" : "x86"
 		}
 ,
@@ -37,7 +37,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 468.0, 65.0, 32.5, 18.0 ],
-					"presentation_rect" : [ 464.5, 67.0, 0.0, 0.0 ],
 					"text" : "1"
 				}
 
@@ -487,8 +486,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 468.0, 129.5, 217.0, 34.0 ],
-					"text" : "j.model @tag GLtexture @description \"frame difference  effect\""
+					"patching_rect" : [ 468.0, 129.5, 248.0, 34.0 ],
+					"text" : "j.model @tags GLtexture @description \"frame difference  effect\""
 				}
 
 			}
@@ -994,6 +993,23 @@
 					"source" : [ "obj-9", 0 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "j.parameter.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.model.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.message.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.return.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}

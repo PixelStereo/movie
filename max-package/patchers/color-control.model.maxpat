@@ -61,7 +61,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 303.5, 184.0, 164.0, 34.0 ],
-					"text" : "j.model @tag GLtexture @description color-controls"
+					"text" : "j.model @tags GLtexture @description color-controls"
 				}
 
 			}

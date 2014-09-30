@@ -3985,7 +3985,7 @@
 																	"numoutlets" : 2,
 																	"outlettype" : [ "", "" ],
 																	"patching_rect" : [ 217.0, 60.0, 133.0, 62.0 ],
-																	"text" : "j.model black @description \"black generator\" @tag GLtexture"
+																	"text" : "j.model black @description \"black generator\" @tags GLtexture"
 																}
 
 															}

@@ -1010,7 +1010,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 464.0, 99.0, 122.0, 48.0 ],
-					"text" : "j.model @description \"camera grabber\" @tag GLtexture"
+					"text" : "j.model @description \"camera grabber\" @tags GLtexture"
 				}
 
 			}

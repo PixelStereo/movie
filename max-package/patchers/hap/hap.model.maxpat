@@ -1327,7 +1327,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 842.0, 360.0, 286.0, 38.0 ],
-					"text" : "j.model @description \"A simple video player using codec HAP\" @tag GLtexture"
+					"text" : "j.model @description \"A simple video player using codec HAP\" @tags GLtexture"
 				}
 
 			}

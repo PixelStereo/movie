@@ -90,7 +90,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 317.0, 275.0, 168.0, 34.0 ],
-					"text" : "j.model @tag GLtexture @description \"color generator\""
+					"text" : "j.model @tags GLtexture @description \"color generator\""
 				}
 
 			}

@@ -737,7 +737,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 447.5, 48.0, 144.0, 34.0 ],
-					"text" : "j.model @tag GLtexture @description \"lines effect\""
+					"text" : "j.model @tags GLtexture @description \"lines effect\""
 				}
 
 			}
