@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 849.0, 51.0, 526.0, 880.0 ],
+		"rect" : [ 403.0, 45.0, 526.0, 880.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -3140,7 +3140,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 25.0, 69.0, 925.0, 569.0 ],
+										"rect" : [ 684.0, 78.0, 476.0, 442.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -3168,7 +3168,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 39.0, 406.0, 423.0, 22.0 ],
+													"patching_rect" : [ 9.0, 383.0, 423.0, 22.0 ],
 													"text" : "I need to do autosave of jcues file when any modification happens."
 												}
 
@@ -3179,11 +3179,11 @@
 													"fontsize" : 12.0,
 													"frgb" : 0.0,
 													"id" : "obj-2",
-													"linecount" : 3,
+													"linecount" : 5,
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 39.0, 326.0, 839.0, 47.0 ],
+													"patching_rect" : [ 9.0, 303.0, 414.0, 74.0 ],
 													"text" : "JCUE\nIl y a un probleme avec la nottion de  namespace lié aux cues. C'est super, mais ce dont j'ai besoin est de définir plusieurs namespace… \nMon problème est pour sauvegarder le namespace quelque part… je ne trouve pas de moyen de sauver la liste du namespace utilisé."
 												}
 
@@ -3194,11 +3194,11 @@
 													"fontsize" : 12.0,
 													"frgb" : 0.0,
 													"id" : "obj-1",
-													"linecount" : 3,
+													"linecount" : 4,
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 39.0, 229.0, 839.0, 47.0 ],
+													"patching_rect" : [ 9.0, 206.0, 369.0, 60.0 ],
 													"text" : "JCUE\nfaire un coll/dict qui recence toutes les mémoires, jouées, leur temps de rampe et ainsi donc leur activité. Et montrer tout cela sur un multislider et/ou sur un jit.cellblock ou même en openGL"
 												}
 
@@ -3212,7 +3212,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 39.0, 33.0, 45.0, 20.0 ],
+													"patching_rect" : [ 9.0, 10.0, 45.0, 20.0 ],
 													"text" : "TODO"
 												}
 
@@ -3227,7 +3227,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 39.0, 66.0, 220.0, 33.0 ],
+													"patching_rect" : [ 9.0, 43.0, 220.0, 33.0 ],
 													"text" : "possibilité de faire des cues des modules dont le parametre sw est sur 1"
 												}
 
@@ -3242,7 +3242,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 39.0, 104.0, 111.0, 100.0 ],
+													"patching_rect" : [ 9.0, 81.0, 111.0, 100.0 ],
 													"text" : "cliquer sur le nom peux le faire passer en couleur. Alors un temps est défini pour toute action sur ce paramètre"
 												}
 
