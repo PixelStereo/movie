@@ -4,8 +4,8 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 7,
-			"architecture" : "x64"
+			"revision" : 10,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 1012.0, 506.0, 533.0, 330.0 ],
@@ -29,6 +29,41 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"color" : [ 0.0, 0.572549, 0.811765, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 344.0, 243.0, 131.0, 20.0 ],
+					"text" : "j.remote still"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"annotation" : "none",
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-4",
+					"maxclass" : "textbutton",
+					"mode" : 1,
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 344.0, 216.0, 100.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 4.0, 52.0, 68.0, 20.0 ],
+					"text" : "still off",
+					"texton" : "still on"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"annotation" : "none",
 					"args" : [ "#1" ],
@@ -70,7 +105,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 84.0, 127.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 49.0, 52.0, 46.0, 20.0 ],
+					"presentation_rect" : [ 72.0, 38.0, 46.0, 20.0 ],
 					"text" : "planes"
 				}
 
@@ -254,6 +289,16 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 353.5, 274.0, 329.5, 274.0, 329.5, 213.0, 353.5, 213.0 ],
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -330,6 +375,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -359,7 +413,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "header.poly.view.maxpat",
-				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI/max-package/patchers",
+				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers",
 				"patcherrelativepath" : "..",
 				"type" : "JSON",
 				"implicit" : 1
