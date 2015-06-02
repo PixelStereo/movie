@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 7,
-			"architecture" : "x64"
+			"revision" : 10,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 27.0, 44.0, 1326.0, 513.0 ],
+		"rect" : [ 27.0, 45.0, 1326.0, 513.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -89,8 +89,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 604.75, 474.0, 98.0, 20.0 ],
-					"text" : "j.return dumpout"
+					"patching_rect" : [ 604.75, 474.0, 106.0, 20.0 ],
+					"text" : "j.return dumpout_"
 				}
 
 			}
@@ -253,8 +253,8 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
-							"architecture" : "x64"
+							"revision" : 10,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 75.0, 119.0, 311.0, 223.0 ],
@@ -433,8 +433,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 382.0, 474.0, 202.0, 20.0 ],
-					"text" : "j.returnArray mouse @dataspace xy"
+					"patching_rect" : [ 382.0, 474.0, 214.0, 20.0 ],
+					"text" : "j.return_array mouse @dataspace xy"
 				}
 
 			}

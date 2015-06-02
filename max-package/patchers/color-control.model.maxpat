@@ -77,7 +77,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 93.0, 59.0, 404.0, 33.0 ],
-					"text" : "j.parameter hue @default 0 @type decimal @ramp/drive Max @range -2 2"
+					"text" : "j.parameter hue @default 0 @type decimal @ramp/drive max @range -2 2"
 				}
 
 			}

@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 8,
+			"revision" : 10,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 190.0, 433.0, 712.0, 476.0 ],
+		"rect" : [ 478.0, 453.0, 712.0, 476.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -42,11 +42,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 8,
+							"revision" : 10,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 25.0, 69.0, 506.0, 161.0 ],
+						"rect" : [ 517.0, 320.0, 506.0, 161.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -65,7 +65,22 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Helvetica Neue Light Italic",
+									"fontsize" : 12.0,
+									"id" : "obj-3",
+									"maxclass" : "flonum",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "float", "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 177.0, 107.0, 50.0, 20.0 ]
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -90,7 +105,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 116.916656, 61.914627, 367.0, 20.0 ],
-									"text" : "j.parameter camera/z @default 2 @type decimal @ramp/drive Max"
+									"text" : "j.parameter camera/z @default 2 @type decimal @ramp/drive max"
 								}
 
 							}
@@ -105,7 +120,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 85.583321, 37.707306, 367.0, 20.0 ],
-									"text" : "j.parameter camera/y @default 0 @type decimal @ramp/drive Max"
+									"text" : "j.parameter camera/y @default 0 @type decimal @ramp/drive max"
 								}
 
 							}
@@ -120,7 +135,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 54.249989, 13.5, 367.0, 20.0 ],
-									"text" : "j.parameter camera/x @default 0 @type decimal @ramp/drive Max"
+									"text" : "j.parameter camera/x @default 0 @type decimal @ramp/drive max"
 								}
 
 							}
@@ -151,6 +166,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-29", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-50", 3 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-3", 0 ]
 								}
 
 							}
@@ -250,7 +274,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 8,
+							"revision" : 10,
 							"architecture" : "x86"
 						}
 ,
@@ -593,7 +617,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 8,
+							"revision" : 10,
 							"architecture" : "x86"
 						}
 ,
@@ -1038,7 +1062,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 8,
+							"revision" : 10,
 							"architecture" : "x86"
 						}
 ,
@@ -1162,7 +1186,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 584.0, 232.0, 300.0, 17.0 ],
-									"text" : "j.parameter camera/far_clip @default 250 @range 0 1000 @type integer"
+									"text" : "j.parameter camera/far_clip @default 100 @range 0 1000 @type integer"
 								}
 
 							}
@@ -1191,7 +1215,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 513.0, 211.0, 312.0, 17.0 ],
-									"text" : "j.parameter camera/near_clip @default 0.01 @range 0 1000 @type decimal"
+									"text" : "j.parameter camera/near_clip @default 0.1 @range 0 1000 @type decimal"
 								}
 
 							}
@@ -1678,7 +1702,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 8,
+							"revision" : 10,
 							"architecture" : "x86"
 						}
 ,
@@ -2027,7 +2051,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 8,
+							"revision" : 10,
 							"architecture" : "x86"
 						}
 ,
@@ -2635,7 +2659,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 8,
+							"revision" : 10,
 							"architecture" : "x86"
 						}
 ,
@@ -2908,7 +2932,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 8,
+							"revision" : 10,
 							"architecture" : "x86"
 						}
 ,
@@ -2942,7 +2966,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 687.499939, 163.0, 376.0, 20.0 ],
-									"text" : "j.parameter color/alpha @default 1 @type decimal @ramp/drive Max"
+									"text" : "j.parameter color/alpha @default 1 @type decimal @ramp/drive max"
 								}
 
 							}
@@ -2957,7 +2981,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 662.666626, 135.5, 369.0, 20.0 ],
-									"text" : "j.parameter color/blue @default 1 @type decimal @ramp/drive Max"
+									"text" : "j.parameter color/blue @default 1 @type decimal @ramp/drive max"
 								}
 
 							}
@@ -2972,7 +2996,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 637.833313, 108.0, 377.0, 20.0 ],
-									"text" : "j.parameter color/green @default 1 @type decimal @ramp/drive Max"
+									"text" : "j.parameter color/green @default 1 @type decimal @ramp/drive max"
 								}
 
 							}
@@ -2987,7 +3011,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 612.999939, 80.5, 364.0, 20.0 ],
-									"text" : "j.parameter color/red @default 1 @type decimal @ramp/drive Max"
+									"text" : "j.parameter color/red @default 1 @type decimal @ramp/drive max"
 								}
 
 							}
@@ -3058,7 +3082,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 121.5, 80.5, 431.0, 20.0 ],
-									"text" : "j.parameter color/erase/saturation @default 1 @type decimal @ramp/drive Max"
+									"text" : "j.parameter color/erase/saturation @default 1 @type decimal @ramp/drive max"
 								}
 
 							}
@@ -3087,7 +3111,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 162.916656, 178.0, 408.0, 20.0 ],
-									"text" : "j.parameter color/erase/alpha @default 1 @type decimal @ramp/drive Max"
+									"text" : "j.parameter color/erase/alpha @default 1 @type decimal @ramp/drive max"
 								}
 
 							}
@@ -3102,7 +3126,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 100.666656, 54.5, 402.0, 20.0 ],
-									"text" : "j.parameter color/erase/blue @default 0 @type decimal @ramp/drive Max"
+									"text" : "j.parameter color/erase/blue @default 0 @type decimal @ramp/drive max"
 								}
 
 							}
@@ -3117,7 +3141,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 75.166656, 31.5, 415.0, 20.0 ],
-									"text" : "j.parameter color/erase/green @default 0 @type decimal @ramp/drive Max"
+									"text" : "j.parameter color/erase/green @default 0 @type decimal @ramp/drive max"
 								}
 
 							}
@@ -3132,7 +3156,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 49.666656, 8.5, 406.0, 20.0 ],
-									"text" : "j.parameter color/erase//red @default 0 @type decimal @ramp/drive Max"
+									"text" : "j.parameter color/erase//red @default 0 @type decimal @ramp/drive max"
 								}
 
 							}
@@ -3544,15 +3568,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-52", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-20", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-16", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -3784,35 +3799,6 @@
 					"source" : [ "obj-9", 0 ]
 				}
 
-			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "j.parameter.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.model.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.return.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.receive.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.namespace.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.send.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.init.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}

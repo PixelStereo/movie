@@ -2070,7 +2070,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 749.0, 64.0, 443.0, 20.0 ],
-					"text" : "j.parameter freq @default 0.1 @range -6.26 6.26 @ramp/drive Max"
+					"text" : "j.parameter freq @default 0.1 @range -6.26 6.26 @ramp/drive max"
 				}
 
 			}

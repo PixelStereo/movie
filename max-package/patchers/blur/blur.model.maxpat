@@ -106,7 +106,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 180.0, 92.0, 295.0, 33.0 ],
-					"text" : "j.parameter amount @default 0 @type decimal @ramp/drive Max @range 0. 5."
+					"text" : "j.parameter amount @default 0 @type decimal @ramp/drive max @range 0. 5."
 				}
 
 			}

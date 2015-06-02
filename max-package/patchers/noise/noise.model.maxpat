@@ -97,7 +97,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 310.5, 9.0, 335.0, 20.0 ],
-					"text" : "j.parameter fps @type integer @default 25 @ramp/drive Max"
+					"text" : "j.parameter fps @type integer @default 25 @ramp/drive max"
 				}
 
 			}
@@ -236,7 +236,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 178.5, 72.0, 391.0, 20.0 ],
-					"text" : "j.parameter dim/y @type decimal @default 720 @ramp/drive Max"
+					"text" : "j.parameter dim/y @type decimal @default 720 @ramp/drive max"
 				}
 
 			}
@@ -251,7 +251,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 104.0, 45.0, 398.0, 20.0 ],
-					"text" : "j.parameter dim/x @type decimal @default 1280 @ramp/drive Max"
+					"text" : "j.parameter dim/x @type decimal @default 1280 @ramp/drive max"
 				}
 
 			}

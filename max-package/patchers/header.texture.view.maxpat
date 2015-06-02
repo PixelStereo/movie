@@ -4,8 +4,8 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 7,
-			"architecture" : "x64"
+			"revision" : 10,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 149.0, 499.0, 514.0, 273.0 ],
@@ -116,11 +116,11 @@
 					"fontsize" : 12.0,
 					"id" : "obj-19",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 163.0, 23.0, 133.0, 20.0 ],
-					"text" : "j.receive /rtvi/texturelist"
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 163.0, 23.0, 113.0, 20.0 ],
+					"text" : "r rtvi/texturelist"
 				}
 
 			}
@@ -146,7 +146,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-44",
-					"items" : "<empty>",
+					"items" : [ "<choose>", ",", "<separator>", ",", "black", ",", "blur.1", ",", "brcosa.1", ",", "cam.1", ",", "cc.1", ",", "clock.1", ",", "color.1", ",", "diff.1", ",", "hap.1", ",", "hap.2", ",", "hap.3", ",", "hap.4", ",", "hap.5", ",", "layer.1", ",", "layer.10", ",", "layer.2", ",", "layer.3", ",", "layer.4", ",", "layer.5", ",", "layer.6", ",", "layer.7", ",", "layer.8", ",", "layer.9", ",", "lines.1", ",", "noise.1", ",", "random.1", ",", "render.1", ",", "sound.1", ",", "split.1", ",", "syphonclient.1", ",", "syphonserver.1", ",", "texturelist", ",", "window.1" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -306,10 +306,6 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "j.remote.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.receive.mxo",
 				"type" : "iLaX"
 			}
  ]

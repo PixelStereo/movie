@@ -431,7 +431,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 144.5, 331.0, 850.0, 19.0 ],
-													"text" : "j.parameter material/shininess @type decimal @range/bounds 0. 255. @range/clipmode both @ramp/drive Max @description \"Material shininess.\" @value/default 10.",
+													"text" : "j.parameter material/shininess @type decimal @range/bounds 0. 255. @range/clipmode both @ramp/drive max @description \"Material shininess.\" @value/default 10.",
 													"varname" : "material/shininess"
 												}
 
@@ -491,7 +491,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 117.0, 265.0, 954.0, 19.0 ],
-													"text" : "j.parameter material/light/specular @type decimalArray @ramp/drive Max @description \"The specular light material property as red, green, blue, alpha (0.-1.).\" @value/default 0. 0. 0. 0.",
+													"text" : "j.parameter material/light/specular @type decimalArray @ramp/drive max @description \"The specular light material property as red, green, blue, alpha (0.-1.).\" @value/default 0. 0. 0. 0.",
 													"varname" : "material/light/specular"
 												}
 
@@ -506,7 +506,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 103.0, 219.0, 933.0, 19.0 ],
-													"text" : "j.parameter material/light/emission @type decimalArray @ramp/drive Max @description \"The material emission property as red, green, blue, alpha (0.-1.).\" @value/default 0. 0. 0. 0.",
+													"text" : "j.parameter material/light/emission @type decimalArray @ramp/drive max @description \"The material emission property as red, green, blue, alpha (0.-1.).\" @value/default 0. 0. 0. 0.",
 													"varname" : "material/light/emission"
 												}
 
@@ -521,7 +521,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 83.0, 172.0, 937.0, 19.0 ],
-													"text" : "j.parameter material/light/diffuse @type decimalArray @ramp/drive Max @description \"The diffuse light material property as red, green, blue, alpha (0.-1.).\" @value/default 0. 0. 0. 0.",
+													"text" : "j.parameter material/light/diffuse @type decimalArray @ramp/drive max @description \"The diffuse light material property as red, green, blue, alpha (0.-1.).\" @value/default 0. 0. 0. 0.",
 													"varname" : "material/light/diffuse"
 												}
 
@@ -536,7 +536,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 50.0, 123.0, 952.0, 19.0 ],
-													"text" : "j.parameter material/light/ambient @type decimalArray @ramp/drive Max @description \"The ambient light material property as red, green, blue, alpha (0.-1.).\" @value/default 0. 0. 0. 0.",
+													"text" : "j.parameter material/light/ambient @type decimalArray @ramp/drive max @description \"The ambient light material property as red, green, blue, alpha (0.-1.).\" @value/default 0. 0. 0. 0.",
 													"varname" : "material/light/ambient"
 												}
 
@@ -1013,7 +1013,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 140.0, 322.0, 788.0, 19.0 ],
-									"text" : "j.parameter fog/params @type decimalArray @ramp/drive Max @description \"Fog color (RGBA), density,start and end.\" @value/default 0. 0. 0. 0. 0. 0. 0.",
+									"text" : "j.parameter fog/params @type decimalArray @ramp/drive max @description \"Fog color (RGBA), density,start and end.\" @value/default 0. 0. 0. 0. 0. 0. 0.",
 									"varname" : "fog/params"
 								}
 
@@ -1028,7 +1028,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 182.0, 205.0, 883.5, 19.0 ],
-									"text" : "j.parameter color/alpha @type decimal @range/bounds 0. 1. @range/clipmode both @ramp/drive Max @description \"Object alpha transparency (0.-1.).\" @value/default 1.",
+									"text" : "j.parameter color/alpha @type decimal @range/bounds 0. 1. @range/clipmode both @ramp/drive max @description \"Object alpha transparency (0.-1.).\" @value/default 1.",
 									"varname" : "color/alpha"
 								}
 
@@ -1043,7 +1043,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 113.0, 184.0, 717.0, 19.0 ],
-									"text" : "j.parameter color/rgb @type decimalArray @ramp/drive Max @description \"Object color as red, green, blue (0.-1.).\" @value/default 1. 1. 1.",
+									"text" : "j.parameter color/rgb @type decimalArray @ramp/drive max @description \"Object color as red, green, blue (0.-1.).\" @value/default 1. 1. 1.",
 									"varname" : "color/rgb"
 								}
 
@@ -1058,7 +1058,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 55.0, 94.0, 701.0, 19.0 ],
-									"text" : "j.parameter 3D/scale @ramp/drive Max @type decimalArray @description \"3D scaling factor as xyz coordinates.\" @value/default 1. 1. 1.",
+									"text" : "j.parameter 3D/scale @ramp/drive max @type decimalArray @description \"3D scaling factor as xyz coordinates.\" @value/default 1. 1. 1.",
 									"varname" : "3D/scale"
 								}
 
@@ -1073,7 +1073,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 37.0, 48.0, 811.0, 19.0 ],
-									"text" : "j.parameter 3D/rotate @type decimalArray @ramp/drive Max @description \"3D rotation as angle and xyz rotation axis coordinates.\" @value/default 0. 0. 0. 1.",
+									"text" : "j.parameter 3D/rotate @type decimalArray @ramp/drive max @description \"3D rotation as angle and xyz rotation axis coordinates.\" @value/default 0. 0. 0. 1.",
 									"varname" : "3D/rotate"
 								}
 
@@ -1088,7 +1088,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 19.0, 6.0, 677.0, 19.0 ],
-									"text" : "j.parameter 3D/position @type decimalArray @ramp/drive Max @description \"3D origin as xyz coordinates.\" @value/default 0. 0. 0.",
+									"text" : "j.parameter 3D/position @type decimalArray @ramp/drive max @description \"3D origin as xyz coordinates.\" @value/default 0. 0. 0.",
 									"varname" : "3D/position"
 								}
 
