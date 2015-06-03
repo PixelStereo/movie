@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 7,
+			"revision" : 10,
 			"architecture" : "x86"
 		}
 ,
@@ -30,6 +30,7 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontface" : 2,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
@@ -37,15 +38,17 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 236.0, 98.0, 69.0, 20.0 ],
+					"patching_rect" : [ 236.0, 98.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 137.5, 24.0, 69.0, 20.0 ],
-					"text" : "fps/smooth"
+					"presentation_rect" : [ 137.5, 23.0, 69.0, 20.0 ],
+					"text" : "fps/smooth",
+					"textcolor" : [ 0.060987, 0.494647, 0.768395, 0.6 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 2,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
@@ -53,10 +56,11 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 82.5, 126.0, 27.0, 20.0 ],
+					"patching_rect" : [ 82.5, 126.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.5, 24.0, 27.0, 20.0 ],
-					"text" : "fps"
+					"presentation_rect" : [ 6.5, 23.0, 27.0, 20.0 ],
+					"text" : "fps",
+					"textcolor" : [ 0.060987, 0.494647, 0.768395, 0.6 ]
 				}
 
 			}
@@ -73,7 +77,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 11.0, 18.0, 252.0, 27.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -3.5, -3.0, 260.0, 26.0 ]
+					"presentation_rect" : [ 1.5, 0.0, 255.0, 26.0 ]
 				}
 
 			}
@@ -94,18 +98,19 @@
 , 			{
 				"box" : 				{
 					"annotation" : "none",
-					"bordercolor" : [ 0.0, 0.0, 0.0, 0.0 ],
+					"bordercolor" : [ 0.075522, 0.410038, 0.717789, 0.2 ],
 					"fontname" : "Arial",
-					"fontsize" : 14.0,
+					"fontsize" : 12.0,
 					"id" : "obj-21",
 					"maxclass" : "number",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 71.0, 98.0, 53.0, 22.0 ],
+					"patching_rect" : [ 71.0, 98.0, 50.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 33.5, 23.0, 53.0, 22.0 ],
+					"presentation_rect" : [ 33.5, 23.0, 40.0, 20.0 ],
+					"textcolor" : [ 0.060987, 0.494647, 0.768395, 1.0 ],
 					"triangle" : 0
 				}
 
@@ -142,18 +147,20 @@
 			}
 , 			{
 				"box" : 				{
-					"bordercolor" : [ 0.0, 0.0, 0.0, 0.0 ],
+					"annotation" : "none",
+					"bordercolor" : [ 0.075522, 0.410038, 0.717789, 0.2 ],
 					"fontname" : "Arial",
-					"fontsize" : 14.0,
+					"fontsize" : 12.0,
 					"id" : "obj-20",
 					"maxclass" : "number",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 169.5, 98.0, 53.0, 22.0 ],
+					"patching_rect" : [ 169.5, 98.0, 50.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 210.5, 23.0, 53.0, 22.0 ],
+					"presentation_rect" : [ 210.5, 23.0, 40.0, 20.0 ],
+					"textcolor" : [ 0.060987, 0.494647, 0.768395, 1.0 ],
 					"triangle" : 0
 				}
 
@@ -199,7 +206,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "header.poly.view.maxpat",
-				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI/max-package/patchers",
+				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers",
 				"patcherrelativepath" : "..",
 				"type" : "JSON",
 				"implicit" : 1
