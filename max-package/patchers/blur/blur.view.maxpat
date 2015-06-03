@@ -4,8 +4,8 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 7,
-			"architecture" : "x64"
+			"revision" : 10,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 1040.0, 506.0, 640.0, 480.0 ],
@@ -77,8 +77,10 @@
 			}
 , 			{
 				"box" : 				{
+					"bordercolor" : [ 0.060987, 0.494647, 0.768395, 0.5 ],
 					"floatoutput" : 1,
 					"id" : "obj-7",
+					"knobcolor" : [ 0.060987, 0.494647, 0.768395, 1.0 ],
 					"maxclass" : "slider",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -86,7 +88,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 131.0, 72.0, 20.0, 140.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 49.0, 194.0, 23.0 ],
+					"presentation_rect" : [ 1.0, 47.0, 194.0, 20.0 ],
 					"size" : 4.0
 				}
 
@@ -107,6 +109,7 @@
 			}
 , 			{
 				"box" : 				{
+					"bordercolor" : [ 0.073866, 0.325456, 0.659127, 0.2 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-3",
@@ -117,7 +120,9 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 27.0, 106.5, 50.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 201.0, 49.0, 50.0, 20.0 ]
+					"presentation_rect" : [ 201.0, 47.0, 50.0, 20.0 ],
+					"textcolor" : [ 0.060987, 0.494647, 0.768395, 1.0 ],
+					"triangle" : 0
 				}
 
 			}
@@ -171,14 +176,14 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "header.poly.view.maxpat",
-				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI/max-package/patchers",
+				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers",
 				"patcherrelativepath" : "..",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "header.texture.view.maxpat",
-				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI/max-package/patchers",
+				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers",
 				"patcherrelativepath" : "..",
 				"type" : "JSON",
 				"implicit" : 1

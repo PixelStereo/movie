@@ -9,7 +9,7 @@
 		}
 ,
 		"rect" : [ 149.0, 499.0, 514.0, 273.0 ],
-		"bgcolor" : [ 0.047059, 0.047059, 0.047059, 1.0 ],
+		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -140,21 +140,24 @@
 			}
 , 			{
 				"box" : 				{
-					"arrow" : 0,
-					"arrowframe" : 0,
-					"arrowlink" : 0,
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"arrowcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Helvetica Neue Light Italic",
+					"fontsize" : 10.0,
+					"framecolor" : [ 0.0, 0.572549, 0.811765, 0.5 ],
+					"hltcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ],
 					"id" : "obj-44",
-					"items" : [ "<choose>", ",", "<separator>", ",", "black", ",", "blur.1", ",", "brcosa.1", ",", "cam.1", ",", "cc.1", ",", "clock.1", ",", "color.1", ",", "diff.1", ",", "hap.1", ",", "hap.2", ",", "hap.3", ",", "hap.4", ",", "hap.5", ",", "layer.1", ",", "layer.10", ",", "layer.2", ",", "layer.3", ",", "layer.4", ",", "layer.5", ",", "layer.6", ",", "layer.7", ",", "layer.8", ",", "layer.9", ",", "lines.1", ",", "noise.1", ",", "random.1", ",", "render.1", ",", "sound.1", ",", "split.1", ",", "syphonclient.1", ",", "syphonserver.1", ",", "texturelist", ",", "window.1" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 163.0, 77.0, 100.0, 20.0 ],
+					"patching_rect" : [ 163.0, 77.0, 100.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 54.0, -1.0, 158.5, 20.0 ]
+					"presentation_rect" : [ 35.0, -2.0, 216.129166, 18.0 ],
+					"rounded" : 0,
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textcolor2" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -174,28 +177,29 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "none",
 					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgovercolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgoveroncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bordercolor" : [ 0.101961, 0.101961, 0.101961, 1.0 ],
-					"borderoncolor" : [ 0.101961, 0.101961, 0.101961, 1.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
+					"bordercolor" : [ 0.0, 0.572549, 0.811765, 0.5 ],
+					"borderoncolor" : [ 0.83767, 0.0, 0.0, 1.0 ],
+					"fontname" : "Helvetica Neue Light Italic",
+					"fontsize" : 9.0,
 					"id" : "obj-2",
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 4.0, 13.0, 100.0, 20.0 ],
+					"patching_rect" : [ 4.0, 13.0, 50.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, -1.0, 46.0, 20.0 ],
+					"presentation_rect" : [ -1.0, -4.0, 38.0, 20.0 ],
+					"rounded" : 0.0,
 					"text" : "refresh",
-					"texton" : "On",
-					"textoncolor" : [ 0.14902, 0.14902, 0.14902, 1.0 ],
-					"textoveroncolor" : [ 0.14902, 0.14902, 0.14902, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textoncolor" : [ 0.0, 0.572549, 0.811765, 1.0 ],
+					"textovercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textoveroncolor" : [ 0.839216, 0.0, 0.0, 1.0 ]
 				}
 
 			}

@@ -66,7 +66,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 316.5, 235.0, 34.0, 20.0 ],
-					"presentation_rect" : [ 308.0, 227.0, 0.0, 0.0 ],
 					"text" : "gate"
 				}
 
@@ -573,6 +572,15 @@
 					"source" : [ "obj-8", 0 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "j.parameter.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.model.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}

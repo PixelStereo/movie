@@ -4,8 +4,8 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 7,
-			"architecture" : "x64"
+			"revision" : 10,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 1106.0, 506.0, 477.0, 420.0 ],
@@ -77,6 +77,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 2,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
@@ -84,15 +85,17 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 368.0, 168.5, 36.0, 20.0 ],
+					"patching_rect" : [ 368.0, 168.5, 37.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 125.0, 39.5, 40.0, 20.0 ],
-					"text" : "coeff"
+					"presentation_rect" : [ 131.0, 34.5, 37.0, 20.0 ],
+					"text" : "coeff",
+					"textcolor" : [ 0.060987, 0.494647, 0.768395, 0.6 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 2,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
@@ -102,13 +105,15 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 221.0, 179.5, 40.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 58.5, 40.0, 20.0 ],
-					"text" : "offset"
+					"presentation_rect" : [ -1.0, 52.5, 40.0, 20.0 ],
+					"text" : "offset",
+					"textcolor" : [ 0.060987, 0.494647, 0.768395, 0.6 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 2,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
@@ -118,8 +123,9 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 67.0, 170.5, 51.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 39.5, 51.0, 20.0 ],
-					"text" : "number"
+					"presentation_rect" : [ -1.0, 34.5, 51.0, 20.0 ],
+					"text" : "number",
+					"textcolor" : [ 0.060987, 0.494647, 0.768395, 0.6 ]
 				}
 
 			}
@@ -139,7 +145,7 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "none",
+					"bordercolor" : [ 0.073866, 0.325456, 0.659127, 0.2 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-28",
@@ -150,7 +156,9 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 310.0, 179.5, 50.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 195.0, 39.5, 38.0, 20.0 ]
+					"presentation_rect" : [ 201.0, 34.5, 50.0, 20.0 ],
+					"textcolor" : [ 0.060987, 0.494647, 0.768395, 1.0 ],
+					"triangle" : 0
 				}
 
 			}
@@ -170,7 +178,7 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "none",
+					"bordercolor" : [ 0.073866, 0.325456, 0.659127, 0.2 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-30",
@@ -181,7 +189,9 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 310.0, 104.5, 50.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 158.0, 39.5, 37.0, 20.0 ]
+					"presentation_rect" : [ 164.0, 34.5, 50.0, 20.0 ],
+					"textcolor" : [ 0.060987, 0.494647, 0.768395, 1.0 ],
+					"triangle" : 0
 				}
 
 			}
@@ -201,7 +211,7 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "none",
+					"bordercolor" : [ 0.073866, 0.325456, 0.659127, 0.2 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-24",
@@ -212,7 +222,9 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 152.0, 179.5, 50.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 87.0, 58.5, 38.0, 20.0 ]
+					"presentation_rect" : [ 84.0, 52.5, 50.0, 20.0 ],
+					"textcolor" : [ 0.060987, 0.494647, 0.768395, 1.0 ],
+					"triangle" : 0
 				}
 
 			}
@@ -232,7 +244,7 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "none",
+					"bordercolor" : [ 0.073866, 0.325456, 0.659127, 0.2 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-26",
@@ -243,7 +255,9 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 152.0, 104.5, 50.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 49.0, 58.5, 38.0, 20.0 ]
+					"presentation_rect" : [ 46.0, 52.5, 50.0, 20.0 ],
+					"textcolor" : [ 0.060987, 0.494647, 0.768395, 1.0 ],
+					"triangle" : 0
 				}
 
 			}
@@ -263,7 +277,7 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "none",
+					"bordercolor" : [ 0.073866, 0.325456, 0.659127, 0.2 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-20",
@@ -274,7 +288,9 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 17.0, 179.5, 50.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 87.0, 39.5, 38.0, 20.0 ]
+					"presentation_rect" : [ 84.0, 34.5, 50.0, 20.0 ],
+					"textcolor" : [ 0.060987, 0.494647, 0.768395, 1.0 ],
+					"triangle" : 0
 				}
 
 			}
@@ -294,7 +310,7 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "none",
+					"bordercolor" : [ 0.073866, 0.325456, 0.659127, 0.2 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-17",
@@ -305,7 +321,9 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 17.0, 104.5, 50.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 49.0, 39.5, 38.0, 20.0 ]
+					"presentation_rect" : [ 46.0, 34.5, 50.0, 20.0 ],
+					"textcolor" : [ 0.060987, 0.494647, 0.768395, 1.0 ],
+					"triangle" : 0
 				}
 
 			}
@@ -436,14 +454,14 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "header.poly.view.maxpat",
-				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI/max-package/patchers",
+				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers",
 				"patcherrelativepath" : "..",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "header.texture.view.maxpat",
-				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI/max-package/patchers",
+				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers",
 				"patcherrelativepath" : "..",
 				"type" : "JSON",
 				"implicit" : 1

@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 7,
+			"revision" : 10,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 565.0, 473.0, 380.0, 249.0 ],
-		"bgcolor" : [ 0.047059, 0.047059, 0.047059, 1.0 ],
+		"rect" : [ 376.0, 694.0, 380.0, 249.0 ],
+		"bgcolor" : [ 1.0, 0.999974, 0.999991, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -67,8 +67,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 42.0, 217.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 143.5, 3.0, 83.0, 20.0 ],
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"presentation_rect" : [ 133.5, 0.0, 83.0, 20.0 ],
+					"textcolor" : [ 0.060987, 0.494647, 0.768395, 0.5 ]
 				}
 
 			}
@@ -137,6 +137,7 @@
 					"arrowlink" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"framecolor" : [ 0.501961, 0.501961, 0.501961, 0.0 ],
 					"id" : "obj-44",
 					"items" : "<empty>",
 					"maxclass" : "umenu",
@@ -144,9 +145,11 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 195.0, 102.0, 100.0, 20.0 ],
+					"patching_rect" : [ 195.0, 102.0, 27.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 40.0, 3.0, 103.5, 20.0 ]
+					"presentation_rect" : [ 37.0, 0.0, 88.0, 20.0 ],
+					"rounded" : 0,
+					"textcolor" : [ 0.060987, 0.494647, 0.768395, 1.0 ]
 				}
 
 			}
@@ -159,13 +162,13 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 10,
 							"architecture" : "x86"
 						}
 ,
@@ -241,7 +244,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 10,
 											"architecture" : "x86"
 										}
 ,
@@ -506,7 +509,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 10,
 											"architecture" : "x86"
 										}
 ,
@@ -660,7 +663,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 10,
 											"architecture" : "x86"
 										}
 ,
@@ -1116,28 +1119,29 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "none",
 					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgovercolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgoveroncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bordercolor" : [ 0.101961, 0.101961, 0.101961, 1.0 ],
-					"borderoncolor" : [ 0.101961, 0.101961, 0.101961, 1.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"bordercolor" : [ 0.0, 0.572549, 0.811765, 0.5 ],
+					"borderoncolor" : [ 0.83767, 0.0, 0.0, 1.0 ],
+					"fontname" : "Helvetica Neue Light Italic",
+					"fontsize" : 9.0,
 					"id" : "obj-2",
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 24.0, 98.0, 100.0, 20.0 ],
+					"patching_rect" : [ 24.0, 98.0, 50.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 3.0, 32.0, 20.0 ],
-					"text" : "Init",
-					"texton" : "On",
-					"textoncolor" : [ 0.14902, 0.14902, 0.14902, 1.0 ],
-					"textoveroncolor" : [ 0.14902, 0.14902, 0.14902, 1.0 ]
+					"presentation_rect" : [ -1.0, 0.0, 38.0, 20.0 ],
+					"rounded" : 0.0,
+					"text" : "refresh",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textoncolor" : [ 0.0, 0.572549, 0.811765, 1.0 ],
+					"textovercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textoveroncolor" : [ 0.839216, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -1157,15 +1161,14 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "none",
 					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgovercolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgoveroncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bordercolor" : [ 0.101961, 0.101961, 0.101961, 1.0 ],
-					"borderoncolor" : [ 0.101961, 0.101961, 0.101961, 1.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"bordercolor" : [ 0.0, 0.572549, 0.811765, 0.5 ],
+					"borderoncolor" : [ 0.83767, 0.0, 0.0, 1.0 ],
+					"fontname" : "Helvetica Neue Light Italic",
+					"fontsize" : 9.0,
 					"id" : "obj-23",
 					"maxclass" : "textbutton",
 					"mode" : 1,
@@ -1175,11 +1178,30 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 24.0, 18.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 217.0, 3.0, 32.0, 20.0 ],
+					"presentation_rect" : [ 218.0, 0.0, 33.0, 20.0 ],
+					"rounded" : 0.0,
 					"text" : "Off",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"texton" : "On",
-					"textoncolor" : [ 0.14902, 0.14902, 0.14902, 1.0 ],
-					"textoveroncolor" : [ 0.14902, 0.14902, 0.14902, 1.0 ]
+					"textoncolor" : [ 0.0, 0.572549, 0.811765, 1.0 ],
+					"textovercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textoveroncolor" : [ 0.839216, 0.0, 0.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.602718, 0.6027, 0.60271, 0.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.060987, 0.494647, 0.768395, 1.0 ],
+					"id" : "obj-12",
+					"maxclass" : "panel",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 182.0, 51.0, 128.0, 128.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ -1.0, 0.0, 252.0, 20.0 ],
+					"rounded" : 0
 				}
 
 			}
