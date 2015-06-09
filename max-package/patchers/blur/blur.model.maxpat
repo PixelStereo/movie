@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 7,
-			"architecture" : "x64"
+			"revision" : 10,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 101.0, 451.0, 505.0, 247.0 ],
+		"rect" : [ 101.0, 451.0, 729.0, 264.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -100,13 +100,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-2",
-					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 180.0, 92.0, 295.0, 33.0 ],
-					"text" : "j.parameter amount @default 0 @type decimal @ramp/drive max @range 0. 5."
+					"patching_rect" : [ 180.0, 92.0, 474.0, 20.0 ],
+					"text" : "j.parameter amount @type decimal @default 0 @ramp/drive max @range 0. 5."
 				}
 
 			}
@@ -120,8 +119,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 70.0, 65.0, 330.0, 20.0 ],
-					"text" : "j.parameter texture @default black @type string"
+					"patching_rect" : [ 70.0, 65.0, 265.0, 20.0 ],
+					"text" : "j.parameter texture @type string @default black"
 				}
 
 			}
@@ -178,7 +177,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 14.0, 14.0, 303.0, 20.0 ],
+					"patching_rect" : [ 14.0, 14.0, 252.0, 20.0 ],
 					"text" : "j.parameter active @type boolean @default 0"
 				}
 

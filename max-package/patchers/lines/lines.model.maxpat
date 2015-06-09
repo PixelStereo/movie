@@ -4,8 +4,8 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 7,
-			"architecture" : "x64"
+			"revision" : 10,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 101.0, 451.0, 672.0, 509.0 ],
@@ -52,7 +52,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 399.75, 368.5, 254.0, 20.0 ],
-					"text" : "j.parameter coeff/y @default 0 @type decimal"
+					"text" : "j.parameter coeff/y @type decimal @default 0"
 				}
 
 			}
@@ -67,7 +67,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 358.25, 341.5, 254.0, 20.0 ],
-					"text" : "j.parameter coeff/x @default 0 @type decimal"
+					"text" : "j.parameter coeff/x @type decimal @default 0"
 				}
 
 			}
@@ -96,7 +96,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 334.75, 315.0, 269.0, 20.0 ],
-					"text" : "j.parameter number/y @default 0 @type decimal"
+					"text" : "j.parameter number/y @type decimal @default 0"
 				}
 
 			}
@@ -111,7 +111,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 285.75, 287.0, 269.0, 20.0 ],
-					"text" : "j.parameter number/x @default 0 @type decimal"
+					"text" : "j.parameter number/x @type decimal @default 0"
 				}
 
 			}
@@ -140,7 +140,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 250.75, 260.5, 257.0, 20.0 ],
-					"text" : "j.parameter offset/y @default 0 @type decimal"
+					"text" : "j.parameter offset/y @type decimal @default 0"
 				}
 
 			}
@@ -155,7 +155,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 209.25, 233.5, 257.0, 20.0 ],
-					"text" : "j.parameter offset/x @default 0 @type decimal"
+					"text" : "j.parameter offset/x @type decimal @default 0"
 				}
 
 			}
@@ -246,8 +246,8 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
-							"architecture" : "x64"
+							"revision" : 10,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 752.0, 541.0, 411.0, 412.0 ],
@@ -751,8 +751,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 58.0, 70.0, 330.0, 20.0 ],
-					"text" : "j.parameter texture @default black @type string"
+					"patching_rect" : [ 58.0, 70.0, 265.0, 20.0 ],
+					"text" : "j.parameter texture @type string @default black"
 				}
 
 			}
@@ -1013,15 +1013,6 @@
 					"source" : [ "obj-9", 0 ]
 				}
 
-			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "j.parameter.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.model.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}

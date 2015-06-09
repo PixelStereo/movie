@@ -168,8 +168,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 243.0, 136.0, 282.0, 20.0 ],
-					"text" : "j.parameter interp @default 1 @type boolean"
+					"patching_rect" : [ 243.0, 136.0, 250.0, 20.0 ],
+					"text" : "j.parameter interp @type boolean @default 1"
 				}
 
 			}
@@ -572,15 +572,6 @@
 					"source" : [ "obj-8", 0 ]
 				}
 
-			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "j.parameter.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.model.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}

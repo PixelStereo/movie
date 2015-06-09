@@ -34,10 +34,9 @@
 					"id" : "obj-6",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 61.0, 280.0, 74.0, 19.0 ],
-					"text" : "j.return step"
+					"numoutlets" : 0,
+					"patching_rect" : [ 61.0, 280.0, 183.0, 19.0 ],
+					"text" : "s #1/step"
 				}
 
 			}
@@ -549,7 +548,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 61.0, 28.0, 240.0, 19.0 ],
-					"text" : "j.parameter active @default 1 @type boolean"
+					"text" : "j.parameter active @type boolean @default 1"
 				}
 
 			}

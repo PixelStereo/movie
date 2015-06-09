@@ -1137,7 +1137,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ -1.0, 0.0, 38.0, 20.0 ],
 					"rounded" : 0.0,
-					"text" : "refresh",
+					"text" : "init",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textoncolor" : [ 0.0, 0.572549, 0.811765, 1.0 ],
 					"textovercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
