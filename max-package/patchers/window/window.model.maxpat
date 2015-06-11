@@ -60,7 +60,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 731.0, 411.0, 246.0, 20.0 ],
+					"patching_rect" : [ 731.0, 411.0, 260.0, 20.0 ],
 					"text" : "j.parameter name @type string @default #2 "
 				}
 
@@ -698,7 +698,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 427.0, 169.532867, 352.0, 20.0 ],
-					"text" : "j.parameter sync @type boolean @default 0 @repetitions/filter 1"
+					"text" : "j.parameter sync @type boolean @default 1 @repetitions/filter 1"
 				}
 
 			}

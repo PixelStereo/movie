@@ -29,6 +29,35 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-16",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 386.0, 224.0, 147.666748, 20.0 ],
+					"text" : "prepend enable"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.0, 0.572549, 0.811765, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-14",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 353.833313, 19.0, 252.0, 20.0 ],
+					"text" : "j.parameter active @type boolean @default 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"color" : [ 0.060987, 0.494647, 0.768395, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -414,7 +443,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 214.0, 96.0, 97.0, 20.0 ],
-					"text" : "r #2/step"
+					"text" : "r rtvi/step"
 				}
 
 			}
@@ -685,7 +714,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 8.0, 317.0, 416.0, 20.0 ],
+									"patching_rect" : [ 8.0, 317.0, 440.0, 20.0 ],
 									"text" : "jit.gl.videoplane #2 @blend_enable 1 @depth_enable 0 @transform_reset 2"
 								}
 
@@ -1107,7 +1136,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 18.5, 291.0, 416.0, 20.0 ],
+									"patching_rect" : [ 18.5, 291.0, 440.0, 20.0 ],
 									"text" : "jit.gl.videoplane #2 @blend_enable 1 @depth_enable 0 @transform_reset 2"
 								}
 
@@ -1514,7 +1543,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 5.5, 310.0, 416.0, 20.0 ],
+									"patching_rect" : [ 5.5, 310.0, 440.0, 20.0 ],
 									"text" : "jit.gl.videoplane #2 @blend_enable 1 @depth_enable 0 @transform_reset 2"
 								}
 
@@ -1921,7 +1950,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 17.5, 305.0, 416.0, 20.0 ],
+									"patching_rect" : [ 17.5, 305.0, 440.0, 20.0 ],
 									"text" : "jit.gl.videoplane #2 @blend_enable 1 @depth_enable 0 @transform_reset 2"
 								}
 
@@ -2190,6 +2219,51 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-32", 2 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-38", 2 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-39", 2 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-40", 2 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-16", 0 ]
 				}
 
 			}
