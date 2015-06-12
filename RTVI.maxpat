@@ -8,7 +8,7 @@
 			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 400.0, 47.0, 1230.0, 515.0 ],
+		"rect" : [ 400.0, 47.0, 1262.0, 800.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -30,6 +30,54 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"annotation" : "none",
+					"args" : [ "color-control.1" ],
+					"border" : 1,
+					"id" : "obj-25",
+					"maxclass" : "bpatcher",
+					"name" : "color-control.view.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 462.5, 197.0, 257.0, 85.5 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 463.5, 200.0, 252.0, 76.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"annotation" : "none",
+					"args" : [ "point.1" ],
+					"border" : 1,
+					"id" : "obj-33",
+					"maxclass" : "bpatcher",
+					"name" : "point.view.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 464.5, 77.0, 261.0, 76.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 463.5, 74.0, 252.0, 49.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"annotation" : "none",
+					"args" : [ "pict.1" ],
+					"border" : 1,
+					"id" : "obj-2",
+					"maxclass" : "bpatcher",
+					"name" : "pict.view.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 464.0, 77.0, 261.0, 76.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 463.5, 7.0, 252.0, 68.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"annotation" : "none",
 					"args" : [ "boids.1" ],
 					"border" : 1,
 					"id" : "obj-4",
@@ -39,7 +87,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 969.0, 256.0, 255.0, 180.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 966.0, 182.0, 252.0, 324.0 ]
+					"presentation_rect" : [ 966.0, 369.5, 252.0, 324.0 ]
 				}
 
 			}
@@ -232,7 +280,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 782.0, 238.0, 257.0, 101.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 714.5, 336.0, 252.0, 170.0 ]
+					"presentation_rect" : [ 714.5, 523.5, 252.0, 170.0 ]
 				}
 
 			}
@@ -248,7 +296,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 51.833313, 263.25, 257.0, 101.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 463.5, 336.0, 252.0, 170.0 ]
+					"presentation_rect" : [ 463.5, 523.5, 252.0, 170.0 ]
 				}
 
 			}
@@ -264,7 +312,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 561.833313, 263.25, 300.0, 140.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 463.5, 182.0, 252.0, 155.0 ]
+					"presentation_rect" : [ 463.5, 369.5, 252.0, 155.0 ]
 				}
 
 			}
@@ -280,7 +328,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 307.833313, 263.25, 255.0, 180.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 715.0, 182.0, 252.0, 135.0 ]
+					"presentation_rect" : [ 715.0, 369.5, 252.0, 135.0 ]
 				}
 
 			}
@@ -296,7 +344,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 563.833313, 137.952148, 257.0, 85.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 966.0, 87.5, 252.0, 76.0 ]
+					"presentation_rect" : [ 966.0, 275.0, 252.0, 76.0 ]
 				}
 
 			}
@@ -312,7 +360,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 51.833313, 137.952148, 257.0, 85.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 715.0, 87.5, 252.0, 76.0 ]
+					"presentation_rect" : [ 715.0, 275.0, 252.0, 76.0 ]
 				}
 
 			}
@@ -4737,6 +4785,55 @@
 						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
+									"annotation" : "color-controls",
+									"color" : [ 0.572549, 0.0, 0.0, 0.5 ],
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-33",
+									"linecount" : 2,
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 477.75, 209.919785, 146.0, 33.0 ],
+									"text" : "color-control.model color-control.1 rtvi"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"annotation" : "point generator",
+									"color" : [ 0.572549, 0.0, 0.0, 0.5 ],
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-32",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 471.75, 108.5, 129.0, 20.0 ],
+									"text" : "point.model point.1 rtvi"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"annotation" : "pict reader",
+									"color" : [ 0.572549, 0.0, 0.0, 0.5 ],
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-14",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 328.75, 108.5, 117.0, 20.0 ],
+									"text" : "pict.model pict.1 rtvi"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"annotation" : "none",
 									"color" : [ 0.572549, 0.0, 0.0, 0.5 ],
 									"fontname" : "Helvetica Neue Light Italic",
@@ -4777,7 +4874,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 424.25, 432.25, 35.0, 18.0 ],
+									"patching_rect" : [ 344.75, 388.555603, 35.0, 18.0 ],
 									"text" : "front"
 								}
 
@@ -4791,7 +4888,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 424.25, 462.0, 69.0, 20.0 ],
+									"patching_rect" : [ 344.75, 418.305603, 69.0, 20.0 ],
 									"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
 									"text" : "thispatcher"
 								}
@@ -4806,7 +4903,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 424.25, 397.873932, 76.0, 20.0 ],
+									"patching_rect" : [ 344.75, 354.179535, 76.0, 20.0 ],
 									"text" : "r /rtvi/engine"
 								}
 
@@ -5187,7 +5284,7 @@
 											"architecture" : "x64"
 										}
 ,
-										"rect" : [ 656.0, 444.0, 386.0, 422.0 ],
+										"rect" : [ 50.0, 539.0, 438.0, 421.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -5207,6 +5304,34 @@
 										"digest" : "",
 										"tags" : "",
 										"boxes" : [ 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-17",
+													"items" : [ "<choose>", ",", "<separator>", ",", "black", ",", "blur.1", ",", "brcosa.1", ",", "color-control.1", ",", "color.1", ",", "lines.1", ",", "noise.1", ",", "pict.1", ",", "point.1" ],
+													"maxclass" : "umenu",
+													"numinlets" : 1,
+													"numoutlets" : 3,
+													"outlettype" : [ "int", "", "" ],
+													"parameter_enable" : 0,
+													"patching_rect" : [ 153.0, 384.5, 100.0, 20.0 ]
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-14",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 222.0, 97.0, 34.0, 20.0 ],
+													"text" : "print"
+												}
+
+											}
+, 											{
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
@@ -5574,8 +5699,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 20.0, 143.0, 366.0, 31.0 ],
-													"text" : "filter/list model, filter/set toto object Container attribute tag value GLtexture, /"
+													"patching_rect" : [ 20.0, 143.0, 389.0, 31.0 ],
+													"text" : "filter/set myObjectFilter object Container attribute tags value GLtexture, /"
 												}
 
 											}
@@ -5653,6 +5778,15 @@
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-19", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-14", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-2", 0 ]
 												}
 
 											}
@@ -5753,6 +5887,15 @@
 , 											{
 												"patchline" : 												{
 													"destination" : [ "obj-15", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-8", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-17", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-8", 0 ]
@@ -6138,7 +6281,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 327.75, 87.984726, 130.0, 20.0 ],
+									"patching_rect" : [ 327.75, 84.305382, 130.0, 20.0 ],
 									"text" : "color.model color.1 rtvi"
 								}
 
@@ -6153,7 +6296,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 363.75, 322.059662, 197.0, 47.0 ],
+									"patching_rect" : [ 327.75, 295.365265, 197.0, 47.0 ],
 									"text" : "each output can choose at least one texture for displaying and one texture for masking"
 								}
 
@@ -6404,7 +6547,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 9.790314, 212.0, 244.0, 101.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 463.5, 3.0, 257.0, 68.0 ]
+					"presentation_rect" : [ 88.5, 359.0, 257.0, 56.0 ]
 				}
 
 			}
@@ -6421,7 +6564,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 264.833313, 212.0, 154.031586, 101.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.5, 63.0, 453.666687, 149.0 ]
+					"presentation_rect" : [ 1.5, 63.0, 451.0, 149.0 ]
 				}
 
 			}
@@ -6465,7 +6608,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 307.833313, 137.952148, 257.0, 85.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 463.5, 87.5, 252.0, 76.0 ]
+					"presentation_rect" : [ 463.5, 275.0, 252.0, 76.0 ]
 				}
 
 			}
@@ -6481,7 +6624,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 307.833313, 41.452148, 261.0, 76.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 972.0, 3.0, 252.0, 68.0 ]
+					"presentation_rect" : [ 966.0, 7.0, 252.0, 68.0 ]
 				}
 
 			}
@@ -6497,7 +6640,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 51.833313, 41.452148, 257.0, 76.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 720.5, 3.0, 252.0, 68.0 ]
+					"presentation_rect" : [ 714.5, 7.0, 252.0, 68.0 ]
 				}
 
 			}
@@ -6511,7 +6654,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 9.790314, 2.744518, 342.074585, 137.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.5, 3.0, 453.666687, 56.0 ],
+					"presentation_rect" : [ 1.5, 3.0, 451.0, 56.0 ],
 					"rounded" : 0
 				}
 
@@ -6574,36 +6717,36 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "noise.view.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers/noise",
-				"patcherrelativepath" : "./max-package/patchers/noise",
+				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers/sources/noise",
+				"patcherrelativepath" : "./max-package/patchers/sources/noise",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "header.poly.view.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers",
-				"patcherrelativepath" : "./max-package/patchers",
+				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers/headers",
+				"patcherrelativepath" : "./max-package/patchers/headers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "color.view.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers",
-				"patcherrelativepath" : "./max-package/patchers",
+				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers/sources/color",
+				"patcherrelativepath" : "./max-package/patchers/sources/color",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "blur.view.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers/blur",
-				"patcherrelativepath" : "./max-package/patchers/blur",
+				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers/fx/blur",
+				"patcherrelativepath" : "./max-package/patchers/fx/blur",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "header.texture.view.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers",
-				"patcherrelativepath" : "./max-package/patchers",
+				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers/headers",
+				"patcherrelativepath" : "./max-package/patchers/headers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -6630,29 +6773,29 @@
 			}
 , 			{
 				"name" : "render.view.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers/render",
-				"patcherrelativepath" : "./max-package/patchers/render",
+				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers/outputs/render",
+				"patcherrelativepath" : "./max-package/patchers/outputs/render",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "noise.model.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers/noise",
-				"patcherrelativepath" : "./max-package/patchers/noise",
+				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers/sources/noise",
+				"patcherrelativepath" : "./max-package/patchers/sources/noise",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "color.model.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers",
-				"patcherrelativepath" : "./max-package/patchers",
+				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers/sources/color",
+				"patcherrelativepath" : "./max-package/patchers/sources/color",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "blur.model.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers/blur",
-				"patcherrelativepath" : "./max-package/patchers/blur",
+				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers/fx/blur",
+				"patcherrelativepath" : "./max-package/patchers/fx/blur",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -6665,22 +6808,22 @@
 			}
 , 			{
 				"name" : "plane.model.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers/plane",
-				"patcherrelativepath" : "./max-package/patchers/plane",
+				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers/outputs/plane",
+				"patcherrelativepath" : "./max-package/patchers/outputs/plane",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "lines.model.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers/lines",
-				"patcherrelativepath" : "./max-package/patchers/lines",
+				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers/fx/lines",
+				"patcherrelativepath" : "./max-package/patchers/fx/lines",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "render.model.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers/render",
-				"patcherrelativepath" : "./max-package/patchers/render",
+				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers/outputs/render",
+				"patcherrelativepath" : "./max-package/patchers/outputs/render",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -6693,15 +6836,15 @@
 			}
 , 			{
 				"name" : "split.model.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers/split",
-				"patcherrelativepath" : "./max-package/patchers/split",
+				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers/fx/split",
+				"patcherrelativepath" : "./max-package/patchers/fx/split",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "split_auto.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers/split",
-				"patcherrelativepath" : "./max-package/patchers/split",
+				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers/fx/split",
+				"patcherrelativepath" : "./max-package/patchers/fx/split",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -6714,29 +6857,29 @@
 			}
 , 			{
 				"name" : "brcosa.model.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers/brcosa",
-				"patcherrelativepath" : "./max-package/patchers/brcosa",
+				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers/fx/brcosa",
+				"patcherrelativepath" : "./max-package/patchers/fx/brcosa",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "points.model.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers/points",
-				"patcherrelativepath" : "./max-package/patchers/points",
+				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers/outputs/points",
+				"patcherrelativepath" : "./max-package/patchers/outputs/points",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gridshape.model.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers/gridshape",
-				"patcherrelativepath" : "./max-package/patchers/gridshape",
+				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers/outputs/gridshape",
+				"patcherrelativepath" : "./max-package/patchers/outputs/gridshape",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "boids.model.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers",
-				"patcherrelativepath" : "./max-package/patchers",
+				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers/outputs/boids",
+				"patcherrelativepath" : "./max-package/patchers/outputs/boids",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -6840,8 +6983,29 @@
 			}
 , 			{
 				"name" : "window.model.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers/window",
-				"patcherrelativepath" : "./max-package/patchers/window",
+				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers/outputs/window",
+				"patcherrelativepath" : "./max-package/patchers/outputs/window",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pict.model.maxpat",
+				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers/sources/pict",
+				"patcherrelativepath" : "./max-package/patchers/sources/pict",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "point.model.maxpat",
+				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers/sources/point",
+				"patcherrelativepath" : "./max-package/patchers/sources/point",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "color-control.model.maxpat",
+				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers/fx/color-control",
+				"patcherrelativepath" : "./max-package/patchers/fx/color-control",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -6889,43 +7053,43 @@
 			}
 , 			{
 				"name" : "lines.view.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers/lines",
-				"patcherrelativepath" : "./max-package/patchers/lines",
+				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers/fx/lines",
+				"patcherrelativepath" : "./max-package/patchers/fx/lines",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "brcosa.view.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers/brcosa",
-				"patcherrelativepath" : "./max-package/patchers/brcosa",
+				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers/fx/brcosa",
+				"patcherrelativepath" : "./max-package/patchers/fx/brcosa",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "points.view.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers/points",
-				"patcherrelativepath" : "./max-package/patchers/points",
+				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers/outputs/points",
+				"patcherrelativepath" : "./max-package/patchers/outputs/points",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "plane.view.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers/plane",
-				"patcherrelativepath" : "./max-package/patchers/plane",
+				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers/outputs/plane",
+				"patcherrelativepath" : "./max-package/patchers/outputs/plane",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "split.view.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers/split",
-				"patcherrelativepath" : "./max-package/patchers/split",
+				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers/fx/split",
+				"patcherrelativepath" : "./max-package/patchers/fx/split",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gridshape.view.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers/gridshape",
-				"patcherrelativepath" : "./max-package/patchers/gridshape",
+				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers/outputs/gridshape",
+				"patcherrelativepath" : "./max-package/patchers/outputs/gridshape",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -6938,8 +7102,29 @@
 			}
 , 			{
 				"name" : "boids.view.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers",
-				"patcherrelativepath" : "./max-package/patchers",
+				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers/outputs/boids",
+				"patcherrelativepath" : "./max-package/patchers/outputs/boids",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pict.view.maxpat",
+				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers/sources/pict",
+				"patcherrelativepath" : "./max-package/patchers/sources/pict",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "point.view.maxpat",
+				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers/sources/point",
+				"patcherrelativepath" : "./max-package/patchers/sources/point",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "color-control.view.maxpat",
+				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers/fx/color-control",
+				"patcherrelativepath" : "./max-package/patchers/fx/color-control",
 				"type" : "JSON",
 				"implicit" : 1
 			}
