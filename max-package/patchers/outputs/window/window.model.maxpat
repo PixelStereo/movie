@@ -8,7 +8,7 @@
 			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 27.0, 45.0, 1326.0, 513.0 ],
+		"rect" : [ 103.0, 433.0, 1326.0, 513.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -36,7 +36,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1248.25, 299.660492, 53.0, 18.0 ],
+					"patching_rect" : [ 1224.25, 384.0, 53.0, 18.0 ],
 					"text" : "active 1"
 				}
 
