@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 7,
+			"revision" : 10,
 			"architecture" : "x64"
 		}
 ,
@@ -40,7 +40,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1.0, 30.0, 252.0, 27.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.5, 23.0, 250.0, 26.0 ]
+					"presentation_rect" : [ 0.5, 23.0, 250.0, 19.0 ]
 				}
 
 			}
@@ -77,8 +77,10 @@
 			}
 , 			{
 				"box" : 				{
+					"bordercolor" : [ 0.060987, 0.494647, 0.768395, 0.5 ],
 					"floatoutput" : 1,
 					"id" : "obj-7",
+					"knobcolor" : [ 0.060987, 0.494647, 0.768395, 1.0 ],
 					"maxclass" : "slider",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -86,8 +88,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 109.0, 69.0, 20.0, 140.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.5, 53.5, 192.0, 23.0 ],
-					"size" : 2.0
+					"presentation_rect" : [ 0.5, 47.5, 194.0, 20.0 ],
+					"size" : 4.0
 				}
 
 			}
@@ -107,6 +109,7 @@
 			}
 , 			{
 				"box" : 				{
+					"bordercolor" : [ 0.073866, 0.325456, 0.659127, 0.2 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-3",
@@ -117,7 +120,9 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 27.0, 106.5, 50.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 200.5, 54.5, 50.0, 20.0 ]
+					"presentation_rect" : [ 200.5, 48.5, 50.0, 20.0 ],
+					"textcolor" : [ 0.060987, 0.494647, 0.768395, 1.0 ],
+					"triangle" : 0
 				}
 
 			}
@@ -171,15 +176,15 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "header.poly.view.maxpat",
-				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI/max-package/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers/headers",
+				"patcherrelativepath" : "../../headers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "header.texture.view.maxpat",
-				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI/max-package/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers/headers",
+				"patcherrelativepath" : "../../headers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
