@@ -5,7 +5,7 @@
 			"major" : 6,
 			"minor" : 1,
 			"revision" : 10,
-			"architecture" : "x86"
+			"architecture" : "x64"
 		}
 ,
 		"rect" : [ 400.0, 47.0, 1237.0, 610.0 ],
@@ -59,7 +59,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 10,
-							"architecture" : "x86"
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 498.0, 503.0, 545.0, 187.0 ],
@@ -332,7 +332,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 10,
-							"architecture" : "x86"
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 472.0, 45.0, 1032.0, 931.0 ],
@@ -2202,7 +2202,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 10,
-							"architecture" : "x86"
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ -1082.0, 441.0, 1026.0, 492.0 ],
@@ -2280,7 +2280,7 @@
 											"major" : 6,
 											"minor" : 1,
 											"revision" : 10,
-											"architecture" : "x86"
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 25.0, 70.0, 640.0, 480.0 ],
@@ -2644,7 +2644,7 @@
 											"major" : 6,
 											"minor" : 1,
 											"revision" : 10,
-											"architecture" : "x86"
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 527.0, 277.0, 1045.0, 715.0 ],
@@ -4303,7 +4303,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 10,
-							"architecture" : "x86"
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 254.0, 68.0, 222.0, 233.0 ],
@@ -4544,7 +4544,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 10,
-							"architecture" : "x86"
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 8.0, 498.0, 486.0, 264.0 ],
@@ -4712,10 +4712,10 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 10,
-							"architecture" : "x86"
+							"architecture" : "x64"
 						}
 ,
-						"rect" : [ 107.0, 57.0, 640.0, 511.0 ],
+						"rect" : [ 591.0, 447.0, 640.0, 511.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -4809,7 +4809,7 @@
 											"major" : 6,
 											"minor" : 1,
 											"revision" : 10,
-											"architecture" : "x86"
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 684.0, 78.0, 476.0, 442.0 ],
@@ -5045,7 +5045,7 @@
 											"major" : 6,
 											"minor" : 1,
 											"revision" : 10,
-											"architecture" : "x86"
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 25.0, 70.0, 640.0, 480.0 ],
@@ -5167,7 +5167,7 @@
 											"major" : 6,
 											"minor" : 1,
 											"revision" : 10,
-											"architecture" : "x86"
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 656.0, 444.0, 386.0, 422.0 ],
@@ -5232,7 +5232,7 @@
 															"major" : 6,
 															"minor" : 1,
 															"revision" : 10,
-															"architecture" : "x86"
+															"architecture" : "x64"
 														}
 ,
 														"rect" : [ 25.0, 70.0, 169.0, 308.0 ],
@@ -5887,7 +5887,7 @@
 									"fontsize" : 12.0,
 									"id" : "obj-14",
 									"maxclass" : "newobj",
-									"numinlets" : 1,
+									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 23.75, 94.851898, 157.0, 20.0 ],
@@ -5912,7 +5912,7 @@
 											"major" : 6,
 											"minor" : 1,
 											"revision" : 10,
-											"architecture" : "x86"
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 548.0, 471.0, 372.0, 234.0 ],
@@ -6760,8 +6760,8 @@
 			}
 , 			{
 				"name" : "j.random.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/Jamoma/build/JamomaInstall/jamoma/JamomaMax/Jamoma/patchers/components/data/random",
-				"patcherrelativepath" : "../Jamoma/build/JamomaInstall/jamoma/JamomaMax/Jamoma/patchers/components/data/random",
+				"bootpath" : "/Users/reno/Documents/GITs/Jamoma/Implementations/Max/Jamoma/patchers/components/data/random",
+				"patcherrelativepath" : "../Jamoma/Implementations/Max/Jamoma/patchers/components/data/random",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -7018,23 +7018,15 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.return.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "j.init.mxo",
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "j.return.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "j.message.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jit.boids3d.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "xray.jit.boidsrender.mxo",
 				"type" : "iLaX"
 			}
 , 			{
