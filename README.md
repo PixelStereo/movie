@@ -1,4 +1,8 @@
 RTVI
 ====
 
-Art TV eye - Real Time Video Instrument
+Real Time Video Instrument
+
+###Dependancies
+#####span
+#####jamoma
