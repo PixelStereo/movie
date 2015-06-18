@@ -5,7 +5,7 @@
 			"major" : 6,
 			"minor" : 1,
 			"revision" : 10,
-			"architecture" : "x64"
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 793.0, 510.0, 376.0, 283.0 ],
@@ -74,7 +74,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 10,
-							"architecture" : "x64"
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 375.0, 480.0 ],
@@ -508,7 +508,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 10,
-							"architecture" : "x64"
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
@@ -902,8 +902,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 276.0, 44.5, 75.0, 20.0 ],
-					"text" : "j.receive fps"
+					"patching_rect" : [ 276.0, 44.5, 96.0, 20.0 ],
+					"text" : "j.receive fps/real"
 				}
 
 			}
@@ -1030,7 +1030,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "header.poly.view.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers/headers",
+				"bootpath" : "/Volumes/data/GITs/rtvi/max-package/patchers/headers",
 				"patcherrelativepath" : "../../headers",
 				"type" : "JSON",
 				"implicit" : 1

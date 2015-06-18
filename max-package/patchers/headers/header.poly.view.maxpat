@@ -5,7 +5,7 @@
 			"major" : 6,
 			"minor" : 1,
 			"revision" : 10,
-			"architecture" : "x64"
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 376.0, 694.0, 380.0, 249.0 ],
@@ -169,7 +169,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 10,
-							"architecture" : "x64"
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 390.0, 439.0 ],
@@ -245,7 +245,7 @@
 											"major" : 6,
 											"minor" : 1,
 											"revision" : 10,
-											"architecture" : "x64"
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 25.0, 69.0, 197.0, 237.0 ],
@@ -510,7 +510,7 @@
 											"major" : 6,
 											"minor" : 1,
 											"revision" : 10,
-											"architecture" : "x64"
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 54.0, 169.0, 327.0, 258.0 ],
@@ -664,7 +664,7 @@
 											"major" : 6,
 											"minor" : 1,
 											"revision" : 10,
-											"architecture" : "x64"
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 75.0, 119.0, 378.0, 236.0 ],

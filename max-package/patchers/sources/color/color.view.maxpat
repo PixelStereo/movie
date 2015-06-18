@@ -476,7 +476,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 6.0, 12.0, 252.0, 27.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.5, -0.019501, 250.0, 26.0 ]
+					"presentation_rect" : [ 0.5, -0.019501, 250.0, 22.0 ]
 				}
 
 			}
@@ -534,8 +534,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "header.poly.view.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "/Volumes/data/GITs/rtvi/max-package/patchers/headers",
+				"patcherrelativepath" : "../../headers",
 				"type" : "JSON",
 				"implicit" : 1
 			}

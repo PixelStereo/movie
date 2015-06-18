@@ -5,7 +5,7 @@
 			"major" : 6,
 			"minor" : 1,
 			"revision" : 10,
-			"architecture" : "x64"
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 101.0, 451.0, 632.0, 308.0 ],
@@ -29,6 +29,20 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"color" : [ 0.060987, 0.494647, 0.768395, 1.0 ],
+					"fontname" : "Helvetica Neue Light Italic",
+					"fontsize" : 14.0,
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 0,
+					"patching_rect" : [ 447.5, 110.0, 157.0, 23.0 ],
+					"text" : "jmodel2span"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Helvetica Neue Light Italic",
 					"fontsize" : 12.0,
 					"id" : "obj-11",
@@ -36,7 +50,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 387.0, 70.0, 50.0, 18.0 ],
+					"patching_rect" : [ 447.5, 45.0, 50.0, 18.0 ],
 					"text" : "active 0"
 				}
 
@@ -50,7 +64,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 387.0, 28.0, 32.5, 20.0 ],
+					"patching_rect" : [ 447.5, 16.0, 32.5, 20.0 ],
 					"text" : "j.init"
 				}
 
@@ -172,29 +186,6 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
-					"id" : "obj-3",
-					"maxclass" : "outlet",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 447.5, 85.0, 25.0, 25.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"comment" : "",
-					"id" : "obj-6",
-					"maxclass" : "inlet",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 447.5, 9.0, 25.0, 25.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontname" : "Helvetica Neue Light Italic",
 					"fontsize" : 12.0,
 					"id" : "obj-10",
@@ -203,7 +194,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 447.5, 48.0, 157.0, 34.0 ],
+					"patching_rect" : [ 447.5, 70.0, 157.0, 34.0 ],
 					"text" : "j.model @tags GLtexture @description \"brcosa effect\""
 				}
 
@@ -322,6 +313,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-3", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-10", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -425,15 +425,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-5", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-10", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-6", 0 ]
 				}
 
 			}

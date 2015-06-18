@@ -5,7 +5,7 @@
 			"major" : 6,
 			"minor" : 1,
 			"revision" : 10,
-			"architecture" : "x64"
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 91.0, 228.0, 592.0, 290.0 ],
@@ -28,6 +28,20 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"color" : [ 0.060987, 0.494647, 0.768395, 1.0 ],
+					"fontname" : "Helvetica Neue Light Italic",
+					"fontsize" : 14.0,
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 0,
+					"patching_rect" : [ 419.0, 254.0, 157.0, 23.0 ],
+					"text" : "jmodel2span"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Helvetica Neue Light Italic",
 					"fontsize" : 12.0,
@@ -92,7 +106,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 141.5, 197.0, 100.0, 20.0 ],
-					"presentation_rect" : [ 440.0, 272.0, 0.0, 0.0 ],
 					"text" : "print b"
 				}
 
@@ -108,72 +121,6 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 141.5, 169.0, 128.0, 20.0 ],
 					"text" : "route importmovie"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Helvetica Neue Light Italic",
-					"fontsize" : 12.0,
-					"id" : "obj-21",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 459.0, 112.0, 32.5, 20.0 ],
-					"text" : "j.init"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Helvetica Neue Light Italic",
-					"fontsize" : 12.0,
-					"id" : "obj-19",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 459.0, 139.0, 51.0, 18.0 ],
-					"text" : "active 0"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"comment" : "",
-					"id" : "obj-6",
-					"maxclass" : "outlet",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 419.0, 221.0, 25.0, 25.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"comment" : "",
-					"id" : "obj-4",
-					"maxclass" : "inlet",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 419.0, 108.0, 25.0, 25.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Helvetica Neue Light Italic",
-					"fontsize" : 12.0,
-					"id" : "obj-1",
-					"linecount" : 2,
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 419.0, 174.0, 157.0, 34.0 ],
-					"text" : "j.model @description \"pict reader\" @tags GLtexture"
 				}
 
 			}
@@ -294,10 +241,62 @@
 				}
 
 			}
+, 			{
+				"box" : 				{
+					"fontname" : "Helvetica Neue Light Italic",
+					"fontsize" : 12.0,
+					"id" : "obj-21",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "bang" ],
+					"patching_rect" : [ 419.0, 153.0, 32.5, 20.0 ],
+					"text" : "j.init"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Helvetica Neue Light Italic",
+					"fontsize" : 12.0,
+					"id" : "obj-19",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 419.0, 180.0, 51.0, 18.0 ],
+					"text" : "active 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Helvetica Neue Light Italic",
+					"fontsize" : 12.0,
+					"id" : "obj-1",
+					"linecount" : 2,
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 419.0, 212.0, 157.0, 34.0 ],
+					"text" : "j.model @description \"pict reader\" @tags GLtexture"
+				}
+
+			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
+					"destination" : [ "obj-4", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-1", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-1", 0 ]
@@ -414,15 +413,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-4", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -447,23 +437,6 @@
 					"source" : [ "obj-8", 0 ]
 				}
 
-			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "j.parameter.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.receive.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.model.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.init.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}
