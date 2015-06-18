@@ -6,5 +6,4 @@ Real Time Video Instrument
 ---
 
 ###Dependancies
-#####span
-#####jamoma
+RTVI uses span project management and jamoma framework
