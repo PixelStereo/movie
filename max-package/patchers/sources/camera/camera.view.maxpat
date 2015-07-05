@@ -35,7 +35,7 @@
 					"bgmode" : 1,
 					"id" : "obj-5",
 					"maxclass" : "bpatcher",
-					"name" : "header.poly.view.maxpat",
+					"name" : "j.header.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -601,7 +601,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "header.poly.view.maxpat",
+				"name" : "j.header.maxpat",
 				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI/max-package/patchers",
 				"patcherrelativepath" : "..",
 				"type" : "JSON",

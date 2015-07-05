@@ -5303,7 +5303,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "header.poly.view.maxpat",
+				"name" : "j.header.maxpat",
 				"bootpath" : "/Volumes/data/GITs/rtvi/max-package/patchers/headers",
 				"patcherrelativepath" : "./max-package/patchers/headers",
 				"type" : "JSON",

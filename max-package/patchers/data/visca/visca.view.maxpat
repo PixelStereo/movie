@@ -68,7 +68,7 @@
 					"bgmode" : 1,
 					"id" : "obj-67",
 					"maxclass" : "bpatcher",
-					"name" : "header.poly.view.maxpat",
+					"name" : "j.header.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -3543,7 +3543,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "header.poly.view.maxpat",
+				"name" : "j.header.maxpat",
 				"bootpath" : "/Users/reno/Documents/GITs/rtvi/max-package/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

@@ -252,7 +252,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "header.poly.view.maxpat",
+				"name" : "j.header.maxpat",
 				"bootpath" : "/Volumes/data/RENAUD/GITs/RTVI/max-package/patchers",
 				"patcherrelativepath" : "..",
 				"type" : "JSON",

@@ -629,7 +629,7 @@
 					"bgmode" : 1,
 					"id" : "obj-5",
 					"maxclass" : "bpatcher",
-					"name" : "header.poly.view.maxpat",
+					"name" : "j.header.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -1133,7 +1133,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "header.poly.view.maxpat",
+				"name" : "j.header.maxpat",
 				"bootpath" : "/Users/eleves_regie_2/Documents/Grp42/IRCAM/IRCAM/Max/RTVI/max-package/patchers",
 				"patcherrelativepath" : "..",
 				"type" : "JSON",
