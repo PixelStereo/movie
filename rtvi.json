@@ -1,8 +1,8 @@
 {
 	"projectinfo" : 	{
 		"created" : "2014-06-10T19:05:55",
-		"lastopened" : "2015-06-17T12:37:10",
-		"lastsaved" : "2015-06-17T12:37:10",
+		"lastopened" : "2015-07-05T19:59:44",
+		"lastsaved" : "2015-07-05T19:59:44",
 		"appname" : "RTVI",
 		"appversion" : 		{
 			"major" : 0,
@@ -20,65 +20,44 @@
 		}
 ,
 		"data:/A TRIER/hap/briquet-HAP.mov" : 		{
-			"valid" : 0,
+			"valid" : 1,
 			"name" : "briquet-HAP.mov",
 			"type" : "MooV"
 		}
 ,
 		"data:/A TRIER/hap/waterglass 200 .mov" : 		{
-			"valid" : 0,
+			"valid" : 1,
 			"name" : "waterglass 200 .mov",
 			"type" : "MooV"
 		}
 ,
 		"data:/A TRIER/hap/verre brise loop-HAP.mov" : 		{
-			"valid" : 0,
+			"valid" : 1,
 			"name" : "verre brise loop-HAP.mov",
 			"type" : "MooV"
 		}
 ,
 		"data:/A TRIER/hap/vase berlin loop-HAP.mov" : 		{
-			"valid" : 0,
+			"valid" : 1,
 			"name" : "vase berlin loop-HAP.mov",
 			"type" : "MooV"
 		}
 ,
 		"data:/A TRIER/hap/sablier central-HAP.mov" : 		{
-			"valid" : 0,
+			"valid" : 1,
 			"name" : "sablier central-HAP.mov",
 			"type" : "MooV"
 		}
 ,
 		"data:/A TRIER/hap/pluie nette loop-HAP.mov" : 		{
-			"valid" : 0,
+			"valid" : 1,
 			"name" : "pluie nette loop-HAP.mov",
 			"type" : "MooV"
 		}
 ,
-		"system:/Users/reno/Library/Mail/V2/IMAP-cycling.list@imap.gmail.com/[Gmail].mbox/Tous les messages.mbox/204EBB7D-1464-4852-863B-AEF5CC48CE61/Data/0/7/Attachments/70617/3/battlingtherobot.mov" : 		{
-			"valid" : 0,
-			"name" : "battlingtherobot.mov",
-			"type" : "MooV",
-			"tags" : "hap.1"
-		}
-,
 		"system:/Applications/Max 6.1/patches/media/blading.mov" : 		{
-			"valid" : 0,
-			"name" : "blading.mov",
-			"type" : "MooV",
-			"tags" : "hap.1"
-		}
-,
-		"system:/Users/reno/Library/Mail/V2/IMAP-cycling.list@imap.gmail.com/[Gmail].mbox/Tous les messages.mbox/204EBB7D-1464-4852-863B-AEF5CC48CE61/Data/9/6/Attachments/69645/2/colors.mov" : 		{
-			"valid" : 0,
-			"name" : "colors.mov",
-			"type" : "MooV",
-			"tags" : "hap.1"
-		}
-,
-		"work:/Users/reno/Movies/photo jpeg/Real_8mm_Film.mov" : 		{
 			"valid" : 1,
-			"name" : "Real_8mm_Film.mov",
+			"name" : "blading.mov",
 			"type" : "MooV",
 			"tags" : "hap.1"
 		}
@@ -94,6 +73,17 @@
 	}
 ,
 	"events" : 	{
+		"az" : 		{
+			"tags" : "undefined",
+			"description" : "Describe event here...",
+			"data" : 			{
+				"0" : 				{
+
+				}
+
+			}
+
+		}
 
 	}
 ,
