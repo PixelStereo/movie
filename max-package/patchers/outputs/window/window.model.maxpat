@@ -5,7 +5,7 @@
 			"major" : 6,
 			"minor" : 1,
 			"revision" : 10,
-			"architecture" : "x86"
+			"architecture" : "x64"
 		}
 ,
 		"rect" : [ 220.0, 489.0, 1326.0, 513.0 ],
@@ -28,20 +28,6 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
-				"box" : 				{
-					"color" : [ 0.060987, 0.494647, 0.768395, 1.0 ],
-					"fontname" : "Helvetica Neue Light Italic",
-					"fontsize" : 14.0,
-					"id" : "obj-23",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1137.25, 469.0, 128.0, 23.0 ],
-					"text" : "jmodel2span"
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -310,7 +296,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 10,
-							"architecture" : "x86"
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 75.0, 119.0, 311.0, 223.0 ],
@@ -652,8 +638,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 168.0, 77.605797, 256.0, 20.0 ],
-					"text" : "j.parameter pos/y @type integer @default 256"
+					"patching_rect" : [ 168.0, 77.605797, 175.0, 20.0 ],
+					"text" : "j.message pos/y @type integer"
 				}
 
 			}
@@ -667,8 +653,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 118.0, 54.624031, 243.0, 20.0 ],
-					"text" : "j.parameter pos/x @type integer @default 5"
+					"patching_rect" : [ 118.0, 54.624031, 175.0, 20.0 ],
+					"text" : "j.message pos/x @type integer"
 				}
 
 			}
@@ -1462,24 +1448,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-17", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-74", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-23", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-74", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-23", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-74", 0 ]

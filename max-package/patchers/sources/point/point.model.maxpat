@@ -5,7 +5,7 @@
 			"major" : 6,
 			"minor" : 1,
 			"revision" : 10,
-			"architecture" : "x86"
+			"architecture" : "x64"
 		}
 ,
 		"rect" : [ 91.0, 228.0, 592.0, 181.0 ],
@@ -52,20 +52,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 405.0, 45.0, 51.0, 18.0 ],
 					"text" : "active 0"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"color" : [ 0.060987, 0.494647, 0.768395, 1.0 ],
-					"fontname" : "Helvetica Neue Light Italic",
-					"fontsize" : 14.0,
-					"id" : "obj-6",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 0,
-					"patching_rect" : [ 405.0, 123.0, 128.0, 23.0 ],
-					"text" : "jmodel2span"
 				}
 
 			}
@@ -138,7 +124,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 14.5, 138.0, 363.0, 20.0 ],
+					"patching_rect" : [ 14.5, 138.0, 381.0, 20.0 ],
 					"text" : "jit.gl.texture #2 @name #1 @defaultimage black"
 				}
 
@@ -158,7 +144,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 10,
-							"architecture" : "x86"
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 170.0, 561.0, 198.0, 348.0 ],
@@ -345,22 +331,13 @@
  ]
 					}
 ,
-					"patching_rect" : [ 14.5, 108.0, 96.0, 22.0 ],
+					"patching_rect" : [ 14.5, 108.0, 166.0, 22.0 ],
 					"text" : "jit.gl.pix #2"
 				}
 
 			}
  ],
 		"lines" : [ 			{
-				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-1", 0 ]
-				}
-
-			}
-, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-82", 0 ],
 					"disabled" : 0,
