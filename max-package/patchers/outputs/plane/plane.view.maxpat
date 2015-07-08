@@ -39,7 +39,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 129.0, 272.0, 252.0, 27.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 41.0, 210.0, 79.0 ]
+					"presentation_rect" : [ 2.0, 41.0, 250.0, 79.0 ]
 				}
 
 			}
