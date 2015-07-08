@@ -3,7 +3,9 @@ RTVI
 Real Time Video Instrument
 
 ###Dependancies
-RTVI uses span project management and jamoma framework
+RTVI uses Jamoma framework and Max software from Cycling74, included Gen and Jitter librairies
+
+|http://jamoma.org
 
 ---
 ###Quick Start
