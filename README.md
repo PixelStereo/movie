@@ -1,13 +1,10 @@
 RTVI
 ====
-
 Real Time Video Instrument
-
----
 
 ###Dependancies
 RTVI uses span project management and jamoma framework
-
+---
 ###Quick Start
 This is a modular video system.
 ####Sources
