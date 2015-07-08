@@ -5,7 +5,7 @@ Real Time Video Instrument
 ###Dependancies
 RTVI uses Jamoma framework and Max software from Cycling74, included Gen and Jitter librairies
 
-|http://jamoma.org
+http://jamoma.org
 
 ---
 ###Quick Start
