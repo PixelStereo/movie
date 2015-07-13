@@ -5,10 +5,10 @@
 			"major" : 6,
 			"minor" : 1,
 			"revision" : 10,
-			"architecture" : "x64"
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 37.0, 519.0, 1179.0, 825.0 ],
+		"rect" : [ 2540.0, 372.0, 1179.0, 825.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -29,6 +29,33 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-11",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 563.0, 256.0, 20.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 232.0, 122.5, 20.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-8",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 563.0, 285.0, 104.0, 20.0 ],
+					"text" : "j.send matrix/new"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"annotation" : "none",
 					"bgmode" : 1,
@@ -59,7 +86,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 10,
-							"architecture" : "x64"
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 25.0, 70.0, 640.0, 480.0 ],
@@ -492,7 +519,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 88.5, 146.5, 37.0, 20.0 ],
 					"text" : "layer",
-					"textcolor" : [ 0.060987, 0.494647, 0.768395, 0.6 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 0.5 ]
 				}
 
 			}
@@ -544,7 +571,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 88.5, 169.5, 20.0, 20.0 ],
 					"text" : "fx",
-					"textcolor" : [ 0.060987, 0.494647, 0.768395, 0.6 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 0.5 ]
 				}
 
 			}
@@ -672,6 +699,25 @@
 				}
 
 			}
+, 			{
+				"box" : 				{
+					"fontface" : 2,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-13",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 167.5, 124.5, 37.0, 47.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 164.0, 122.5, 69.0, 20.0 ],
+					"text" : "matrix/new",
+					"textcolor" : [ 0.0, 0.0, 0.0, 0.5 ]
+				}
+
+			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
@@ -679,6 +725,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-11", 0 ]
 				}
 
 			}
