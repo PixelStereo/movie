@@ -5,10 +5,10 @@
 			"major" : 6,
 			"minor" : 1,
 			"revision" : 10,
-			"architecture" : "x86"
+			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 2162.0, 230.0, 1420.0, 574.0 ],
+		"rect" : [ 1969.0, 59.0, 1420.0, 574.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -42,7 +42,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 10,
-							"architecture" : "x86"
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 1933.0, 375.0, 614.0, 295.0 ],
@@ -659,8 +659,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 958.5, 454.0, 137.0, 21.0 ],
-					"text" : "prepend spring/thresh"
+					"patching_rect" : [ 958.5, 454.0, 141.0, 21.0 ],
+					"text" : "prepend spring_thresh"
 				}
 
 			}
@@ -689,8 +689,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 819.0, 428.0, 121.0, 21.0 ],
-					"text" : "prepend spring/stiff"
+					"patching_rect" : [ 819.0, 428.0, 124.0, 21.0 ],
+					"text" : "prepend spring_stiff"
 				}
 
 			}
@@ -719,8 +719,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 671.0, 402.0, 132.0, 21.0 ],
-					"text" : "prepend spring/mass"
+					"patching_rect" : [ 671.0, 402.0, 136.0, 21.0 ],
+					"text" : "prepend spring_mass"
 				}
 
 			}
@@ -749,8 +749,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 513.0, 375.0, 133.0, 21.0 ],
-					"text" : "prepend spring/damp"
+					"patching_rect" : [ 513.0, 375.0, 137.0, 21.0 ],
+					"text" : "prepend spring_damp"
 				}
 
 			}
