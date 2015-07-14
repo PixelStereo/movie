@@ -89,7 +89,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 131.0, 34.5, 37.0, 20.0 ],
 					"text" : "coeff",
-					"textcolor" : [ 0.060987, 0.494647, 0.768395, 0.6 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 0.5 ]
 				}
 
 			}
@@ -107,7 +107,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ -1.0, 52.5, 40.0, 20.0 ],
 					"text" : "offset",
-					"textcolor" : [ 0.060987, 0.494647, 0.768395, 0.6 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 0.5 ]
 				}
 
 			}
@@ -125,7 +125,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ -1.0, 34.5, 51.0, 20.0 ],
 					"text" : "number",
-					"textcolor" : [ 0.060987, 0.494647, 0.768395, 0.6 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 0.5 ]
 				}
 
 			}
@@ -454,15 +454,15 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "j.header.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers",
-				"patcherrelativepath" : "..",
+				"bootpath" : "/Volumes/data/GITs/j.project/max-package/patchers",
+				"patcherrelativepath" : "../../../../../j.project/max-package/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "header.texture.view.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers",
-				"patcherrelativepath" : "..",
+				"bootpath" : "/Volumes/data/GITs/rtvi/max-package/patchers/headers",
+				"patcherrelativepath" : "../../headers",
 				"type" : "JSON",
 				"implicit" : 1
 			}

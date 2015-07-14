@@ -5,7 +5,7 @@
 			"major" : 6,
 			"minor" : 1,
 			"revision" : 10,
-			"architecture" : "x64"
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 461.0, 340.0, 1059.0, 611.0 ],
@@ -39,7 +39,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 168.5, 29.0, 251.0, 46.0 ],
+					"patching_rect" : [ 29.0, 18.0, 253.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 250.0, 25.5 ]
 				}
@@ -54,7 +54,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 168.5, 83.0, 41.0, 20.0 ],
+					"patching_rect" : [ 29.0, 50.0, 41.0, 20.0 ],
 					"text" : "j.view"
 				}
 
@@ -69,7 +69,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 29.0, 143.0, 131.0, 20.0 ],
+					"patching_rect" : [ 29.0, 115.0, 131.0, 20.0 ],
 					"text" : "j.remote interp"
 				}
 
@@ -91,7 +91,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 29.0, 116.0, 50.0, 17.0 ],
+					"patching_rect" : [ 29.0, 88.0, 50.0, 17.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.0, 21.5, 54.0, 20.0 ],
 					"rounded" : 0.0,
@@ -110,7 +110,7 @@
 					"destination" : [ "obj-39", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 38.5, 174.0, 14.5, 174.0, 14.5, 113.0, 38.5, 113.0 ],
+					"midpoints" : [ 38.5, 146.0, 14.5, 146.0, 14.5, 85.0, 38.5, 85.0 ],
 					"source" : [ "obj-38", 0 ]
 				}
 
@@ -136,8 +136,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "j.header.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/RTVI/max-package/patchers/headers",
-				"patcherrelativepath" : "../../headers",
+				"bootpath" : "/Volumes/data/GITs/j.project/max-package/patchers",
+				"patcherrelativepath" : "../../../../../j.project/max-package/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}

@@ -1241,7 +1241,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 561.0, 114.0, 50.0, 20.0 ],
+					"patching_rect" : [ 602.0, 114.0, 50.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 199.5, 45.5, 50.0, 20.0 ],
 					"textcolor" : [ 0.060987, 0.494647, 0.768395, 1.0 ],
@@ -1258,8 +1258,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 561.0, 142.0, 96.0, 20.0 ],
-					"text" : "j.remote pos/z"
+					"patching_rect" : [ 602.0, 142.0, 110.0, 20.0 ],
+					"text" : "j.remote attractpt/z"
 				}
 
 			}
@@ -1274,7 +1274,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 427.0, 114.0, 50.0, 20.0 ],
+					"patching_rect" : [ 468.0, 114.0, 50.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 152.25, 45.5, 50.0, 20.0 ],
 					"textcolor" : [ 0.060987, 0.494647, 0.768395, 1.0 ],
@@ -1291,8 +1291,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 427.0, 142.0, 96.0, 20.0 ],
-					"text" : "j.remote pos/y"
+					"patching_rect" : [ 468.0, 142.0, 110.0, 20.0 ],
+					"text" : "j.remote attractpt/y"
 				}
 
 			}
@@ -1324,8 +1324,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 328.0, 142.0, 97.0, 20.0 ],
-					"text" : "j.remote pos/x"
+					"patching_rect" : [ 328.0, 142.0, 108.0, 20.0 ],
+					"text" : "j.remote attractpt/x"
 				}
 
 			}
@@ -1438,7 +1438,7 @@
 					"destination" : [ "obj-11", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 570.5, 171.0, 553.5, 171.0, 553.5, 104.0, 570.5, 104.0 ],
+					"midpoints" : [ 611.5, 171.0, 594.5, 171.0, 594.5, 104.0, 611.5, 104.0 ],
 					"source" : [ "obj-12", 0 ]
 				}
 
@@ -1788,7 +1788,7 @@
 					"destination" : [ "obj-3", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 436.5, 171.0, 419.5, 171.0, 419.5, 104.0, 436.5, 104.0 ],
+					"midpoints" : [ 477.5, 171.0, 460.5, 171.0, 460.5, 104.0, 477.5, 104.0 ],
 					"source" : [ "obj-8", 0 ]
 				}
 
@@ -1805,8 +1805,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "j.header.maxpat",
-				"bootpath" : "/Users/reno/Desktop/Max/RTVI/max-package/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "/Volumes/data/GITs/j.project/max-package/patchers",
+				"patcherrelativepath" : "../../../../../j.project/max-package/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
