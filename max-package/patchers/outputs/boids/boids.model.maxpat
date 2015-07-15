@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 118.0, 454.0, 757.0, 551.0 ],
+		"rect" : [ 869.0, 357.0, 757.0, 551.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -36,8 +36,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 398.0, 36.0, 95.0, 20.0 ],
-					"text" : "j.message reset"
+					"patching_rect" : [ 398.0, 36.0, 121.0, 20.0 ],
+					"text" : "j.message mvt/origin"
 				}
 
 			}
