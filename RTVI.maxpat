@@ -253,7 +253,7 @@
 															"architecture" : "x86"
 														}
 ,
-														"rect" : [ 2251.0, 45.0, 1530.0, 558.0 ],
+														"rect" : [ 2251.0, 45.0, 1526.0, 487.0 ],
 														"bglocked" : 0,
 														"openinpresentation" : 1,
 														"default_fontsize" : 12.0,
@@ -1638,7 +1638,7 @@
 																					"maxclass" : "inlet",
 																					"numinlets" : 0,
 																					"numoutlets" : 1,
-																					"outlettype" : [ "bang" ],
+																					"outlettype" : [ "" ],
 																					"patching_rect" : [ 50.0, 40.0, 25.0, 25.0 ]
 																				}
 
@@ -1807,7 +1807,7 @@
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 1,
-																	"outlettype" : [ "" ],
+																	"outlettype" : [ "clear" ],
 																	"patching_rect" : [ 20.0, 359.5, 31.0, 20.0 ],
 																	"text" : "thru"
 																}
@@ -2777,11 +2777,11 @@
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-42",
-					"linecount" : 3,
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 272.658478, 15.226089, 37.0, 47.0 ],
+					"patching_rect" : [ 272.658478, 15.226089, 38.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 160.5, 41.0, 69.0, 20.0 ],
 					"text" : "v 2.0 alpha",
