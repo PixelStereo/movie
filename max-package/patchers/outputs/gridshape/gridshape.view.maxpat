@@ -30,6 +30,40 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"annotation" : "none",
+					"bordercolor" : [ 0.075522, 0.410038, 0.717789, 0.2 ],
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-25",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "int", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 44.0, 340.0, 50.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 89.0, 180.0, 40.0, 20.0 ],
+					"textcolor" : [ 0.060987, 0.494647, 0.768395, 1.0 ],
+					"triangle" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-26",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 44.0, 368.0, 83.0, 20.0 ],
+					"text" : "j.remote layer"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"color" : [ 0.0, 0.572549, 0.0, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
@@ -852,6 +886,25 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-26", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-25", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-25", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 53.5, 397.0, 36.5, 397.0, 36.5, 330.0, 53.5, 330.0 ],
+					"source" : [ "obj-26", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -890,21 +943,21 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "j.header.maxpat",
-				"bootpath" : "/Volumes/data/GITs/j.project/max-package/patchers",
-				"patcherrelativepath" : "../../../../../j.project/max-package/patchers",
+				"bootpath" : "/Volumes/data/GITs/singularity/max-package/patchers/j.project",
+				"patcherrelativepath" : "../../../../../j.project",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "header.texture.view.maxpat",
-				"bootpath" : "/Volumes/data/GITs/rtvi/max-package/patchers/headers",
+				"bootpath" : "/Volumes/data/GITs/singularity/max-package/patchers/rtvi/max-package/patchers/headers",
 				"patcherrelativepath" : "../../headers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "spatial.view.maxpat",
-				"bootpath" : "/Volumes/data/GITs/rtvi/max-package/patchers",
+				"bootpath" : "/Volumes/data/GITs/singularity/max-package/patchers/rtvi/max-package/patchers",
 				"patcherrelativepath" : "../..",
 				"type" : "JSON",
 				"implicit" : 1
