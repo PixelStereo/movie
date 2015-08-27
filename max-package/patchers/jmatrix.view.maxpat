@@ -30,34 +30,6 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-16",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 488.0, 227.0, 50.0, 18.0 ],
-					"text" : "58"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-14",
-					"maxclass" : "slider",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 706.0, 275.0, 20.0, 140.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 178.0, 114.0, 37.0, 72.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-13",
 					"maxclass" : "pictslider",
 					"numinlets" : 2,
@@ -66,7 +38,9 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 478.0, 104.0, 100.0, 100.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 26.0, 114.0, 128.0, 72.0 ]
+					"presentation_rect" : [ 26.0, 114.0, 128.0, 72.0 ],
+					"rightvalue" : 20,
+					"topvalue" : 20
 				}
 
 			}
@@ -194,58 +168,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 2,
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"frgb" : 0.0,
-					"id" : "obj-20",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 117.0, 263.041992, 37.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 178.0, 31.5, 37.0, 20.0 ],
-					"text" : "layer",
-					"textcolor" : [ 0.0, 0.0, 0.0, 0.5 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"annotation" : "none",
-					"bordercolor" : [ 0.075522, 0.410038, 0.717789, 0.2 ],
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-22",
-					"maxclass" : "number",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "int", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 63.0, 263.041992, 50.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 210.0, 31.5, 40.0, 20.0 ],
-					"textcolor" : [ 0.060987, 0.494647, 0.768395, 1.0 ],
-					"triangle" : 0
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-23",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 63.0, 291.041992, 84.0, 20.0 ],
-					"text" : "j.remote layer"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-3",
@@ -339,7 +261,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-16", 1 ],
+					"destination" : [ "obj-6", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-13", 0 ]
@@ -348,20 +270,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-23", 0 ],
+					"destination" : [ "obj-9", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-22", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-22", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 72.5, 320.041992, 55.5, 320.041992, 55.5, 253.041992, 72.5, 253.041992 ],
-					"source" : [ "obj-23", 0 ]
+					"source" : [ "obj-13", 1 ]
 				}
 
 			}
@@ -424,8 +336,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "j.header.maxpat",
-				"bootpath" : "/Volumes/data/GITs/j.project/max-package/patchers",
-				"patcherrelativepath" : "../../../j.project/max-package/patchers",
+				"bootpath" : "/Volumes/data/GITs/singularity/max-package/patchers/j.project",
+				"patcherrelativepath" : "../../../j.project",
 				"type" : "JSON",
 				"implicit" : 1
 			}
