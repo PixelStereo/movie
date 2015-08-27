@@ -30,6 +30,37 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-12",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 72.0, 249.0, 50.0, 18.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 103.0, 70.0, 50.0, 18.0 ],
+					"text" : "reset"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.0, 0.572549, 0.811765, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-75",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 63.0, 295.0, 138.0, 20.0 ],
+					"text" : "j.remote matrix/list/reset"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"annotation" : "none",
 					"bgmode" : 1,
 					"id" : "obj-6",
@@ -289,6 +320,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-75", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -346,28 +386,28 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "j.header.maxpat",
-				"bootpath" : "/Volumes/data/GITs/j.project/max-package/patchers",
-				"patcherrelativepath" : "../../../../../j.project/max-package/patchers",
+				"bootpath" : "/Volumes/data/GITs/singularity/max-package/patchers/j.project",
+				"patcherrelativepath" : "../../../../../j.project",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "header.texture.view.maxpat",
-				"bootpath" : "/Volumes/data/GITs/rtvi/max-package/patchers/headers",
+				"bootpath" : "/Volumes/data/GITs/singularity/max-package/patchers/rtvi/max-package/patchers/headers",
 				"patcherrelativepath" : "../../headers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "header.matrix.view.maxpat",
-				"bootpath" : "/Volumes/data/GITs/rtvi/max-package/patchers/headers",
+				"bootpath" : "/Volumes/data/GITs/singularity/max-package/patchers/rtvi/max-package/patchers/headers",
 				"patcherrelativepath" : "../../headers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "spatial.view.maxpat",
-				"bootpath" : "/Volumes/data/GITs/rtvi/max-package/patchers",
+				"bootpath" : "/Volumes/data/GITs/singularity/max-package/patchers/rtvi/max-package/patchers",
 				"patcherrelativepath" : "../..",
 				"type" : "JSON",
 				"implicit" : 1
