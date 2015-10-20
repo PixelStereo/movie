@@ -1,10 +1,11 @@
-RTVI
+Movie
 ====
-Real Time Video Instrument
+Modular Video Instrument
 
 ###Dependancies
-RTVI uses Jamoma framework and Max software from Cycling74, included Gen and Jitter librairies
+Movie uses Jamoma 0.6 framework and Max 7 software from Cycling74, included Gen and Jitter librairies
 
+http://cycling74.com
 http://jamoma.org
 
 ---

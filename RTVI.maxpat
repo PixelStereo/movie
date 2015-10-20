@@ -93,7 +93,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 103.5, 104.5, 47.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 229.833313, 5.0, 53.416687, 25.0 ],
+					"presentation_rect" : [ 235.091522, 17.0, 53.416687, 25.0 ],
 					"style" : "",
 					"text" : "INIT",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -131,7 +131,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 272.658478, 15.226089, 38.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 160.5, 41.0, 69.0, 20.0 ],
+					"presentation_rect" : [ 118.0, 27.0, 47.0, 20.0 ],
 					"style" : "",
 					"text" : "v 0.2.0",
 					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
@@ -425,7 +425,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 281.158478, 53.226089, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 292.0, 10.0, 15.0, 15.0 ],
+					"presentation_rect" : [ 273.508209, 3.0, 15.0, 15.0 ],
 					"style" : "",
 					"uncheckedcolor" : [ 0.0, 0.0, 0.0, 0.0 ]
 				}
@@ -441,9 +441,9 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 115.158478, 15.226089, 158.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.5, 41.0, 158.0, 20.0 ],
+					"presentation_rect" : [ 2.5, 41.0, 148.0, 20.0 ],
 					"style" : "",
-					"text" : "Real Time Video Instrument",
+					"text" : "Modular Video Instrument",
 					"textcolor" : [ 0.060987, 0.494647, 0.768395, 1.0 ]
 				}
 
@@ -491,38 +491,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 36.0,
-					"id" : "obj-18",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 18.166626, 15.226089, 92.0, 47.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 2.5, 0.0, 92.0, 47.0 ],
-					"style" : "",
-					"text" : "RTVI",
-					"textcolor" : [ 0.060987, 0.494647, 0.768395, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"handoff" : "",
-					"hilite" : 0,
-					"id" : "obj-16",
-					"maxclass" : "ubutton",
-					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "bang", "bang", "", "int" ],
-					"patching_rect" : [ 18.166626, 15.226089, 92.0, 47.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 2.5, 3.0, 92.0, 44.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -537,7 +505,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 161.0, 10.726089, 62.158478, 31.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 102.0, 3.0, 62.158478, 36.0 ],
+					"presentation_rect" : [ 235.091522, 49.5, 62.158478, 36.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -927,7 +895,6 @@
 									}
 ,
 									"patching_rect" : [ 646.25, 153.800934, 50.0, 22.0 ],
-									"presentation_rect" : [ 57.25, 286.865265, 0.0, 0.0 ],
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -3703,6 +3670,39 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 36.0,
+					"id" : "obj-18",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 18.166626, 15.226089, 92.0, 87.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 2.5, 0.0, 113.0, 47.0 ],
+					"style" : "",
+					"text" : "movie",
+					"textcolor" : [ 0.060987, 0.494647, 0.768395, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"handoff" : "",
+					"hilite" : 0,
+					"id" : "obj-16",
+					"maxclass" : "ubutton",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "bang", "bang", "", "int" ],
+					"patching_rect" : [ 18.166626, 15.226089, 92.0, 47.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 2.5, 3.0, 113.0, 44.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"angle" : 0.0,
 					"bgcolor" : [ 1.0, 0.999974, 0.999991, 0.0 ],
 					"border" : 1,
@@ -3805,7 +3805,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "noise.model.maxpat",
-				"bootpath" : "~/Documents/GITs/RTVI/max-package/patchers/sources/noise",
+				"bootpath" : "~/Documents/GITs/rtvi/rtvi-package/patchers/sources/noise",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -3817,127 +3817,127 @@
 			}
 , 			{
 				"name" : "color.model.maxpat",
-				"bootpath" : "~/Documents/GITs/RTVI/max-package/patchers/sources/color",
+				"bootpath" : "~/Documents/GITs/rtvi/rtvi-package/patchers/sources/color",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "plane.model.maxpat",
-				"bootpath" : "~/Documents/GITs/RTVI/max-package/patchers/outputs/plane",
+				"bootpath" : "~/Documents/GITs/rtvi/rtvi-package/patchers/outputs/plane",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "spatial.model.maxpat",
-				"bootpath" : "~/Documents/GITs/RTVI/max-package/patchers",
+				"bootpath" : "~/Documents/GITs/rtvi/rtvi-package/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "render.model.maxpat",
-				"bootpath" : "~/Documents/GITs/RTVI/max-package/patchers/outputs/render",
+				"bootpath" : "~/Documents/GITs/rtvi/rtvi-package/patchers/outputs/render",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "points.model.maxpat",
-				"bootpath" : "~/Documents/GITs/RTVI/max-package/patchers/outputs/points",
+				"bootpath" : "~/Documents/GITs/rtvi/rtvi-package/patchers/outputs/points",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gridshape.model.maxpat",
-				"bootpath" : "~/Documents/GITs/RTVI/max-package/patchers/outputs/gridshape",
+				"bootpath" : "~/Documents/GITs/rtvi/rtvi-package/patchers/outputs/gridshape",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "window.model.maxpat",
-				"bootpath" : "~/Documents/GITs/RTVI/max-package/patchers/outputs/window",
+				"bootpath" : "~/Documents/GITs/rtvi/rtvi-package/patchers/outputs/window",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pict.model.maxpat",
-				"bootpath" : "~/Documents/GITs/RTVI/max-package/patchers/sources/pict",
+				"bootpath" : "~/Documents/GITs/rtvi/rtvi-package/patchers/sources/pict",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "point.model.maxpat",
-				"bootpath" : "~/Documents/GITs/RTVI/max-package/patchers/sources/point",
+				"bootpath" : "~/Documents/GITs/rtvi/rtvi-package/patchers/sources/point",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "noise.view.maxpat",
-				"bootpath" : "~/Documents/GITs/RTVI/max-package/patchers/sources/noise",
+				"bootpath" : "~/Documents/GITs/rtvi/rtvi-package/patchers/sources/noise",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.header.maxpat",
-				"bootpath" : "~/Documents/GITs/RTVI/max-package/patchers/lib/j.project",
+				"bootpath" : "~/Documents/GITs/rtvi/rtvi-package/patchers/lib/j.project",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "points.view.maxpat",
-				"bootpath" : "~/Documents/GITs/RTVI/max-package/patchers/outputs/points",
+				"bootpath" : "~/Documents/GITs/rtvi/rtvi-package/patchers/outputs/points",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "header.texture.view.maxpat",
-				"bootpath" : "~/Documents/GITs/RTVI/max-package/patchers/headers",
+				"bootpath" : "~/Documents/GITs/rtvi/rtvi-package/patchers/headers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "spatial.view.maxpat",
-				"bootpath" : "~/Documents/GITs/RTVI/max-package/patchers",
+				"bootpath" : "~/Documents/GITs/rtvi/rtvi-package/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "plane.view.maxpat",
-				"bootpath" : "~/Documents/GITs/RTVI/max-package/patchers/outputs/plane",
+				"bootpath" : "~/Documents/GITs/rtvi/rtvi-package/patchers/outputs/plane",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gridshape.view.maxpat",
-				"bootpath" : "~/Documents/GITs/RTVI/max-package/patchers/outputs/gridshape",
+				"bootpath" : "~/Documents/GITs/rtvi/rtvi-package/patchers/outputs/gridshape",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pict.view.maxpat",
-				"bootpath" : "~/Documents/GITs/RTVI/max-package/patchers/sources/pict",
+				"bootpath" : "~/Documents/GITs/rtvi/rtvi-package/patchers/sources/pict",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "point.view.maxpat",
-				"bootpath" : "~/Documents/GITs/RTVI/max-package/patchers/sources/point",
+				"bootpath" : "~/Documents/GITs/rtvi/rtvi-package/patchers/sources/point",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "brcosa.view.maxpat",
-				"bootpath" : "~/Documents/GITs/RTVI/max-package/patchers/fx/brcosa",
+				"bootpath" : "~/Documents/GITs/rtvi/rtvi-package/patchers/fx/brcosa",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "render.view.maxpat",
-				"bootpath" : "~/Documents/GITs/RTVI/max-package/patchers/outputs/render",
+				"bootpath" : "~/Documents/GITs/rtvi/rtvi-package/patchers/outputs/render",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "window.view.maxpat",
-				"bootpath" : "~/Documents/GITs/RTVI/max-package/patchers/outputs/window",
+				"bootpath" : "~/Documents/GITs/rtvi/rtvi-package/patchers/outputs/window",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -3949,7 +3949,7 @@
 			}
 , 			{
 				"name" : "brcosa.model.maxpat",
-				"bootpath" : "~/Documents/GITs/RTVI/max-package/patchers/fx/brcosa",
+				"bootpath" : "~/Documents/GITs/rtvi/rtvi-package/patchers/fx/brcosa",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -3967,7 +3967,7 @@
 			}
 , 			{
 				"name" : "blur.model.maxpat",
-				"bootpath" : "~/Documents/GITs/RTVI/max-package/patchers/fx/blur",
+				"bootpath" : "~/Documents/GITs/rtvi/rtvi-package/patchers/fx/blur",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -3979,13 +3979,13 @@
 			}
 , 			{
 				"name" : "lines.model.maxpat",
-				"bootpath" : "~/Documents/GITs/RTVI/max-package/patchers/fx/lines",
+				"bootpath" : "~/Documents/GITs/rtvi/rtvi-package/patchers/fx/lines",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "color-control.model.maxpat",
-				"bootpath" : "~/Documents/GITs/RTVI/max-package/patchers/fx/color-control",
+				"bootpath" : "~/Documents/GITs/rtvi/rtvi-package/patchers/fx/color-control",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -4015,7 +4015,7 @@
 			}
 , 			{
 				"name" : "fps.view.maxpat",
-				"bootpath" : "~/Documents/GITs/RTVI/max-package/patchers",
+				"bootpath" : "~/Documents/GITs/rtvi/rtvi-package/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
