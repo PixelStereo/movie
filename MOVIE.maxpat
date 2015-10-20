@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 768.0, 45.0, 315.0, 275.0 ],
+		"rect" : [ 717.0, 45.0, 315.0, 275.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -124,7 +124,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 103.5, 104.5, 47.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 235.091522, 17.0, 53.416687, 25.0 ],
+					"presentation_rect" : [ 224.508209, 20.0, 64.0, 25.0 ],
 					"style" : "",
 					"text" : "INIT",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -162,7 +162,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 272.658478, 15.226089, 38.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 118.0, 27.0, 47.0, 20.0 ],
+					"presentation_rect" : [ 224.508209, 0.0, 47.0, 20.0 ],
 					"style" : "",
 					"text" : "v 0.2.0",
 					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
@@ -536,7 +536,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 161.0, 10.726089, 62.158478, 31.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 235.091522, 49.5, 62.158478, 36.0 ],
+					"presentation_rect" : [ 143.091522, 3.0, 62.158478, 31.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -3701,24 +3701,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 36.0,
-					"id" : "obj-18",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 18.166626, 15.226089, 92.0, 87.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 2.5, 0.0, 113.0, 47.0 ],
-					"style" : "",
-					"text" : "movie",
-					"textcolor" : [ 0.060987, 0.494647, 0.768395, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"handoff" : "",
 					"hilite" : 0,
 					"id" : "obj-16",
@@ -3728,7 +3710,7 @@
 					"outlettype" : [ "bang", "bang", "", "int" ],
 					"patching_rect" : [ 18.166626, 15.226089, 92.0, 47.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.5, 3.0, 113.0, 44.0 ]
+					"presentation_rect" : [ 2.5, 3.0, 127.0, 44.0 ]
 				}
 
 			}
@@ -3748,6 +3730,24 @@
 					"proportion" : 0.39,
 					"rounded" : 0,
 					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 36.0,
+					"id" : "obj-18",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 18.166626, 15.226089, 92.0, 87.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 2.5, 0.0, 127.0, 47.0 ],
+					"style" : "",
+					"text" : "MOVIE",
+					"textcolor" : [ 0.060987, 0.494647, 0.768395, 1.0 ]
 				}
 
 			}
