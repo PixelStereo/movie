@@ -1,0 +1,3 @@
+[submodule "max-package/patchers/lib/j.project"]
+	path = max-package/patchers/lib/j.project
+	url = https://reno-@github.com/PixelStereo/j.project.git
