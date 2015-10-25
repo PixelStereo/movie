@@ -2,10 +2,11 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 6,
+			"major" : 7,
 			"minor" : 1,
-			"revision" : 10,
-			"architecture" : "x86"
+			"revision" : 0,
+			"architecture" : "x86",
+			"modernui" : 1
 		}
 ,
 		"rect" : [ 461.0, 340.0, 1059.0, 611.0 ],
@@ -15,37 +16,28 @@
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
-		"gridonopen" : 0,
+		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 0,
+		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
+		"lefttoolbarpinned" : 0,
+		"toptoolbarpinned" : 0,
+		"righttoolbarpinned" : 0,
+		"bottomtoolbarpinned" : 0,
+		"toolbars_unpinned_last_save" : 0,
+		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
-		"imprint" : 0,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
 		"description" : "",
 		"digest" : "",
 		"tags" : "",
+		"style" : "",
+		"subpatcher_template" : "",
 		"boxes" : [ 			{
-				"box" : 				{
-					"annotation" : "none",
-					"args" : [ "#1" ],
-					"bgmode" : 1,
-					"id" : "obj-5",
-					"maxclass" : "bpatcher",
-					"name" : "j.header.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 29.0, 18.0, 253.0, 22.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 250.0, 25.5 ]
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -54,7 +46,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 29.0, 50.0, 41.0, 20.0 ],
+					"patching_rect" : [ 29.0, 50.0, 41.0, 22.0 ],
+					"style" : "",
 					"text" : "j.view"
 				}
 
@@ -69,7 +62,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 29.0, 115.0, 131.0, 20.0 ],
+					"patching_rect" : [ 29.0, 115.0, 131.0, 22.0 ],
+					"style" : "",
 					"text" : "j.remote interp"
 				}
 
@@ -78,13 +72,10 @@
 				"box" : 				{
 					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgovercolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgoveroncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bordercolor" : [ 0.0, 0.572549, 0.811765, 0.5 ],
-					"borderoncolor" : [ 0.83767, 0.0, 0.0, 1.0 ],
 					"fontname" : "Helvetica Neue Light Italic",
 					"fontsize" : 9.0,
 					"id" : "obj-39",
+					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
 					"mode" : 1,
 					"numinlets" : 1,
@@ -93,14 +84,30 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 29.0, 88.0, 50.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 21.5, 54.0, 20.0 ],
-					"rounded" : 0.0,
+					"presentation_rect" : [ 15.0, 35.25, 54.0, 20.0 ],
+					"style" : "",
 					"text" : "Interp Off",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"texton" : "Interp On",
 					"textoncolor" : [ 0.0, 0.572549, 0.811765, 1.0 ],
 					"textovercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"textoveroncolor" : [ 0.839216, 0.0, 0.0, 1.0 ]
+					"usebgoncolor" : 1,
+					"usetextovercolor" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 0,
+					"id" : "obj-1",
+					"maxclass" : "j.ui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 198.0, 44.0, 300.0, 70.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, -0.5, 150.0, 70.0 ],
+					"text" : "/no_..ess"
 				}
 
 			}
@@ -124,22 +131,10 @@
 				}
 
 			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-21", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-5", 0 ]
-				}
-
-			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "j.header.maxpat",
-				"bootpath" : "/Volumes/data/GITs/j.project/max-package/patchers",
-				"patcherrelativepath" : "../../../../../j.project/max-package/patchers",
-				"type" : "JSON",
-				"implicit" : 1
+				"name" : "j.ui.mxo",
+				"type" : "iLaX"
 			}
 , 			{
 				"name" : "j.remote.mxo",
@@ -149,19 +144,8 @@
 				"name" : "j.view.mxo",
 				"type" : "iLaX"
 			}
-, 			{
-				"name" : "j.send.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.receive.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.namespace.mxo",
-				"type" : "iLaX"
-			}
- ]
+ ],
+		"autosave" : 0
 	}
 
 }
