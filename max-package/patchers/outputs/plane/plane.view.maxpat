@@ -5,7 +5,7 @@
 			"major" : 7,
 			"minor" : 1,
 			"revision" : 0,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
@@ -38,28 +38,6 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
-				"box" : 				{
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-9",
-					"lockeddragscroll" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "j.header.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 331.0, 26.0, 217.0, 25.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 23.0, 38.0, 26.0 ],
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"annotation" : "none",
 					"bgmode" : 1,
@@ -97,7 +75,7 @@
 							"major" : 7,
 							"minor" : 1,
 							"revision" : 0,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -748,12 +726,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "j.header.maxpat",
-				"bootpath" : "~/Documents/GITs/movie/max-package/patchers/lib/j.project",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "j.ui.mxo",
 				"type" : "iLaX"
 			}
@@ -763,18 +735,6 @@
 			}
 , 			{
 				"name" : "j.remote.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.send.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.receive.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.namespace.mxo",
 				"type" : "iLaX"
 			}
  ],

@@ -5,7 +5,7 @@
 			"major" : 7,
 			"minor" : 1,
 			"revision" : 0,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
@@ -56,30 +56,6 @@
 					"patching_rect" : [ 0.0, 27.0, 252.0, 27.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 55.0, 22.0, 85.0, 26.0 ],
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"annotation" : "none",
-					"args" : [ "#1" ],
-					"bgmode" : 1,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-1",
-					"lockeddragscroll" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "j.header.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 0.0, 0.0, 252.0, 27.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 7.0, 22.0, 46.0, 19.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -167,21 +143,12 @@
 					"patching_rect" : [ 121.0, 25.0, 300.0, 70.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 150.0, 70.0 ],
-					"text" : "/no_model_address"
+					"text" : "/no_..ess"
 				}
 
 			}
  ],
 		"lines" : [ 			{
-				"patchline" : 				{
-					"destination" : [ "obj-8", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-1", 0 ]
-				}
-
-			}
-, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
 					"disabled" : 0,
@@ -220,12 +187,6 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "j.header.maxpat",
-				"bootpath" : "~/Documents/GITs/movie/max-package/patchers/lib/j.project",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "header.texture.view.maxpat",
 				"bootpath" : "~/Documents/GITs/movie/max-package/patchers/headers",
 				"type" : "JSON",
@@ -241,18 +202,6 @@
 			}
 , 			{
 				"name" : "j.view.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.send.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.receive.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.namespace.mxo",
 				"type" : "iLaX"
 			}
  ],

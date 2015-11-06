@@ -1065,6 +1065,19 @@
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-18",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 495.75, 144.14035, 90.0, 22.0 ],
+									"style" : "",
+									"text" : "active 1, print 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-5",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -1132,7 +1145,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 495.75, 155.0, 115.0, 36.0 ],
+									"patching_rect" : [ 495.75, 173.0, 115.0, 36.0 ],
 									"style" : "",
 									"text" : "j.minuit_device @local/name movie"
 								}
@@ -3403,6 +3416,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-7", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-18", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-1", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -3625,8 +3647,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-52" : [ "live.text", "live.text", 0 ],
-			"obj-8::obj-4" : [ "live.text[1]", "live.text", 0 ]
+			"obj-8::obj-4" : [ "live.text[1]", "live.text", 0 ],
+			"obj-52" : [ "live.text", "live.text", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -3820,11 +3842,11 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.receive.mxo",
+				"name" : "j.send.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.send.mxo",
+				"name" : "j.receive.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -3853,6 +3875,10 @@
 			}
 , 			{
 				"name" : "j.modular.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.pass.mxo",
 				"type" : "iLaX"
 			}
 , 			{
